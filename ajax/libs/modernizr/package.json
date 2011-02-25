@@ -1,0 +1,31 @@
+{
+    "name": "modernizr",
+    "filename": "modernizr-1.7.min.js",
+    "versions": "1.7",
+    "description": "Modernizr adds classes to the element which allow you to target specific browser functionality in your stylesheet. You don't actually need to write any Javascript to use it.",
+    "homepage": "http://www.modernizr.com/",
+    "keywords": [
+       "css",
+       "css3",
+       "html",
+       "html5"
+   ],
+   "maintainers": [
+       {
+           "name": "Faruk Ates",
+       },
+       {
+           "name": "Alex Sexton",
+       },
+       {
+           "name": "Paul Irish",
+       }
+   ],
+   "repositories": [
+       {
+           "type": "git",
+           "url": "https://github.com/Modernizr/Modernizr" 
+       } 
+   ]
+
+}
