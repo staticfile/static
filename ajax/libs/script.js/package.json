@@ -1,6 +1,6 @@
 {
     "name": "script.js",
-    "filename": "scriptS.min.js",
+    "filename": "script.min.js",
     "versions": "1.1",
     "description": "$script.js is an asynchronous JavaScript loader and dependency manager with an astonishingly impressive lightweight footprint",
     "homepage": "http://www.dustindiaz.com/scriptjs/",
