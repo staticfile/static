@@ -1,0 +1,24 @@
+{
+    "name": "script.js",
+    "filename": "scriptS.min.js",
+    "versions": "1.1",
+    "description": "$script.js is an asynchronous JavaScript loader and dependency manager with an astonishingly impressive lightweight footprint",
+    "homepage": "http://www.dustindiaz.com/scriptjs/",
+    "keywords": [
+       "loader",
+       "asynchronous"
+   ],
+   "maintainers": [
+       {
+           "name": "Dustin Diaz",
+           "web": "http://www.dustindiaz.com/" 
+       } 
+   ],
+   "repositories": [
+       {
+           "type": "git",
+           "url": "https://github.com/polvero/script.js" 
+       } 
+   ]
+
+}
