@@ -16,17 +16,11 @@
            "web": "http://ashkenas.com/" 
        } 
    ],
-   "contributors": [
-       {
-           "name": "Mary Brown",
-           "email": "maryb@embedthis.com",
-           "web": "http://www.embedthis.com" 
-       } 
-   ],
    "repositories": [
        {
            "type": "git",
            "url": "https://github.com/documentcloud/backbone" 
        } 
    ],
+
 }
