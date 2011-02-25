@@ -1,0 +1,26 @@
+{
+    "name": "less.js",
+    "filename": "less-1.0.41.min.js",
+    "version": "1.0.41",
+    "description": "LESS extends CSS with dynamic behavior such as variables, mixins, operations and functions. LESS runs on both the client-side (IE 6+, Webkit, Firefox) and server-side, with Node.js.",
+    "homepage": "http://lesscss.org/",
+    "keywords": [
+       "css",
+       "css3",
+       "html",
+       "html5"
+   ],
+   "maintainers": [
+       {
+           "name": "Alexis Sellier",
+           "website": "http://cloudhead.io/"
+       }
+   ],
+   "repositories": [
+       {
+           "type": "git",
+           "url": "https://github.com/cloudhead/less.js" 
+       } 
+   ]
+
+}

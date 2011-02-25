@@ -1,7 +1,7 @@
 {
     "name": "modernizr",
     "filename": "modernizr-1.7.min.js",
-    "versions": "1.7",
+    "version": "1.7",
     "description": "Modernizr adds classes to the element which allow you to target specific browser functionality in your stylesheet. You don't actually need to write any Javascript to use it.",
     "homepage": "http://www.modernizr.com/",
     "keywords": [
