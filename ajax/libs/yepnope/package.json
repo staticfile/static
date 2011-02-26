@@ -5,7 +5,8 @@
     "description": "yepnope is a small wrapper around the super-fast LABjs script loader, and it allows you to load only the scripts that your users need.",
     "homepage": "http://yepnopejs.com/",
     "keywords": [
-       "loader"
+       "loader",
+       "popular"
    ],
    "maintainers": [
        {

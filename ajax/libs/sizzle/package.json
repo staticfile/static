@@ -6,7 +6,8 @@
     "homepage": "http://sizzlejs.com/",
     "keywords": [
        "dom",
-       "selector"
+       "selector",
+       "popular"
    ],
    "maintainers": [
        {
