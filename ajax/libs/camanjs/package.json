@@ -1,0 +1,36 @@
+{
+    "name": "caman.js",
+    "filename": "caman.full.min.js",
+    "version": "2.0",
+    "description": "Pure Javascript (Ca)nvas (Man)ipulation.",
+    "homepage": "http://camanjs.com/",
+    "keywords": [
+       "css",
+       "css3",
+       "dom",
+       "html",
+       "html5",
+       "popular"
+   ],
+   "maintainers": [
+       {
+           "name": "Ryan LeFevre",
+           "website": "http://meltingice.net"
+       },
+       {
+           "name": "Rick Waldron",
+           "website": "http://github.com/rwldrn"
+       },
+       {
+           "name": "Cezar Sa Espinola",
+           "website": "http://github.com/cezarsa"
+       }
+   ],
+   "repositories": [
+       {
+           "type": "git",
+           "url": "https://github.com/meltingice/CamanJS" 
+       } 
+   ]
+
+}
