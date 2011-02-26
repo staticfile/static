@@ -1,5 +1,5 @@
 {
-    "name": "xui.js",
+    "name": "xuijs",
     "filename": "xui.min.js",
     "version": "2.0.0",
     "description": "a super micro tiny dom library for authoring html5 mobile web applications.",

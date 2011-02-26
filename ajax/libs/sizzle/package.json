@@ -1,5 +1,5 @@
 {
-    "name": "sizzle.js",
+    "name": "sizzle",
     "filename": "sizzle.min.js",
     "version": "1.4.4",
     "description": "A pure-JavaScript CSS selector engine designed to be easily dropped in to a host library.",

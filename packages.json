@@ -1,0 +1,438 @@
+{ "packages": [
+{
+    "name": "js-signals",
+    "filename": "js-signals.min.js",
+    "version": "0.5.3",
+    "description": "Custom Event/Messaging system for JavaScript.",
+    "homepage": "http://millermedeiros.github.com/js-signals/",
+    "keywords": [
+       "event",
+       "messaging",
+       "popular"
+   ],
+   "maintainers": [
+       {
+           "name": "Miller Medeiros",
+           "web": "http://www.millermedeiros.com/" 
+       } 
+   ],
+   "repositories": [
+       {
+           "type": "git",
+           "url": "https://github.com/millermedeiros/js-signals" 
+       } 
+   ]
+
+}
+,
+{
+    "name": "sammy.js",
+    "filename": "sammy.min.js",
+    "version": "0.6.8",
+    "description": "A small web framework with class.",
+    "homepage": "http://sammyjs.org/",
+    "keywords": [
+       "framework",
+       "restful",
+       "popular"
+   ],
+   "maintainers": [
+       {
+           "name": "Aaron Quint"
+       } 
+   ],
+   "repositories": [
+       {
+           "type": "git",
+           "url": "https://github.com/quirkey/sammy" 
+       } 
+   ]
+
+}
+,
+{
+    "name": "modernizr",
+    "filename": "modernizr-1.7.min.js",
+    "version": "1.7",
+    "description": "Modernizr adds classes to the element which allow you to target specific browser functionality in your stylesheet. You don't actually need to write any Javascript to use it.",
+    "homepage": "http://www.modernizr.com/",
+    "keywords": [
+       "css",
+       "css3",
+       "html",
+       "html5",
+       "popular"
+   ],
+   "maintainers": [
+       {
+           "name": "Faruk Ates"
+       },
+       {
+           "name": "Alex Sexton"
+       },
+       {
+           "name": "Paul Irish"
+       }
+   ],
+   "repositories": [
+       {
+           "type": "git",
+           "url": "https://github.com/Modernizr/Modernizr" 
+       } 
+   ]
+
+}
+,
+{
+    "name": "graphael",
+    "filename": "g.raphael-min.js",
+    "version": "0.4.1",
+    "description": "gRaphael's goal is to help you create stunning charts on your website. It is based on Raphaël graphics library.",
+    "homepage": "http://g.raphaeljs.com/",
+    "keywords": [
+       "chart",
+       "charts",
+       "charting",
+       "popular"
+   ],
+   "maintainers": [
+       {
+           "name": "Dmitry Baranovskiy",
+           "web": "http://dmitry.baranovskiy.com/" 
+       } 
+   ],
+   "repositories": [
+       {
+           "type": "git",
+           "url": "https://github.com/DmitryBaranovskiy/g.raphael/" 
+       } 
+   ]
+
+}
+,
+{
+    "name": "backbone.js",
+    "filename": "backbone-min.js",
+    "version": "0.3.3",
+    "description": "Backbone supplies structure to JavaScript-heavy applications by providing models with key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to your existing application over a RESTful JSON interface.",
+    "homepage": "http://documentcloud.github.com/backbone/",
+    "keywords": [
+       "collections",
+       "models",
+       "controllers",
+       "events",
+       "popular"
+   ],
+   "maintainers": [
+       {
+           "name": "Jeremy Ashkenas",
+           "email": "jashkenas@gmail.com",
+           "web": "http://ashkenas.com/" 
+       } 
+   ],
+   "repositories": [
+       {
+           "type": "git",
+           "url": "https://github.com/documentcloud/backbone" 
+       } 
+   ]
+
+}
+,
+{
+    "name": "headjs",
+    "filename": "head.min.js",
+    "version": "0.9",
+    "description": "Load scripts like images. Use HTML5 and CSS3 safely. Target CSS for different screens, paths, states and browsers. Make it the only script in your HEAD. A concise solution to universal issues.",
+    "homepage": "http://headjs.com/",
+    "keywords": [
+       "loader"
+   ],
+   "maintainers": [
+       {
+           "name": "Tero Piirainen",
+           "web": "http://cloudpanic.com/about.html" 
+       } 
+   ],
+   "repositories": [
+       {
+           "type": "git",
+           "url": "https://github.com/headjs/headjs" 
+       } 
+   ]
+
+}
+,
+{
+    "name": "underscore.js",
+    "filename": "underscore-min.js",
+    "version": "1.1.4",
+    "description": "Underscore is a utility-belt library for JavaScript that provides a lot of the functional programming support that you would expect in Prototype.js (or Ruby), but without extending any of the built-in JavaScript objects. It's the tie to go along with jQuery's tux.",
+    "homepage": "http://documentcloud.github.com/underscore/",
+    "keywords": [
+       "utility",
+       "popular"
+   ],
+   "maintainers": [
+       {
+           "name": "Jeremy Ashkenas",
+           "email": "jashkenas@gmail.com",
+           "web": "http://ashkenas.com/" 
+       } 
+   ],
+   "repositories": [
+       {
+           "type": "git",
+           "url": "https://github.com/documentcloud/underscore/" 
+       } 
+   ]
+}
+,
+{
+    "name": "script.js",
+    "filename": "script.min.js",
+    "version": "1.1",
+    "description": "$script.js is an asynchronous JavaScript loader and dependency manager with an astonishingly impressive lightweight footprint",
+    "homepage": "http://www.dustindiaz.com/scriptjs/",
+    "keywords": [
+       "loader",
+       "asynchronous",
+       "popular"
+   ],
+   "maintainers": [
+       {
+           "name": "Dustin Diaz",
+           "web": "http://www.dustindiaz.com/" 
+       } 
+   ],
+   "repositories": [
+       {
+           "type": "git",
+           "url": "https://github.com/polvero/script.js" 
+       } 
+   ]
+
+}
+,
+{
+    "name": "less.js",
+    "filename": "less-1.0.41.min.js",
+    "version": "1.0.41",
+    "description": "LESS extends CSS with dynamic behavior such as variables, mixins, operations and functions. LESS runs on both the client-side (IE 6+, Webkit, Firefox) and server-side, with Node.js.",
+    "homepage": "http://lesscss.org/",
+    "keywords": [
+       "css",
+       "css3",
+       "html",
+       "html5",
+       "popular"
+   ],
+   "maintainers": [
+       {
+           "name": "Alexis Sellier",
+           "website": "http://cloudhead.io/"
+       }
+   ],
+   "repositories": [
+       {
+           "type": "git",
+           "url": "https://github.com/cloudhead/less.js" 
+       } 
+   ]
+
+}
+,
+{
+    "name": "caman.js",
+    "filename": "caman.full.min.js",
+    "version": "2.0",
+    "description": "Pure Javascript (Ca)nvas (Man)ipulation.",
+    "homepage": "http://camanjs.com/",
+    "keywords": [
+       "css",
+       "css3",
+       "dom",
+       "html",
+       "html5",
+       "popular"
+   ],
+   "maintainers": [
+       {
+           "name": "Ryan LeFevre",
+           "website": "http://meltingice.net"
+       },
+       {
+           "name": "Rick Waldron",
+           "website": "http://github.com/rwldrn"
+       },
+       {
+           "name": "Cezar Sa Espinola",
+           "website": "http://github.com/cezarsa"
+       }
+   ],
+   "repositories": [
+       {
+           "type": "git",
+           "url": "https://github.com/meltingice/CamanJS" 
+       } 
+   ]
+
+}
+,
+{
+    "name": "require.js",
+    "filename": "require.min.js",
+    "version": "0.23.0",
+    "description": "RequireJS is a JavaScript file and module loader. It is optimized for in-browser use, but it can be used in other JavaScript environments, like Rhino and Node",
+    "homepage": "http://requirejs.org/",
+    "keywords": [
+       "loader",
+       "modules",
+       "asynchronous",
+       "popular"
+   ],
+   "maintainers": [
+       {
+           "name": "Andy Chung",
+           "web": "http://andychung.ca/" 
+       } 
+   ],
+   "repositories": [
+       {
+           "type": "git",
+           "url": "https://github.com/jrburke/requirejs" 
+       } 
+   ]
+
+}
+,
+{
+    "name": "yepnope",
+    "filename": "yepnope.min.js",
+    "version": "0.2.3",
+    "description": "yepnope is a small wrapper around the super-fast LABjs script loader, and it allows you to load only the scripts that your users need.",
+    "homepage": "http://yepnopejs.com/",
+    "keywords": [
+       "loader",
+       "popular"
+   ],
+   "maintainers": [
+       {
+           "name": "Alex Sexton",
+           "twitter": "SlexAxton",
+           "web": "http://alexsexton.com/" 
+       } 
+   ],
+   "repositories": [
+       {
+           "type": "git",
+           "url": "https://github.com/SlexAxton/yepnope.js" 
+       } 
+   ]
+
+}
+,
+{
+    "name": "xuijs",
+    "filename": "xui.min.js",
+    "version": "2.0.0",
+    "description": "a super micro tiny dom library for authoring html5 mobile web applications.",
+    "homepage": "http://xuijs.com/",
+    "keywords": [
+       "mobile",
+       "html",
+       "dom",
+       "popular"
+   ],
+   "maintainers": [
+       {
+           "name": "Brian LeRoux",
+           "web": "http://westcoastlogic.com" 
+       } 
+   ],
+   "repositories": [
+       {
+           "type": "git",
+           "url": "https://github.com/xui/xui" 
+       } 
+   ]
+
+}
+,
+{
+    "name": "sizzle",
+    "filename": "sizzle.min.js",
+    "version": "1.4.4",
+    "description": "A pure-JavaScript CSS selector engine designed to be easily dropped in to a host library.",
+    "homepage": "http://sizzlejs.com/",
+    "keywords": [
+       "dom",
+       "selector",
+       "popular"
+   ],
+   "maintainers": [
+       {
+           "name": "John Resig",
+           "web": "http://ejohn.org/" 
+       } 
+   ],
+   "repositories": [
+       {
+           "type": "git",
+           "url": "https://github.com/jeresig/sizzle" 
+       } 
+   ]
+
+}
+,
+{
+    "name": "json2",
+    "filename": "json2.js",
+    "version": "20110223",
+    "description": "This file creates a global JSON object containing two methods: stringify and parse.",
+    "homepage": "https://github.com/douglascrockford/JSON-js",
+    "keywords": [
+       "json",
+       "popular"
+   ],
+   "maintainers": [
+       {
+           "name": "Douglas Crockford",
+           "web": "http://crockford.com/" 
+       } 
+   ],
+   "repositories": [
+       {
+           "type": "git",
+           "url": "https://github.com/douglascrockford/JSON-js" 
+       } 
+   ]
+
+}
+,
+{
+    "name": "labjs",
+    "filename": "LAB.min.js",
+    "version": "1.2.0",
+    "description": "LABjs (Loading And Blocking JavaScript) is an open-source (MIT license) project supported by Getify Solutions. The core purpose of LABjs is to be an all-purpose, on-demand JavaScript loader, capable of loading any JavaScript resource, from any location, into any page, at any time. Loading your scripts with LABjs reduces resource blocking during page-load, which is an easy and effective way to optimize your site's performance.",
+    "homepage": "http://labjs.com/",
+    "keywords": [
+       "loader",
+       "popular"
+   ],
+   "maintainers": [
+       {
+           "name": "Kyle Simpson",
+           "website": "http://getify.com/"
+       }
+   ],
+   "repositories": [
+       {
+           "type": "git",
+           "url": "https://github.com/getify/LABjs" 
+       } 
+   ]
+
+}
+,
+{}] }
