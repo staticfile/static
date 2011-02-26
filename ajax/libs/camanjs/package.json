@@ -1,7 +1,7 @@
 {
     "name": "camanjs",
     "filename": "caman.full.min.js",
-    "version": "2.0",
+    "version": "2.1",
     "description": "Pure Javascript (Ca)nvas (Man)ipulation.",
     "homepage": "http://camanjs.com/",
     "keywords": [
@@ -16,14 +16,6 @@
        {
            "name": "Ryan LeFevre",
            "website": "http://meltingice.net"
-       },
-       {
-           "name": "Rick Waldron",
-           "website": "http://github.com/rwldrn"
-       },
-       {
-           "name": "Cezar Sa Espinola",
-           "website": "http://github.com/cezarsa"
        }
    ],
    "repositories": [
