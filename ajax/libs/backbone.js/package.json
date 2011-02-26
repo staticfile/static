@@ -8,7 +8,8 @@
        "collections",
        "models",
        "controllers",
-       "events" 
+       "events",
+       "popular"
    ],
    "maintainers": [
        {
