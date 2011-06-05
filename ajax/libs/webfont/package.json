@@ -1,6 +1,6 @@
 {
     "name": "webfont",
-    "filename": "https://ajax.googleapis.com/ajax/libs/webfont/1.0.19/webfont.js",
+    "filename": "webfont.js",
     "version": "1.0.19",
     "description": "The WebFont Loader is a JavaScript library that gives you more control over font loading than the Google Font API provides.",
     "homepage": "http://code.google.com/apis/webfonts/docs/webfont_loader.html",

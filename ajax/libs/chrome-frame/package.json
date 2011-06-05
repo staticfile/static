@@ -1,6 +1,6 @@
 {
     "name": "chrome-frame",
-    "filename": "https://ajax.googleapis.com/ajax/libs/chrome-frame/1.0.2/CFInstall.min.js",
+    "filename": "CFInstall.min.js",
     "version": "1.0.2",
     "description": "Google Chrome Frame is an open source plug-in that seamlessly brings Google Chrome's open web technologies and speedy JavaScript engine to Internet Explorer.",
     "homepage": "http://code.google.com/chrome/chromeframe/",
