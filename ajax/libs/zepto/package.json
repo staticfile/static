@@ -1,7 +1,7 @@
 {
     "name": "zepto",
     "filename": "zepto.min.js",
-    "version": "0.6",
+    "version": "0.7",
     "description": "Zepto.js is a minimalist framework for mobile WebKit browsers, with a jQuery-compatible chaining syntax.",
     "homepage": "http://zeptojs.org/",
     "keywords": [
