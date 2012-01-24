@@ -1,0 +1,18 @@
+{
+    "name": "zepto",
+    "filename": "zepto.min.js",
+    "version": "0.8",
+    "description": "Zepto.js is a minimalist JavaScript framework for modern web browsers, with a jQuery-compatible syntax.",
+    "homepage": "http://zeptojs.com/",
+    "keywords": [
+       "framework",
+       "toolkit",
+       "mobile",
+       "webkit"
+   ],
+   "maintainers": [
+       {
+           "name": "Thomas Fuchs"
+       } 
+   ]
+}
