@@ -11,6 +11,7 @@
   "engines": {
     "node": "~0.6.1"
   },
+  "filename": "documentup.min.js",
   "dependencies": {},
   "devDependencies": {
     "coffee-script": "~1.1.0",
