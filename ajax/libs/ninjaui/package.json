@@ -5,7 +5,7 @@
     "description": "The jQuery plugin for lethal interaction",
     "homepage": "http://ninjaui.com/",
     "keywords": [
-       "ninjaui"
+       "ninjaui",
        "ui",
        "jquery"
    ],
