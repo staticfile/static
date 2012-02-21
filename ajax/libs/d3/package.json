@@ -1,5 +1,6 @@
 {
     "name": "d3",
+    "filename": "d3.min.js",
     "version": "2.7.4",
     "description": "A small, free JavaScript library for manipulating documents based on data.",
     "keywords": [
