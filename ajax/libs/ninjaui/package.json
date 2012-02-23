@@ -1,6 +1,6 @@
 {
     "name": "ninjaui",
-    "filename": "jquery.ninjaui.js",
+    "filename": "jquery.ninjaui.min.js",
     "version": "1.0.1",
     "description": "The jQuery plugin for lethal interaction",
     "homepage": "http://ninjaui.com/",
