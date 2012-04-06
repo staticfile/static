@@ -1,12 +1,4 @@
-/*!
- * JSON 3.1
- * http://bestiejs.github.com/json3
- *
- * Copyright 2012, Kit Cambridge.
- *
- * Released under the MIT License.
-*/
-
+/*! JSON v3.1 | http://bestiejs.github.com/json3 | Copyright 2012, Kit Cambridge | http://kit.mit-license.org */
 ;(function (root, Module) {
   if (typeof define == "function" && define.amd) {
     // Export JSON 3 for asynchronous module loaders.
@@ -130,9 +122,9 @@
         // Safari <= 2.0.3 doesn't implement `Object#hasOwnProperty`, but
         // supports the mutable *proto* property.
         hasOwnProperty = function hasOwnProperty(property) {
-          // Capture and break the object's prototype chain. The parenthesized
-          // expression prevents an unsafe transformation by the Closure
-          // Compiler.
+          // Capture and break the object's prototype chain (see section 8.6.2
+          // of the ES 5.1 spec). The parenthesized expression prevents an
+          // unsafe transformation by the Closure Compiler.
           var original = this.__proto__, result = property in (this.__proto__ = null, this);
           // Restore the original prototype chain.
           this.__proto__ = original;
@@ -146,6 +138,7 @@
           return property in this && !(property in parent && this[property] === parent[property]);
         };
       }
+      members = null;
       return hasOwnProperty;
     })();
   }
@@ -281,7 +274,7 @@
         if (typeof value == "object" && value) {
           if (getClass.call(value) == "[object Date]" && !hasOwnProperty.call(value, "toJSON")) {
             if (value > -1 / 0 && value < 1 / 0) {
-              // Dates are serialized according to the `Date.toJSON` method
+              // Dates are serialized according to the `Date#toJSON` method
               // specified in ES 5.1 section 15.9.5.44. See section 15.9.1.15 for
               // the ISO 8601 date time string format.
               year = value.getUTCFullYear();
@@ -323,7 +316,8 @@
         }
         // Recursively serialize objects and arrays.
         if (typeof value == "object") {
-          // Check for cyclic structures.
+          // Check for cyclic structures. This is a linear search; performance
+          // is inversely proportional to the number of unique nested objects.
           for (length = stack.length; length--;) {
             if (stack[length] == value) {
               throw TypeError("Cyclic structures cannot be serialized.");
@@ -341,10 +335,7 @@
               element = serialize(index, value, callback, properties, whitespace, indentation, stack);
               results.push(element === void 0 ? "null" : element);
             }
-            if (any) {
-              return whitespace ? "[\n" + indentation + results.join(",\n" + indentation) + "\n" + prefix + "]" : ("[" + results.join(",") + "]");
-            }
-            return "[]";
+            return any ? (whitespace ? "[\n" + indentation + results.join(",\n" + indentation) + "\n" + prefix + "]" : ("[" + results.join(",") + "]")) : "[]";
           } else {
             // Recursively serialize object members. Members are selected from
             // either a user-specified list of property names, or the object
@@ -362,10 +353,7 @@
               }
               any || (any = true);
             });
-            if (any) {
-              return whitespace ? "{\n" + indentation + results.join(",\n" + indentation) + "\n" + prefix + "}" : ("{" + results.join(",") + "}");
-            }
-            return "{}";
+            return any ? (whitespace ? "{\n" + indentation + results.join(",\n" + indentation) + "\n" + prefix + "}" : ("{" + results.join(",") + "}")) : "{}";
           }
           // Remove the object from the traversed object stack.
           stack.pop();
