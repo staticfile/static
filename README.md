@@ -9,6 +9,6 @@ Want your script included? Easy.
 3. Run your package.json through a [JSON Validator](http://jsonlint.com/)
 4. Send us a pull request.
   * Make sure you include in the pull description:
-      1. Where you downloaded the script in the pull request description
+      1. Where you downloaded the script
       2. If it isn't clear, how you found the version of the script
   * e.g. https://github.com/cdnjs/cdnjs/pull/229
