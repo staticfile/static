@@ -1,5 +1,5 @@
 {
-    "name": "gameQuery",
+    "name": "jquery-gamequery",
     "filename": "jquery.gamequery.min.js",
     "version": "0.6.2",
     "description": "gameQuery is a jQuery plug-in to help make javascript game development easier by adding some simple game-related classes",
