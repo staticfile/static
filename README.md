@@ -1,6 +1,6 @@
 # cdnJS Script Repository
 
-The repository mirroring all scripts on ajax.cdnjs.com
+The repository mirroring all scripts on cdnjs.cloudflare.com
 
 Want your script included? Easy.
 
