@@ -5,7 +5,7 @@
     "description": "The jQuery Form Plugin allows you to easily and unobtrusively upgrade HTML forms to use AJAX",
     "homepage": "http://jquery.malsup.com/form/",
     "keywords": [
-		"ajax",
+        "ajax",
         "forms",
         "form",
         "jquery"
