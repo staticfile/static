@@ -1,5 +1,5 @@
 {
-  "name": "Jo Framework",
+  "name": "jo",
   "filename": "jo.min.js",
   "description": "Jo is a thin (~12K) candy shell for PhoneGap apps. It's an HTML5 mobile app framework which provides UI widgets, a flexible event model, a wrapper for sound, and a light data layer.",
   "version": "0.4.1",

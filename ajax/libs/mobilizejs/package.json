@@ -1,6 +1,6 @@
 {
-  "name": "Mobilize.js",
-  "filename": "xui.min.js",
+  "name": "mobilizejs",
+  "filename": "mobilize.min.js",
   "description": "A HTML5 and Javascript framework to transform websites to mobile sites.",
   "version": "0.9",
   "homepage": "http://mobilizejs.com",
