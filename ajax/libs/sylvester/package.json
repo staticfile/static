@@ -1,6 +1,7 @@
 { "name"            : "sylvester"
+, "filename"	    : "sylvester.js"
 , "description"     : "Vector and Matrix math for JavaScript"
-, "homepage"        : "http://sylvster.jcoglan.com"
+, "homepage"        : "http://sylvester.jcoglan.com/"
 , "author"          : "James Coglan <jcoglan@gmail.com> (http://jcoglan.com/)"
 , "keywords"        : ["vector", "matrix", "geometry", "math"]
 
