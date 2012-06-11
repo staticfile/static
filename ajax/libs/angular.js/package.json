@@ -30,7 +30,7 @@
     "url": "git://github.com/angular/angular.js.git"
   }],
   "bugs": {
-    "url": "https://github.com/angular/angular.js/issues"
+    "description": "https://github.com/angular/angular.js/issues"
   },
   "licenses": [
     {
