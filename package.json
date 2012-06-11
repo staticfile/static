@@ -9,7 +9,7 @@
     "url": "git://github.com/cdnjs/cdnjs.git"
   },
   "scripts": {
-    "test": "node test/*-test.js"
+    "test": "./node_modules/vows/bin/vows --spec"
   },
   "dependencies": {},
   "devDependencies": {

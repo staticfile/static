@@ -43,7 +43,8 @@ var packages = glob.sync("./ajax/libs/*/").map(function (pkg) {
 
 packages.map(function (pkg) {
     var package_vows = {"topic": pkg},
-        pname = pkg_name(pkg);
+        pname = pkg_name(pkg),
+        context = {};
     package_vows[pname + " has package.json"] = function (pkg) {
         assert.ok(path.existsSync(pkg), pkg_name(pkg) + " missing!");
     };
@@ -72,8 +73,9 @@ packages.map(function (pkg) {
             pkg_name(pkg) + " didn't parse as any known format");
             // + JSON.stringify(errors, null, "\t"));
     };
-    suite.addBatch({pname: package_vows});
+    context[pname] = package_vows;
+    suite.addBatch(context);
 });
 
-suite.run();
+suite.export(module);
 
