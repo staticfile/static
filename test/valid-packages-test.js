@@ -32,6 +32,11 @@ function pkg_name(json_file) {
     return json_file.split("/")[3];
 }
 
+function pretty_error(err) {
+    return err.message + " (" + err.details + "): " +
+        err.schemaUri.split("#")[1];
+}
+
 // load up those files
 var packages = glob.sync("./ajax/libs/*/").map(function (pkg) {
         return pkg + "package.json";
@@ -65,13 +70,28 @@ packages.map(function (pkg) {
             if (!schema_errors.length) {
                 valid = true;
             } else {
-                return schema_errors;
+                return {
+                    name: schema._attributes.name,
+                    errors: schema_errors
+                };
             }
-            return [];
+            return null;
         });
-        assert.ok(valid,
-            pkg_name(pkg) + " didn't parse as any known format");
-            // + JSON.stringify(errors, null, "\t"));
+        if (!valid) {
+            assert.ok(valid,
+                [pkg_name(pkg) + " didn't parse as any known format:"].concat(
+                    errors
+                        .filter(function (schema) {
+                            return schema !== null;
+                        })
+                        .map(function (schema) {
+                            return "\t  » " + schema.name +
+                                "\n\t\t" +
+                                schema.errors.map(pretty_error).join("\n\t\t");
+                        })
+                )
+                .join("\n"));
+        }
     };
     context[pname] = package_vows;
     suite.addBatch(context);
