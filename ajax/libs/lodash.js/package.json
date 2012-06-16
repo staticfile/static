@@ -1,5 +1,5 @@
 {
-    "name": "lodash",
+    "name": "lodash.js",
     "version": "0.3.2",
     "filename": "lodash.min.js",
     "description": "A drop-in replacement for Underscore.js that delivers performance improvements, bug fixes, and additional features.",
