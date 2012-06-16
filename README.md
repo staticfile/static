@@ -10,7 +10,7 @@ Want your script included? Easy.
 1. Fork this repository
 2. Add your library (following the conventions of this repository)
   * 1 library per pull request
-  * include a package.json in the node.js, CommonJS or jQuery format, as appropriate
+  * include a package.json in the npm format (see `test/schemata/npm-package.json` for details - it's very simple)
 3. Run your package.json through a [JSON Validator](http://jsonlint.com/)
   * Bonus points: set up a [Travis CI hook](http://about.travis-ci.org/docs/user/getting-started/) (we already made the `.travis.yml`) for your fork!
 4. Send us a pull request.
