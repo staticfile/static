@@ -1,12 +1,9 @@
 The schemata against which a cdnjs `package.json` will be validated.
 
-These schemata (may) have been copied from:
+Currently we use a modified version of the `npm-package.json` spec,
+which is the addition of a required `filename` property use for
+auto-generation of library links on http://cdnjs.com/
 
-    https://github.com/exavolt/onde/tree/master/samples/schemas
-    
-They need to be updated to be accurate as per the current specs.
-
-All .json files in this directory will be run against all of the
-`package.json` files in the ajax/libs directory, though only one
-will have to be successful: satisfying multiple schema may not 
-be possible!
+All `package.json` files in `ajax/libs` will be run against the specs
+in this directory (currently only `npm-package.json`) to ensure they
+are valid.
