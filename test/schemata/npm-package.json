@@ -3,6 +3,11 @@
     "name": "NPM package.json",
     "description": "Package manifest file for Node.JS modules. Note that this is incomplete. http://npmjs.org/doc/json.html",
     "properties": {
+        "filename": {
+            "type": "string",
+            "required": true,
+            "description": "This makes the correct path on the cdn."
+            },        
         "name": {
             "type": "string",
             "required": true,
