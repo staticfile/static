@@ -15,9 +15,7 @@
            "web": "http://ninjaui.com/" 
        } 
    ],
-       "bugs": {
-        "web": "https://github.com/ninja/ui/issues/"
-    },
+       "bugs": "https://github.com/ninja/ui/issues/",
 
    "repositories": [
        {

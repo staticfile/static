@@ -29,9 +29,7 @@
     "type": "git",
     "url": "git://github.com/angular/angular.js.git"
   }],
-  "bugs": {
-    "description": "https://github.com/angular/angular.js/issues"
-  },
+  "bugs": "https://github.com/angular/angular.js/issues",
   "licenses": [
     {
       "type": "MIT",

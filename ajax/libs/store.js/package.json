@@ -28,9 +28,7 @@
     "type": "git",
     "url": "git://github.com/marcuswestin/store.js.git"
   },
-  "bugs": {
-    "url": "http://github.com/marcuswestin/store.js/issues"
-  },
+  "bugs": "http://github.com/marcuswestin/store.js/issues",
   "engines": {
     "browser": "*",
     "node": "*"

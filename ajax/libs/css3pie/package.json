@@ -16,9 +16,7 @@
             "web": "http://lojjic.com"
         }
     ],
-    "bugs": {
-        "web": "https://github.com/lojjic/PIE/issues/"
-    },
+    "bugs": "https://github.com/lojjic/PIE/issues/",
     "licenses": [
         {
             "type": "Apache-2.0",

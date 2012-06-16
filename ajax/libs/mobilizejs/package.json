@@ -18,9 +18,7 @@
     "type": "git",
     "url": "https://github.com/mobilizejs/mobilize.js.git"
   },
-  "bugs": {
-    "url": "https://github.com/mobilizejs/mobilize.js/issues"
-  },
+  "bugs": "https://github.com/mobilizejs/mobilize.js/issues",
   "licenses": [
     {
       "type": "Creative Commons",

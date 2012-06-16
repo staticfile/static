@@ -30,9 +30,7 @@
             "web": "http://kitcambridge.github.com"
         }
     ],
-    "bugs": {
-        "url": "http://github.com/bestiejs/json3/issues"
-    },
+    "bugs": "http://github.com/bestiejs/json3/issues",
     "repository": {
         "type": "git",
         "url": "git://github.com/bestiejs/json3.git"

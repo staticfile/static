@@ -34,9 +34,7 @@
       "web": "http://mathiasbynens.be/"
     }
   ],
-  "bugs": {
-    "url": "https://github.com/bestiejs/platform.js/issues"
-  },
+  "bugs": "https://github.com/bestiejs/platform.js/issues",
   "repository": {
     "type": "git",
     "url": "https://github.com/bestiejs/platform.js.git"

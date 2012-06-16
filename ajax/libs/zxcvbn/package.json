@@ -16,9 +16,7 @@
             "web": "https://github.com/lowe"
         }
     ],
-    "bugs": {
-        "web": "https://github.com/lowe/zxcvbn/issues"
-    },
+    "bugs": "https://github.com/lowe/zxcvbn/issues",
     "licenses": [
         {
             "type": "MIT",

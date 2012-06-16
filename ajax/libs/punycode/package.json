@@ -35,9 +35,7 @@
 			"web": "http://allyoucanleet.com/"
 		}
 	],
-	"bugs": {
-		"url": "https://github.com/bestiejs/punycode.js/issues"
-	},
+	"bugs": "https://github.com/bestiejs/punycode.js/issues",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/bestiejs/punycode.js.git"

@@ -17,9 +17,7 @@
     "type": "git",
     "url": "https://github.com/xui/xui.git"
   },
-  "bugs": {
-    "url": "https://github.com/xui/xui/issues"
-  },
+  "bugs": "https://github.com/xui/xui/issues",
   "licenses": [
     {
       "type": "MIT",
