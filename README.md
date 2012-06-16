@@ -16,3 +16,4 @@ Want your script included? Easy.
       2. If it isn't clear, how you found the version of the script
   * e.g. https://github.com/cdnjs/cdnjs/pull/229
   * If you set up Travis CI, include your badge for super-readability!
+<a href="http://travis-ci.org/cdnjs/cdnjs"><img src="https://secure.travis-ci.org/cdnjs/cdnjs.png" alt="Build Status" style="max-width:100%;"></a>
