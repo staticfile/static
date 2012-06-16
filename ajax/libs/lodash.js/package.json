@@ -25,9 +25,7 @@
         "email": "john@fusejs.com",
         "web": "http://allyoucanleet.com/"
     },
-    "bugs": {
-        "url": "https://github.com/bestiejs/lodash/issues"
-    },
+    "bugs": "https://github.com/bestiejs/lodash/issues",
     "repository": {
         "type": "git",
         "url": "https://github.com/bestiejs/lodash.git"
