@@ -19,3 +19,5 @@ Want your script included? Easy.
       2. If it isn't clear, how you found the version of the script
   * e.g. https://github.com/cdnjs/cdnjs/pull/229
   * If you set up Travis CI, include your badge for super-readability!
+
+<img alt="Clicky" width="1" height="1" src="//in.getclicky.com/66606907ns.gif" />
