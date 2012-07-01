@@ -20,6 +20,12 @@
             "url": "http://lodash.com/license"
         }
     ],
+    "maintainers": [
+        {
+            "name": "John-David Dalton",
+            "web": "http://allyoucanleet.com/"
+        }
+    ],
     "author": {
         "name": "John-David Dalton",
         "email": "john@fusejs.com",
