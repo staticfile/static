@@ -6,9 +6,7 @@
   "url": "http://code.appendto.com/plugins/jquery-mockjax/",
   "keywords": [ "ajax", "mock", "unit" ],
   "author": "Jonathan Sharp (http://jdsharp.com/)",
-  "bugs": {
-     "web": "http://github.com/appendto/jquery-mockjax/issues"
-  },
+  "bugs": "http://github.com/appendto/jquery-mockjax/issues",
   "licenses": [
      {
          "type": "MIT",
