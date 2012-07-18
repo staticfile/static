@@ -1,5 +1,6 @@
 {
     "name": "stapes",
+    "filename": "stapes.min.js",
     "author" : "Hay Kranen <hay@bykr.org>",
     "homepage" : "http://hay.github.com/stapes",
     "description": "A (really) tiny Javascript MVC microframework.",
