@@ -16,8 +16,8 @@
    ],
    "repositories": [
        {
-           "type": "svn",
-           "url": "https://jsxgraph.svn.sourceforge.net/svnroot/jsxgraph" 
+           "type": "git",
+           "url": "https://github.com/jsxgraph/jsxgraph" 
        } 
    ]
 }
