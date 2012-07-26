@@ -1,7 +1,7 @@
 {
     "name": "zxcvbn",
     "version": "1.0",
-    "filename": "zscvbn-async.js",
+    "filename": "zxcvbn-async.js",
     "homepage": "http://tech.dropbox.com/?p=165",
     "description": "Realistic password strength estimation, based on common words, patterns, and keyboard adjacency.",
     "keywords": [
