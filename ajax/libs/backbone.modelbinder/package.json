@@ -1,6 +1,6 @@
 {
     "name": "backbone.modelbinder",
-    "filename": "Backbone.ModelBinder-min.js",
+    "filename": "Backbone.ModelBinder.min.js",
     "version": "0.1.5",
     "description": "Simple, flexible and powerful Model-View binding for Backbone.",
     "homepage": "https://github.com/theironcook/Backbone.ModelBinder#prerequisites",
