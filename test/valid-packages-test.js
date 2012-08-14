@@ -51,7 +51,7 @@ packages.map(function (pkg) {
         pname = pkg_name(pkg),
         context = {};
     package_vows[pname + " has package.json"] = function (pkg) {
-        assert.ok(fs.existsSync(pkg), pkg_name(pkg) + " missing!");
+        assert.ok(path.existsSync(pkg), pkg_name(pkg) + " missing!");
     };
     package_vows[pname + " package.json is well-formed"] = function (pkg) {
         assert.ok(parse(pkg, true),
@@ -93,11 +93,11 @@ packages.map(function (pkg) {
                 .join("\n"));
         }
     };
-    package_vows[pname + " filename from package.json exists"] = function (pkg) {
+    package_vows[pname + ": filename from package.json exists"] = function (pkg) {
         var json = parse(pkg, true, true);
         var filePath = "./ajax/libs/" + json.name + "/"+ json.version
             + "/" + json.filename;
-        assert.ok(fs.existsSync(filePath),
+        assert.ok(path.existsSync(filePath),
                   filePath +" does not exist but is referenced in package.json!");
     };
 
