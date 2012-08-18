@@ -11,7 +11,7 @@
 
   "scripts": {
     "build": "./build/build.js",
-    "test": "./node_modules/vows/bin/vows"
+    "test": "vows"
   },
   "dependencies": {},
   "devDependencies": {
