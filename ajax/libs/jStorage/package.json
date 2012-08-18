@@ -1,6 +1,6 @@
 {
     "name": "jStorage",
-    "filename": "jStorage.min.js",
+    "filename": "jstorage.min.js",
     "version": "0.1.6.1",
     "description": "Simple wrapper plugin for Prototype, MooTools, and jQuery to store data on browser side.",
     "homepage": "http://jstorage.info/",

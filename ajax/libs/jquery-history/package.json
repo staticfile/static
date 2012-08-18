@@ -1,5 +1,5 @@
 {
-    "name": "jquery.history",
+    "name": "jquery-history",
     "filename": "jquery.history.js",
     "version": "1.9",
     "description": "jQuery history plugin helps you to support back/forward buttons and bookmarks in your javascript applications.",

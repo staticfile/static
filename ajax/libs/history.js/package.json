@@ -1,5 +1,5 @@
 {
-    "name": "History.js",
+    "name": "history.js",
     "filename": "native.history.js",
     "version": "1.7.1",
     "description": "Provides a cross-compatible experience for the History API on all HTML5 Browsers and backwards-compatible one on older ones using a hash-fallback.",
