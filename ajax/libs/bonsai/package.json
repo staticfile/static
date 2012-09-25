@@ -1,5 +1,5 @@
 {
-  "name": "bonsai.min.js",
+  "name": "bonsai",
   "filename": "bonsai.min.js",
   "version": "0.3.6",
   "description": "BonsaiJS is a graphics library and renderer",
