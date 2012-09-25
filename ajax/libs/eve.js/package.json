@@ -10,9 +10,6 @@
 			"web": "http://msteigerwalt.com"
 		}
 	],
-	"scripts":{
-		"test": "tests/run_tests.sh"
-	},
 	"repositories": [
 		{
 			"type": "git",
