@@ -1,5 +1,5 @@
 {
-    "name": "jquery.form.js",
+    "name": "jquery.form",
     "filename": "jquery.form.js",
     "version": "3.09",
     "description": "The jQuery Form Plugin allows you to easily and unobtrusively upgrade HTML forms to use AJAX",
