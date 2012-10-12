@@ -1,7 +1,7 @@
 {
   "name": "sugar",
-  "version": "1.3",
-  "filename": "sugar.min.js",
+  "version": "1.3.4",
+  "filename": "sugar-1.3.4.min.js",
   "description": "A Javascript library for working with native objects.",
   "keywords": ["functional", "utility", "ender"],
   "homepage": "http://sugarjs.com/",
