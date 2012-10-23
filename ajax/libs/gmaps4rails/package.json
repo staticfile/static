@@ -1,5 +1,5 @@
 {
-  "name": "gmaps4rails.js",
+  "name": "gmaps4rails",
   "filename": "gmaps4rails.googlemaps.js",
   "description": "Enables easy display of items (taken from a Rails 3 model) with Google Map, OpenLayers, Bing or Mapquest. Geocoding + Directions included. ",
   "version": "1.5.2",
@@ -16,9 +16,6 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/apneadiving/Google-Maps-for-Rails.git"
-  },
-  "bugs": {
-    "url": "https://github.com/apneadiving/Google-Maps-for-Rails/issues"
   },
   "licenses": [
     {
