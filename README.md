@@ -20,7 +20,8 @@ __Libraries must have notable popularity, 100 watchers on GitHub would be a good
   * Make sure you include in the pull description:
       1. Where you downloaded the script
       2. If it isn't clear, how you found the version of the script
-  * e.g. https://github.com/cdnjs/cdnjs/pull/229
+  * e.g. https://github.com/cdnjs/cdnjs/pull/541
+4. If the library doesn't already provide a minified version, our preferred minifier is [UglifyJS](http://marijnhaverbeke.nl/uglifyjs "UglifyJS")
 
 ## Running the validator
 1. Install all the needed dependencies locally (you will need `npm` and `node`): `npm install`
