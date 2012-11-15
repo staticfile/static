@@ -1,4 +1,6 @@
-// Copyright (c) 2005-2010 Thomas Fuchs (http://script.aculo.us, http://mir.aculo.us)
+// script.aculo.us scriptaculous.js v1.8.3, Thu Oct 08 11:23:33 +0200 2009
+
+// Copyright (c) 2005-2009 Thomas Fuchs (http://script.aculo.us, http://mir.aculo.us)
 //
 // Permission is hereby granted, free of charge, to any person obtaining
 // a copy of this software and associated documentation files (the
@@ -22,7 +24,7 @@
 // For details, see the script.aculo.us web site: http://script.aculo.us/
 
 var Scriptaculous = {
-  Version: '1.9.0',
+  Version: '1.8.3',
   require: function(libraryName) {
     try{
       // inserting via DOM fails in Safari 2.0, so brute force approach
@@ -52,7 +54,7 @@ var Scriptaculous = {
         Scriptaculous.REQUIRED_PROTOTYPE);
 
     var js = /scriptaculous\.js(\?.*)?$/;
-    $$('script[src]').findAll(function(s) {
+    $$('head script[src]').findAll(function(s) {
       return s.src.match(js);
     }).each(function(s) {
       var path = s.src.replace(js, ''),
