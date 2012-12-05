@@ -7,7 +7,7 @@ The repository mirroring all scripts on cdnjs.cloudflare.com
 
 We will host any version of any library. Feel free to add a pull request for an older version of a library if your site still uses it.
 
-__Libraries must have notable popularity. 100 watchers on GitHub is a good example, but as long as reasonably popularity can be demonstrated, the library will be added.__
+__Libraries must have notable popularity. 100 watchers on GitHub is a good example, but as long as reasonably popularity can be demonstrated the library will be added.__
 
 ## Pull requests steps
 
