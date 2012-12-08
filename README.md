@@ -14,6 +14,7 @@ __Libraries must have notable popularity. 100 watchers on GitHub is a good examp
 1. Fork this repository
 2. Add your library (following the conventions of this repository)
   * 1 library per pull request
+  * The pull request must be a tagged release in the original repository (some exceptions apply)
   * include a package.json in the npm format (see `test/schemata/npm-package.json` for details - it's very simple)
   * Run `npm test` on your repo once you've added a library to check everything is ok
 3. Send us a pull request.
