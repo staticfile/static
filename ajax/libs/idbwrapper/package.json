@@ -1,5 +1,5 @@
 {
-  "name": "IDBWrapper",
+  "name": "idbwrapper",
   "filename": "idbstore.min.js",
   "version": "0.3.0",
   "description": "A cross-browser wrapper for IndexedDB",
