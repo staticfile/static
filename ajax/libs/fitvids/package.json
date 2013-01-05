@@ -1,6 +1,6 @@
 {
     "name": "fitvids",
-    "filename": "jquery.fitvids.js",
+    "filename": "jquery.fitvids.min.js",
     "version": "1.0.0",
     "description": "A lightweight, easy-to-use jQuery plugin for fluid width video embeds.",
     "homepage": "http://fitvidsjs.com/",
