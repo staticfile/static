@@ -9,7 +9,7 @@
         "pjax",
 		"pushState",
         "jquery"
-    ]
+    ],
     "repositories": [
         {
             "type": "git",
