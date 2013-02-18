@@ -1,5 +1,5 @@
 {
-    "name": "knockout.validation",
+    "name": "knockout-validation",
     "filename": "knockout.validation.min.js",
     "version": "1.0.2",
     "description": "A validation library for Knockout JS",
