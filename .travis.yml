@@ -4,7 +4,7 @@ node_js:
 - 0.8
 
 env:
-  global: 
+  global:
     - "ARTIFACTS_AWS_REGION=us-east-1"
     - "ARTIFACTS_S3_BUCKET=cdnjs-artifacts"
     - secure: "TxudD0/5dovbpXh0ILUY+KRAGFgrJLdE7PE7y/wVI1cCtvg1kU28oKF29gXO\nhcEgEfOFX+mzKDHaHr0hpHd8vB24G7O6jhfJj8rb+QBGZ5NUvxN9H9t5SAL6\ngguGRavYOzjh/6sctcrRGdRsP4hJNCQ+uK/r2UtHBI3cFFKZx8U="
@@ -13,6 +13,6 @@ env:
 before_script:
 - "gem install travis-artifacts"
 after_success:
-- "node packages.json.js"
+- "node ./build/packages.json.js"
 - "travis-artifacts upload --path packages.json --target-path /"
 
