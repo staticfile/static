@@ -1,5 +1,6 @@
 var glob = require('glob');
 var fs = require('fs');
+var natcompare = require('./natcompare.js');
 
 
 var packages = Array();
@@ -18,6 +19,10 @@ glob("ajax/libs/**/package.json", function (error, matches) {
       }
       package.assets.push(temp);
     });
+    package.assets.sort(function(a, b){
+      return natcompare.compare(a.version, b.version);
+    })
+    package.assets.reverse();
     packages.push(package);
   });
 
