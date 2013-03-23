@@ -33,5 +33,4 @@ __Libraries must have notable popularity. 100 watchers on GitHub is a good examp
 1. Install all the needed dependencies locally (you will need `node`): `npm install`
 2. Run the test suite: `npm test`
 
-<img alt="Clicky" width="1" height="1" src="//in.getclicky.com/66606907ns.gif" />
 
