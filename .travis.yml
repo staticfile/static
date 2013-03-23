@@ -4,4 +4,5 @@ node_js:
 before_script:
    - "gem install travis-artifacts"
 after_success: # and this only on success
-  - "travis-artifacts upload --path packages.json"
+    - "node packages.json.js"
+    - "travis-artifacts upload --path packages.json"
