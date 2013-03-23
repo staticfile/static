@@ -1,3 +1,7 @@
 language: node_js
 node_js:
   - 0.8
+before_script:
+   - "gem install travis-artifacts"
+after_success: # and this only on success
+  - "travis-artifacts upload --path packages.json"
