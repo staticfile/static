@@ -15,4 +15,5 @@ before_script:
 after_success:
 - "node ./build/packages.json.js"
 - "travis-artifacts upload --path packages.json --target-path /"
+- "travis-artifacts upload --path rss --target-path /"
 
