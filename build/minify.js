@@ -13,7 +13,6 @@ glob("../ajax/libs/**/package.json", function (error, matches) {
         var versions = glob.sync("../ajax/libs/"+package.name+"/!(package.json)");
         versions.forEach(function(version) {
             var temp = Object();
-            temp.version = version.replace(/^.+\//, "");
             temp.files = glob.sync(version + "/**/*.*");
 
             for (var i = 0; i < temp.files.length; i++){
@@ -48,18 +47,17 @@ glob("../ajax/libs/**/package.json", function (error, matches) {
 
                 if (!min_exists) {
                     var original_path = result[0].substring(0, result[0].lastIndexOf(result[1]));
+                    var source = fs.readFileSync(temp.files[i], 'utf8');
+                    var minimised = "";
 
                     if (result[3] == "js") {
-                        var source = fs.readFileSync(temp.files[i], 'utf8');
-                        var minimized = UglifyJS.minify(source, {fromString: true});
-                        fs.writeFileSync(original_path + result[1] + ".min.js", minimized, 'utf8');
-                        console.log("minimized file: " + original_path + result[1] + ".min.js");
+                        minimized = UglifyJS.minify(source, {fromString: true});
+                        minimized = minimized.code;
                     } else if (result[3] == "css") {
-                        var source = fs.readFileSync(temp.files[i], 'utf8');
-                        var minimized = cleanCSS.process(source);
-                        fs.writeFileSync(original_path + result[1] + ".min.css", minimized, 'utf8');
-                        console.log("minimized file: " + original_path + result[1] + ".min.css");
+                        minimised = cleanCSS.process(source, {keepSpecialComments: 1});
                     }
+                    fs.writeFileSync(original_path + result[1] + ".min." + result[3], minimized, 'utf8');
+                    console.log("minimized file: " + original_path + result[1] + ".min." + result[3]);
                 }
             }
         });
