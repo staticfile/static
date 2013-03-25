@@ -2,6 +2,8 @@ var glob = require('glob');
 var fs = require('fs');
 var _ = require('underscore');
 var natcompare = require('./natcompare.js');
+
+
 var RSS = require('rss');
 var feed = new RSS({
     title:        'My Feed Title',
@@ -47,24 +49,25 @@ exec('git ls-tree -r --name-only HEAD | grep **/package.json | while read filena
       var package = JSON.parse(fs.readFileSync(lib.path, 'utf8'));
       var title = '';
       if(lib.change === 'M') {
-        title = package.name + ' was modified'
+        title = package.name + ' was updated to version ' + package.version
       }
       if(lib.change === 'A') {
-        title = package.name + ' was added'
+        title = package.name + '('+package.version+') was added'
       }
       feed.item({
           title:          title,
-          link:           package.homepage,
+          url:            package.homepage,
+          guid:           package.name+package.version, 
           description:    package.description,
           date:           lib.date
       });
     })
-    fs.writeFileSync('rss', feed.xml(), 'utf8');
+    fs.writeFileSync('rss', feed.xml(true), 'utf8');
 
-    console.log(recentLibraries);
 })
 
-return;
+
+
 var packages = Array();
 
 glob("ajax/libs/**/package.json", function (error, matches) {
