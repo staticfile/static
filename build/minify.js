@@ -54,7 +54,7 @@ glob("../ajax/libs/**/package.json", function (error, matches) {
                         minimized = UglifyJS.minify(source, {fromString: true});
                         minimized = minimized.code;
                     } else if (result[3] == "css") {
-                        minimised = cleanCSS.process(source, {keepSpecialComments: 1});
+                        minimized = cleanCSS.process(source, {'keepSpecialComments': 1});
                     }
                     fs.writeFileSync(original_path + result[1] + ".min." + result[3], minimized, 'utf8');
                     console.log("minimized file: " + original_path + result[1] + ".min." + result[3]);
