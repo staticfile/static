@@ -14,7 +14,8 @@
   },
   "dependencies": {
     "clean-css": "~0.10.2",
-    "uglify-js": "~2.2.5"
+    "uglify-js": "~2.2.5",
+    "glob": "~3.1.21"
   },
   "devDependencies": {
     "glob": "3.1.9",
