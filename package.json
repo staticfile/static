@@ -16,7 +16,8 @@
     "clean-css": "~0.10.2",
     "uglify-js": "~2.2.5",
     "glob": "~3.1.21",
-    "rss": "0.0.4"
+    "rss": "0.0.4",
+    "underscore": "~1.4.4"
   },
   "devDependencies": {
     "glob": "3.1.9",
