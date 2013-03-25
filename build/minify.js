@@ -47,16 +47,18 @@ glob("../ajax/libs/**/package.json", function (error, matches) {
                 }
 
                 if (!min_exists) {
+                    var original_path = result[0].substring(0, result[0].lastIndexOf(result[1]));
+
                     if (result[3] == "js") {
                         var source = fs.readFileSync(temp.files[i], 'utf8');
                         var minimized = UglifyJS.minify(source, {fromString: true});
-                        fs.writeFileSync(version + "/" + result[1] + ".min.js", minimized, 'utf8');
-                        console.log("minimized file: " + version + "/" + result[1] + ".min.js");
+                        fs.writeFileSync(original_path + result[1] + ".min.js", minimized, 'utf8');
+                        console.log("minimized file: " + original_path + result[1] + ".min.js");
                     } else if (result[3] == "css") {
                         var source = fs.readFileSync(temp.files[i], 'utf8');
                         var minimized = cleanCSS.process(source);
-                        fs.writeFileSync(version + "/" + result[1] + ".min.css", minimized, 'utf8');
-                        console.log("minimized file: " + version + "/" + result[1] + ".min.css");
+                        fs.writeFileSync(original_path + result[1] + ".min.css", minimized, 'utf8');
+                        console.log("minimized file: " + original_path + result[1] + ".min.css");
                     }
                 }
             }
