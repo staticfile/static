@@ -6,16 +6,16 @@ var natcompare = require('./natcompare.js');
 
 var RSS = require('rss');
 var feed = new RSS({
-    title:        'My Feed Title',
-    description:  'This is my personnal feed!',
-    link:         'http://example.com/',
-    image:        'http://example.com/logo.png',
-    copyright:    'Copyright © 2013 John Doe. All rights reserved',
+    title:        'cdnjs.com - library updates',
+    description:  'Track when new libraries are added and old libraries updated!',
+    link:         'http://cdnjs.com/',
+    image:        'http://cdnjs.com/img/poweredbycloudflare.png',
+    copyright:    'Copyright © 2013 Cdnjs. All rights reserved',
  
     author: {
-        name:     'John Doe',
-        email:    'john.doe@example.com',
-        link:     'https://example.com/john-doe'
+        name:     'cdnjs team',
+        email:    'ryan@ryankirkman.com',
+        link:     'http://github.com/cdnjs?tab=members'
     }
 });
 var exec=require('child_process').exec;
