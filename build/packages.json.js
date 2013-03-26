@@ -56,7 +56,7 @@ exec('git ls-tree -r --name-only HEAD | grep **/package.json | while read filena
           title:          title,
           url:            package.homepage,
           guid:           package.name+package.version, 
-          description:    package.description + '<br /><br />' + '<a href="'+fileurl+'">'+fileurl+'</a>',
+          description:    package.description + '<br /><br /><br />' + '<a href="'+fileurl+'">View file</a>',
           date:           lib.date
       });
     })
