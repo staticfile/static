@@ -7,7 +7,7 @@ var natcompare = require('./natcompare.js');
 var RSS = require('rss');
 var feed = new RSS({
     title:        'cdnjs.com - library updates',
-    description:  'Track when libraries are added and updated!',
+    description:  'Track when libraries are added and updated! Managed by <a href="http://twitter.com/ryan_kirkman">Ryan Kirkman</a> and <a href="http://twitter.com/neutralthoughts">Thomas Davis</a>. Sponsored and hosted by <a href="http://cloudflare.com">Cloudflare</a>',
     site_url:         'http://cdnjs.com/',
     feed_url:         'http://cdnjs.com/rss.xml',
     image_url:        'http://cdnjs.com/img/poweredbycloudflare.png',
