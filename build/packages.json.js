@@ -46,7 +46,7 @@ exec('git ls-tree -r --name-only HEAD | grep **/package.json | while read filena
       var package = JSON.parse(fs.readFileSync(lib.path, 'utf8'));
       var title = '';
       if(lib.change === 'M') {
-        title = package.name + ' was updated to version ' + package.version
+        title = package.name + ' updated to version ' + package.version
       }
       if(lib.change === 'A') {
         title = package.name + '('+package.version+') was added'
@@ -55,7 +55,7 @@ exec('git ls-tree -r --name-only HEAD | grep **/package.json | while read filena
           title:          title,
           url:            package.homepage,
           guid:           package.name+package.version, 
-          description:    package.description,
+          description:    package.description + '\n' + '//cdnjs.cloudflare.com/ajax/libs/'+ package.name + '/' + package.version + '/' + package.filename,
           date:           lib.date
       });
     })
