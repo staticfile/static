@@ -51,11 +51,12 @@ exec('git ls-tree -r --name-only HEAD | grep **/package.json | while read filena
       if(lib.change === 'A') {
         title = package.name + '('+package.version+') was added'
       }
+      var fileurl = '//cdnjs.cloudflare.com/ajax/libs/'+ package.name + '/' + package.version + '/' + package.filename;
       feed.item({
           title:          title,
           url:            package.homepage,
           guid:           package.name+package.version, 
-          description:    package.description + '\n' + '//cdnjs.cloudflare.com/ajax/libs/'+ package.name + '/' + package.version + '/' + package.filename,
+          description:    package.description + '\n' + '<a href="'+fileurl+'">'+fileurl+'</a>',
           date:           lib.date
       });
     })
