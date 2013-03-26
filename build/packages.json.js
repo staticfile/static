@@ -8,15 +8,12 @@ var RSS = require('rss');
 var feed = new RSS({
     title:        'cdnjs.com - library updates',
     description:  'Track when new libraries are added and old libraries updated!',
-    link:         'http://cdnjs.com/',
-    image:        'http://cdnjs.com/img/poweredbycloudflare.png',
+    site_url:         'http://cdnjs.com/',
+    feed_url:         'http://cdnjs.com/rss.xml',
+    image_url:        'http://cdnjs.com/img/poweredbycloudflare.png',
     copyright:    'Copyright © 2013 Cdnjs. All rights reserved',
- 
-    author: {
-        name:     'cdnjs team',
-        email:    'ryan@ryankirkman.com',
-        link:     'http://github.com/cdnjs?tab=members'
-    }
+    
+    author: 'cdnjs team'
 });
 var exec=require('child_process').exec;
 exec('git ls-tree -r --name-only HEAD | grep **/package.json | while read filename; do   echo "$(git log -1 --since="2 weeks ago" --name-status --format="%ad" -- $filename) blahcrap"; done',function(err,stdout,stderr){
