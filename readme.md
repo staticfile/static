@@ -36,10 +36,14 @@ Fork 这个仓库，新建一个开源库的目录，这个目录下可以有多
 
 ### 四、作者和服务商
 
-此仓库由 [Sofish](https://github.com/sofish)、[hfcorriez](https://github.com/hfcorriez) 和 [ikbear](https://github.com/ikbear) 更新和维护。由国内优秀的 CDN 服务商 [七牛存储](http://www.qiniutek.com/) 提供。
+此仓库由 [Sofish](https://github.com/sofish)、[hfcorriez](https://github.com/hfcorriez) 和 [ikbear](https://github.com/ikbear) 更新和维护。由国内优秀的 CDN 服务商 [七牛存储](http://www.qiniutek.com/) 提供存储和加速。
 
 
 ### 五、开源协议
 
 仓库基于 MIT License 开源
+
+### 六、感谢
+
+感谢 [CDNJS](https://github.com/cdnjs/cdnjs) 的努力，国外源更新自她。感谢所有开源库作者的努力。 
 
