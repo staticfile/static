@@ -1,0 +1,1 @@
+static cdn for developers
