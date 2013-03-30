@@ -36,7 +36,7 @@ Fork 这个仓库，新建一个开源库的目录，这个目录下可以有多
 
 ### 四、作者和服务商
 
-![logo](http://qiniutek.com/images/logo-2.png)
+[![七牛云存储](http://qiniutek.com/images/logo-2.png)](http://qiniutek.com/)
 
 此仓库由 [Sofish](https://github.com/sofish)、[hfcorriez](https://github.com/hfcorriez) 和 [ikbear](https://github.com/ikbear) 更新和维护。由国内优秀的 CDN 服务商 [七牛存储](http://www.qiniutek.com/) 提供存储和加速。
 
