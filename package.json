@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "underscore": "~1.4.4",
-    "glob": "3.2.6"
+    "glob": "3.2.6",
+    "async": "0.2.9"
   }
 }
