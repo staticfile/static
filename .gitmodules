@@ -1,0 +1,3 @@
+[submodule "cdnjs"]
+	path = cdnjs
+	url = git@github.com:cdnjs/cdnjs.git
