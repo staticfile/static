@@ -7,8 +7,8 @@ then
 fi
 
 echo "- Update git"
-git submodule update --force
 git pull
+git submodule update --force
 echo "- Improve path"
 rm -rf cdnjs
 cp -rf ref-cdnjs/ajax/libs cdnjs
