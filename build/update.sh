@@ -2,7 +2,7 @@
 
 echo "- Update git"
 git pull
-git submodule update --force
+git submodule update
 echo "- Create dist"
 rm -rf dist
 mkdir -p dist
