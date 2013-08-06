@@ -2,10 +2,6 @@
 
 platform=`uname`
 
-echo "- Update git"
-git pull
-git submodule update
-
 echo "- Update dist"
 mkdir -p dist/
 if [ "$platform" == "Linux" ];then
@@ -22,4 +18,4 @@ if [ ! -z $1 ]; then
     echo "- Copy packages.json to $1"
     cp packages.json $1
 fi
-echo "- Update ok!"
+echo "- Build ok!"
