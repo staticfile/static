@@ -1,0 +1,22 @@
+{
+    "name": "recorder.js",
+    "filename": "recorder.js",
+    "version": "1.0",
+    "description": "Using HTML5 to capture photo / video via the camera of your device",
+    "homepage": "https://github.com/sofish/recorder.js",
+    "keywords": [
+       "html5", "capture"
+   ],
+   "maintainers": [
+       {
+           "name": "Sofish Lin",
+           "web": "http://sofish.de/" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/sofish/recorder.js"
+        }
+   ]
+}
