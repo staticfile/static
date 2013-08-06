@@ -2,19 +2,20 @@ var glob = require("glob")
   , natcompare = require("./natcompare")
   , fs = require('fs')
 
-if (!process.argv[2]) {
-  console.log('[Usage] node build/build.js <dir>');
+if (!process.argv[2] || !process.argv[3]) {
+  console.log('[Usage] node build/build.js <source> <dest>');
   process.exit();
 }
 
 var dir = process.argv[2];
+var dest = process.argv[2];
 
 listPackages(dir, function (err, results) {
   var packages = [];
   Object.keys(results).forEach(function (key) {
     packages = packages.concat(results[key]);
   });
-  fs.writeFileSync('packages.json', JSON.stringify({"packages": packages}, null, ''), 'utf8');
+  fs.writeFileSync(dest + '/packages.json', JSON.stringify({"packages": packages}, null, ''), 'utf8');
   console.log("Build ok!");
 });
 
