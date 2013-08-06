@@ -1,0 +1,22 @@
+{
+    "name": "seajs",
+    "filename": "sea.js",
+    "version": "2.1.1",
+    "description": "A Module Loader for the Web",
+    "homepage": "http://seajs.org",
+    "keywords": [
+       "seajs", "loader", "CMD"
+   ],
+   "maintainers": [
+       {
+           "name": "lifesinger",
+           "web": "http://lifesinger.github.com/" 
+       }   
+	],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/seajs/seajs"
+        }
+   ]
+}
