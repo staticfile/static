@@ -1,0 +1,22 @@
+{
+    "name": "typo.css",
+    "filename": "typo.css",
+    "version": "1.0",
+    "description": "一致化浏览器排版效果，构建最适合中文阅读的网页排版",
+    "homepage": "http://typo.sofish.de",
+    "keywords": [
+       "typo", "css"
+   ],
+   "maintainers": [
+       {
+           "name": "Sofish Lin",
+           "web": "http://sofish.de/" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/sofish/typo.css"
+        }
+   ]
+}
