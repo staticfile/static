@@ -1,0 +1,33 @@
+{
+    "name": "qatrix",
+    "filename": "qatrix.js",
+    "version": "1.1.1",
+    "description": "A new lightweight JavaScript framework for high performance web application with less code",
+    "homepage": "http://qatrix.com",
+    "keywords": [
+       "qatrix", "js"
+   ],
+   "maintainers": [
+       {
+           "name": "Angel Lai",
+           "web": "http://qatrix.com/about" 
+       },
+		{ 
+			"name": "Catfan", 				"web": "http://catfan.me"
+		}, 
+		{
+			"name": "Mu6",
+			"web": "http://mu6.me"
+		},
+		{
+			"name": "Medoo",
+			"web": "http://medoo.in"
+		}
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/qatrix/Qatrix"
+        }
+   ]
+}
