@@ -1,0 +1,22 @@
+{
+    "name": "validator",
+    "filename": "validator.js",
+    "version": "1.0",
+    "description": "一个简单、轻量级，但功能强大的 Validator 组件，兼容 IE6+，兼容 HTML5 语法",
+    "homepage": "https://github.com/sofish/validator.js",
+    "keywords": [
+       "validator", "jquery"
+   ],
+   "maintainers": [
+       {
+           "name": "Sofish Lin",
+           "web": "http://sofish.de/" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/sofish/validator.js"
+        }
+   ]
+}
