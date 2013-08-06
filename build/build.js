@@ -8,7 +8,7 @@ if (!process.argv[2] || !process.argv[3]) {
 }
 
 var dir = process.argv[2];
-var dest = process.argv[2];
+var dest = process.argv[3];
 
 listPackages(dir, function (err, results) {
   var packages = [];
