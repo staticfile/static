@@ -1,0 +1,10 @@
+Icon Set:	IcoMoon - Free -- http://keyamoon.com/icomoon/
+License:	CC BY 3.0 -- http://creativecommons.org/licenses/by/3.0/
+
+
+Icon Set:	Broccolidry -- http://dribbble.com/shots/587469-Free-16px-Broccolidryiconsaniconsetitisfullof-icons
+License:	Aribitrary -- http://licence.visualidiot.com/
+
+
+Icon Set:	Iconic -- http://somerandomdude.com/work/iconic/
+License:	CC BY-SA 3.0 -- http://creativecommons.org/licenses/by-sa/3.0/us/

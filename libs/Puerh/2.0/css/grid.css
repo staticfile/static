@@ -1,0 +1,35 @@
+/*
+Variable Grid System.
+Learn more ~ http://www.spry-soft.com/grids/
+*/
+
+/* layout container for the grid */
+.container, .wrapper{margin:0 auto;width:980px;padding:0 10px;position:relative;*zoom:1;}
+
+/* grid system */
+.grid, .maincol, .sidecol{display:block;float:left;margin-right:20px;min-height:1px;}
+.grid-1{width:30px;}
+.grid-2{width:80px;}
+.grid-3{width:130px;}
+.grid-4{width:180px;}
+.grid-5{width:230px;}
+.grid-6{width:280px;}
+.grid-7{width:330px;}
+.grid-8{width:380px;}
+.grid-9{width:430px;}
+.grid-10{width:480px;}
+.grid-11{width:530px;}
+.grid-12{width:580px;}
+.grid-13{width:630px;}
+.grid-14{width:680px;}
+.grid-15{width:730px;}
+.grid-16{width:780px;}
+.grid-17{width:830px;}
+.grid-18{width:880px;}
+.grid-19{width:930px;}
+.grid-20{width:980px;}
+
+.maincol{width:780px;}
+.sidecol{width:180px;}
+
+.last{margin-right:0;}

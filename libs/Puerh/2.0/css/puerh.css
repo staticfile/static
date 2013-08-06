@@ -1,0 +1,448 @@
+@charset "utf-8";
+
+/* 防止用户自定义背景颜色对网页的影响，添加让用户可以自定义字体 */
+html {color: #555;background: #fff;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;text-rendering: optimizelegibility;}
+
+/* 内外边距通常让各个浏览器样式的表现位置不同 */
+body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {margin: 0;padding: 0;}
+
+/* 重设 HTML5 标签, IE 需要在 js 中 createElement(TAG) */
+article, aside, details, footer, header, hgroup, menu, nav, section {display: block;}
+
+/* HTML5 媒体文件跟 img 保持一致 */
+audio, canvas, video {display: inline-block;*display: inline;*zoom: 1;}
+
+/* 要注意表单元素并不继承父级 font 的问题 */
+body, button, input, select, textarea {font:500 14px/1.8 Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei,sans-serif;}
+
+/* 去掉各Table  cell 的边距并让其边重合 */
+table {border-collapse: collapse;border-spacing: 0;}
+
+/* IE bug fixed: th 不继承 text-align*/
+th {text-align: inherit;}
+
+/* 去除默认边框 */
+fieldset, img {border: 0;}
+
+/* 解决 IE6-7 图片缩放锯齿问题 */
+img {-ms-interpolation-mode: bicubic;}
+
+/* ie6 7 8(q) bug 显示为行内表现 */
+iframe {display: block;}
+
+/* 块/段落引用 */
+blockquote {margin: 1em 0;padding: 0.6em 1em;background: #f9f9f9;border-left: 0.4em solid #ddd;}
+blockquote blockquote {padding: 0 0 0 1em;margin-left: 2em;}
+
+/* Firefox 以外，元素没有下划线，需添加 */
+acronym, abbr {border-bottom: 1px dotted;font-variant: normal;}
+
+/* 添加鼠标问号，进一步确保应用的语义是正确的（要知道，交互他们也有洁癖，如果你不去掉，那得多花点口舌） */
+abbr {cursor: help;}
+
+/* 一致的 del 样式 */
+del {text-decoration: line-through;}
+address, caption, cite, code, dfn, em, th, var {font-style: normal;font-weight: 400;}
+
+/* 去掉列表前的标识, li 会继承，大部分网站通常用列表来很多内容，所以应该当去 */
+ul, ol {list-style: none;}
+
+/* 对齐是排版最重要的因素, 别让什么都居中 */
+caption, th {text-align: left;}
+q:before, q:after {content: '';}
+
+/* 统一上标和下标 */
+sub, sup {font-size: 75%;line-height: 0;position: relative;vertical-align: text-top\9;}
+:root sub, :root sup{vertical-align: baseline; /* for ie9 and other mordern browsers */}
+sup {top: -0.8em;}
+sub {bottom: -0.3em;}
+
+/* 让链接在 hover 状态下显示下划线 */
+a:hover {text-decoration: underline;}
+
+/* 默认不显示下划线，保持页面简洁 */
+ins, a {text-decoration: none;}
+
+/* 专名号：虽然 u 已经重回 html5 Draft，但在所有浏览器中都是可以使用的，
+ * 要做到更好，向后兼容的话，添加 class="typo-u" 来显示专名号
+ * 关于 <u> 标签：http://www.whatwg.org/specs/web-apps/current-work/multipage/text-level-semantics.html#the-u-element
+ * 被放弃的是 4，之前一直搞错 http://www.w3.org/TR/html401/appendix/changes.html#idx-deprecated
+ * 一篇关于 <u> 标签的很好文章：http://html5doctor.com/u-element/ 
+ */
+u, .typo-u {text-decoration: underline;}
+
+/* 标记，类似于手写的荧光笔的作用 */
+mark {background: #fffdd1;}
+
+/* 代码片断 */
+code {border:1px dashed #eee;color:#27ae60;padding:0 3px;}
+pre, code {font-family: Inconslata, Consolas, Courier, Courier New, monospace;white-space: pre-wrap;word-wrap: break-word;}
+pre {background:#f9f9f9;padding:10px 15px;line-height:1.36;color:#555;text-shadow:1px 1px 1px #fff;}
+
+/* 底部印刷体、版本等标记 */
+small, .typo-small, .small,
+
+    /* 图片说明 */
+figcaption {font-size:12px;color: #888;}
+
+/* 去除 IE6 input/button 多余的空白 */
+button, input {*width: auto;*overflow: visible;line-height:22px; /* 让 input 和 button 一样高 */ }
+
+a{color:#ec5534;}
+
+/* 一致化 horizonal rule */
+hr{border:none;border-bottom:1px solid #cfcfcf;margin-bottom:10px;*color:pink;*filter:chroma(color=pink);height:10px;*margin:-7px 0 2px;}
+
+.clearfix:before, .clearfix:after, .container:before, .container:after{content: "";display: table;}
+.clearfix:after, .container:after{clear: both;}
+.clearfix, .container{*zoom: 1;}
+.clear{clear:both;}
+
+/* 保证块/段落之间的空白隔行 */
+.typo p, .typo pre, .typo ul, .typo ol, .typo dl, .typo form, .typo hr, .typo table,
+.typo-p, .typo-pre, .typo-ul, .typo-ol, .typo-dl, .typo-form, .typo-hr, .typo-table {margin-bottom: 1em;}
+
+h1, h2, h3, h4, h5, h6{font-weight: 500;font-family: Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei,sans-serif;color:#333;}
+
+/* 标题应该更贴紧内容，并与其他块区分，margin 值要相应做优化 */
+.typo h1, .typo h2, .typo h3, .typo h4, .typo h5, .typo h6,
+.typo-h1, .typo-h2, .typo-h3, .typo-h4, .typo-h5, .typo-h6 {margin-bottom: 0.4em;line-height: 1.5;}
+.typo h1, .typo-h1 {font-size: 1.8em;}
+.typo h2, .typo-h2 {font-size: 1.6em;}
+.typo h3, .typo-h3 {font-size: 1.4em;}
+.typo h4, .typo-h4 {font-size: 1.2em;}
+.typo h5, .typo h6, .typo-h5, .typo-h6 {font-size: 1em;}
+
+/* 在文章中，应该还原 ul 和 ol 的样式 */
+.typo ul, .typo-ul {margin-left: 1.3em;list-style: disc;}
+.typo ol, .typo-ol {list-style: decimal;margin-left: 1.9em;}
+.typo li ul, .typo li ol, .typo-ul ul, .typo-ul ol, .typo-ol ul, .typo-ol ol {margin-top: 0;margin-bottom: 0;margin-left: 2em;}
+.typo li ul, .typo-ul ul, .typo-ol ul {list-style: circle;}
+
+/* 同 ul/ol，在文章中应用 table 基本格式 */
+.typo table th, .typo table td, .typo-table th, .typo-table td , .typo table caption{border: 1px solid #ddd;padding: 5px 10px;}
+.typo table th, .typo-table th {background: #fbfbfb;}
+.typo table thead th, .typo-table thead th {background: #f1f1f1;}
+.typo table caption{border-bottom:none;font-weight:800;}
+
+.typo dt, .typo-dl dt{font-weight:800;}
+.typo dd, .typo-dl dd{color:#999;}
+
+/* 去除 webkit 中 input 和 textarea 的默认样式  */
+.typo-input, .typo-textarea{-webkit-appearance:none;border-radius:0;}
+.typo-em, .typo em , legend{font-weight: 700;}
+
+/* 高亮选中 */
+::-moz-selection {background:#08c;color:#fff;}
+::selection {background:#08c;color:#fff;}
+
+/* Placeholder Color */
+::-moz-placeholder {color: #aaa;}
+::-webkit-input-placeholder {color: #aaa;}
+::-ms-input-placeholder {color:#aaa;}
+
+:focus{outline:none;}
+
+/* 强制文本换行 */
+.textwrap, .textwrap td, .textwrap th{word-wrap:break-word;word-break:break-all;}
+.textwrap-table{table-layout:fixed;}
+
+/* 下边距，Grid 已经有左右边距 */
+.sep {margin-bottom:1em;}
+.sep-big {margin-bottom:2em;}
+.required, .highlight{color:#ec5524!important;}
+
+/* input */
+textarea{resize:none;min-height:100px;}
+label input{margin-right:3px;}
+
+.input{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;height:32px;*height:28px;vertical-align:middle;}
+.input{border:2px solid #ddd;background:#fff;padding:3px 5px;*padding:0;}
+.input:focus, input.focus{border-color:#51b4ff;background:#fff;}
+.input.error, input.error, .error .input{border-color:#ec5524;}
+textarea.input{/*-moz-box-sizing:inherit;-webkit-box-sizing:inherit;box-sizing:inherit;*/height:auto;vertical-align:text-top;}
+
+/* hack for lte ie8 radio */
+.form-radio{vertical-align:baseline!important;}
+
+form label{display:inline-block;margin-right:8px;}
+form .input{margin-right:5px;}
+
+.label{display:block;margin-bottom:1em;}
+
+.input-big{height:28px;padding:0 10px;line-height:28px;}
+.input-50, .input-smallest{width:50px;}
+.input-90, .input-smaller{width:90px;}
+.input-110, .input-small{width:110px;}
+.input-150, .input-medium, .input-6{width:150px;}
+.input-230, .input-large{width:230px;}
+.input-400, .input-larger, .input-60{width:400px;}
+.input-600, .input-largest{width:600px;}
+
+/* Utilities from bootstrap */
+.hide-text{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0;}
+.input-block-level{display:block;width:100%;min-height:30px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+.close{float:right;font-size:20px;font-weight:bold;line-height:20px;color:#000000;text-shadow:0 1px 0 #ffffff;opacity:0.2;filter:alpha(opacity=20);}.close:hover,.close:focus{color:#000000;text-decoration:none;cursor:pointer;opacity:0.4;filter:alpha(opacity=40);}
+button.close{padding:0;cursor:pointer;background:transparent;border:0;-webkit-appearance:none;}
+.pull-right{float:right;}
+.pull-left{float:left;}
+.hide{display:none;}
+.show{display:block;}
+.invisible{visibility:hidden;}
+.affix{position:fixed;top:0;}
+.fade{opacity:0;-webkit-transition:opacity 0.15s linear;-moz-transition:opacity 0.15s linear;-o-transition:opacity 0.15s linear;transition:opacity 0.15s linear;}
+.in, .fade.in{opacity:1;}
+.collapse{position:relative;height:0;overflow:hidden;-webkit-transition:height 0.35s ease;-moz-transition:height 0.35s ease;-o-transition:height 0.35s ease;transition:height 0.35s ease;}
+.collapse.in, .in{height:auto;}
+
+/* list
+ * author: linjianfeng@baixing.com
+ */
+.list{border:1px solid #f3f2f1;border-top:none;background:#fff;color:#333;}
+.list-item{position:relative;display:inline-block;_display:inline;width:100%;}
+.list-item a{display:block;padding:10px 15px;*zoom:1;border-top:1px solid #f3f2f1;color:#333;line-height:1.1;}
+.list-item a:hover, .list .active a{background:#ec5524;text-decoration:none;color:#fff;}
+.list-item a:hover{background:#ff7744;}
+.list-item-badge {display:inline-block;color:#fff;position:absolute;right:15px;top:11px;line-height:16px;height:16px;background:#ec5524;border-radius:8px;padding:0 6px;font-size:12px;pointer-events:none;}
+.list-item:hover .list-item-badge, .list .active .list-item-badge{background:#fff;color:#ec5524;}
+
+
+/* Tab
+ * author: linjianfeng@baixing.com
+ */
+.tab{position:relative;}
+.tab-fix{position:absolute;right:0;top:3px;display:inline-block;z-index:10;}
+.tab-title{border-left:1px solid #f2f1ec;position:relative;z-index:2;}
+.tab-title-item{display:inline-block;float:left;height:32px;line-height:32px;border:1px solid #f2f1ec;border-left:none;border-bottom:none;*position:relative;z-index:1;background:#f2f1ec;*zoom:1;}
+.tab-title .active{z-index:2;margin-top:0;background:#fff;}
+.tab-title a{color:#333;padding:0 16px;line-height:32px;}
+.tab-title a:hover{text-decoration:none;}
+.tab-content{border:1px solid #f2f1ec;padding:10px 15px;position:relative;z-index:1;top:-1px;}
+.tab-content-pane{display:none;}
+.tab-content .active{display:block;}
+.tab-content-noborder{padding:10px 0;border:none;border-top:1px solid #f2f1ec;}
+
+.tab-vertical .tab-title{background:#f2f1ec;padding:10px 0;border-left:none;}
+.tab-vertical .tab-title-item, .tab-vertical .tab-content{border:none;}
+.tab-vertical .tab-title-item{float:none;display:block;width:100%;height:40px;}
+.tab-vertical .tab-title .active{background:#f9f9f9;}
+.tab-vertical .tab-title-item a{display:block;border-left:2px solid #f2f1ec;line-height:40px;}
+.tab-vertical .tab-title .active a{color:#27ae60;}
+.tab-vertical .tab-content{padding:10px 0;}
+
+/* Alert
+ * author: linjianfeng@baixing.com
+ */
+.alert {padding:10px 15px;margin-bottom:1em;background:#fcf8e3;color:#c09853;}
+.alert a{color:#963;}
+.alert-header{font-size:18px;color:inherit;vertical-align:middle;}
+.alert-ok{background:#dff0d8;color:#468847;}
+.alert-error{background:#f2dede;color:#b94a48;}
+.alert .close{padding-top:3px;}
+
+/* Modal 弹出框
+ * author: linjianfeng@baixing.com
+ */
+.modal{position:absolute;z-index:1002;box-shadow:1px 1px 2px 2px #888;background:#fff;width:600px;_overflow:hidden;}
+.modal-open{overflow:hidden;overflow-y:scroll;}
+.modal-title{height:42px;line-height:42px;padding:0 20px;font-size:16px;border-bottom:1px solid #ddd;}
+.modal-content{padding:15px 20px;}
+.modal .close{position:absolute;top:10px;right:20px;}
+.modal-backdrop{position:absolute;top:0;left:0;height:100%;width:100%;background:#111\9;filter:alpha(opacity=30)\9;background:rgba(18,18,18,0.3);z-index:1001;}
+.modal .button{margin-right:5px;}
+.modal-load .modal-content{background:url(http://s.baixing.net/img/style/loading.gif) no-repeat center center;}
+
+
+/* Head 顶部
+ * author: linjianfeng@baixing.com
+ */
+.head{background:#f2f1ec;height:52px;padding-top:20px;width:100%;}
+.head h1{width:280px;overflow:hidden;font-size:24px;line-height:55px;margin-top:-10px;background:url(http://s.baixing.net/img/style/logo_36.png) no-repeat 0 11px;}
+.head a{color:#333;}
+.head small a{color:#999;}
+.head .logo{padding-left:38px;}
+.head h1 a:hover{text-decoration:none;}
+.head .head-nav a, .head .head-nav{color:#333;font-size:18px;}
+.head-nav .icon-arrowRight{font-size:14px;padding-left:5px;color:#ec5524;}
+.head .head-nav{float:left;width:650px;}
+.head-nav small{font-size:inherit;color:#aaa;font-size:12px;}
+.head .head-nav small a{color:#888;}
+.head h1, .head .head-search{float:left;}
+.head-search .search{*float:left;}
+.head-search small{position:relative;top:-10px;left:10px;*top:5px;}
+
+.tag{color:#999!important;background:#f2f1ec;border-radius:2px;padding:2px 5px;font-size:12px;}
+.tag-green{background:#27ae60;color:#fff!important;}
+.tag:hover{text-decoration:none;}
+
+
+/* Search
+ * author: linjianfeng@baixing.com
+ */
+.search{position:relative;width:400px;height:28px;border:2px solid #ed5624;background:#fff;border-radius:1px;display:inline-block;_display:inline;_zoom:1;}
+.search .input{width:100%;*width:76%;*display:inline;overflow:hidden;padding-right:35px;height:28px;border:none;background:none;font-size:12px;position:absolute;top:0;*top:3px;}
+.search .icon-search{display:block;width:28px;padding-left:4px;background:#ed5624;line-height:28px;text-align:center;color:#fff;}
+.search .icon-search, .search-trigger{display:block;height:28px;position:absolute;right:0;top:0;}
+.search .search-trigger{width:28px;opacity:0;filter:alpha(opacity=0);}
+.search-short{width:176px;}
+.search-short input{*width:100px;}
+
+/* Button
+ * author: linjianfeng@baixing.com
+ */
+.button{display:inline-block;height:32px;line-height:32px;;padding:0 15px;background:#ec5524;color:#fff!important;border-radius:2px;cursor:pointer;}
+.button-grey{background:#666;}
+.button i{position:relative;top:1px;margin-right:5px;}
+.button:hover, .button-hover{text-decoration:none;background:#ff7744;}
+.button:active, .button-active{background:#cb4a1e;}
+.button:disabled, .button-disabled{background:#999;pointer-events:none;}
+
+input.button, button.button{border:none;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;padding:0 10px 2px;_height:28px;_line-height:28px;}
+
+.button-inline{
+    height:24px;
+    line-height:24px;
+    *overflow:hidden;
+    border-radius:0;
+    border:1px solid #dadada!important;
+    color:#888!important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#F0EFEB));
+    background: -moz-linear-gradient(top, #ffffff, #F0EFEB);
+    background: -o-linear-gradient(top, #ffffff, #F0EFEB);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#F0EFEB')
+    chroma(color=black);
+}
+.button-inline:hover, .button-inline-hover{
+    color:#999;
+    border:1px solid #c1c1c1;
+    background: -webkit-gradient(linear, left top, left bottom, from(#F0EFEB), to(#ffffff));
+    background: -moz-linear-gradient(top, #F0EFEB, #ffffff);
+    background: -o-linear-gradient(top, #F0EFEB, #ffffff);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F0EFEB', endColorstr='#ffffff')
+    chroma(color=black);
+}
+
+/* Media
+ * author: linjianfeng@baixing.com
+ */
+.media{border-bottom:1px solid #eee;padding:10px 0;}
+.media-hover{background:rgb(255, 255, 245);}
+.media-cap{width:64px;height:64px;overflow:hidden;display:block;margin-right:10px;float:left;background:#f8f8f8;border:1px solid #f2f1ec;}
+.media-cap img{width:64px;}
+.media-body{line-height:1.75;}
+.media-body-des{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.media-body a{color:#963;}
+.media-label{line-height:1;width:100px;white-space:nowrap;display:inline-block;text-overflow:ellipsis;overflow:hidden;}
+.media-body-title a{color:#333;}
+.media-body-title a:hover{color:#ec5524;}
+.media-body-title a:visited{color:#999;}
+
+.media-box{border:1px solid #eee;padding:0;min-height:64px;_height:64px;_zoom:1;}
+.media-box .media-cap{border:none;background:#2ecc71;color:#fff;text-align:center;margin-right:10px;height:auto;}
+.media-box .media-cap i{font-size:24px;text-align:center;line-height:64px;}
+.media-box .media-cap .icon-envelope{height:80px;line-height:80px;}
+.media-box .media-body{padding:10px 10px 10px 0;}
+.media-body p{line-height:30px}
+
+
+/* Pagenav
+ * author: linjianfeng@baixing.com
+ */
+.pagenav{margin:1em 0;}
+.pagenav a{color:#555;}
+.pagenav-cell{display:inline-block;background:#f2f1ec;padding:0 10px;height:28px;line-height:28px;margin-right: 0.3em;}
+.pagenav-cell-current{background:#999;pointer-events:none;color:#fff;}
+.pagenav .pagenav-cell-next{background:#ec5524;border-color:#4c8928;color:#fff;}
+.pagenav-cell:hover{background:#999;text-decoration:none;color:#fff;}
+.pagenav-cell-ellipsis{pointer-events:none;}
+.pagenav .pagenav-cell-next:hover{background:#ff7744;}
+
+
+
+/* Topbar 顶部导航
+ * author: linjianfeng@baixing.com
+ */
+#topbar{width:100%;display:table;background:#f2f1ec;height:28px;line-height:28px;font-size:12px;border-bottom: 1px solid #ddd;}
+.topbar{width:980px;margin:0 auto;position:relative;padding:0 10px;}
+.topbar, .topbar a, .topbar-right-text{color:#666;}
+.topbar a:hover{color:red;}
+.topbar .notice-count{display:inline-block;height:14px;line-height:14px;padding:0 5px;border-radius:7px;background:#ec5524;color:#fff;}
+.topbar .notice-count:hover{color:#ffc;text-decoration:none;background:#cb4a1e;}
+.topbar-right{position:absolute;right:0;top:0;_top:6px;color:#ddd;}
+.topbar-right a{padding:0 5px;}
+.topbar small{color:#ddd;}
+.topbar-mobile span{background:#f2f1ec;}
+.topbar i{position:relative;top:1px;display:inline-block;margin-right:3px;}
+.topbar-changecity{display:inline-block;margin:0 3px;}
+
+
+/*
+ * author: linjianfeng@baixing.com
+ */
+.box{border:1px solid #f2f1ec;}
+.box-title{height:32px;padding:0 15px;line-height:32px;background:#f2f1ec;}
+.box-body{padding:15px;}
+
+
+/* note
+ * author: linjianfeng@baixing.com
+ */
+.note{background:#f2f1ec;height:32px;padding-right:10px;line-height:32px;background:#f2f1ec;}
+.note-cap{background:#ec5524;color:#fff;display:inline-block;height:32px;width:32px;position:relative;top:0;text-align:center;line-height:32px!important;margin-right:10px;}
+.note small{position:relative;top:-2px;}
+
+/* flow
+ * author: linjianfeng@baixing.com
+ */
+#flow{width:100%;position:relative;top:-1em;}
+.flow{height:32px;line-height:32px;}
+.flow a{color:#963;}
+.flow-item{width:31%;display:block;float:left;margin-right:2%;border-bottom:2px solid #f2f1ec;font-size:14px;}
+.flow-item-current, .flow-item-done{color:#27ae60;border-bottom:2px solid #27ae60}
+.flow-item-last{margin-right:0;width:34%;*width:33%;}
+
+/* tooltip
+ * author: bootstrap
+ */
+.tooltip{position:absolute;z-index:1030;display:block;visibility:visible;font-size:11px;line-height:1.4;opacity:0;filter:alpha(opacity=0);}.tooltip.in{opacity:0.8;filter:alpha(opacity=80);}
+.tooltip-top{margin-top:-3px;padding:5px 0;}
+.tooltip-right{margin-left:3px;padding:0 5px;}
+.tooltip-bottom{margin-top:3px;padding:5px 0;}
+.tooltip-left{margin-left:-3px;padding:0 5px;}
+.tooltip-inner{_white-space:nowrap;max-width:200px;padding:8px;color:#ffffff;text-align:center;text-decoration:none;background-color:#000000;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}
+.tooltip-arrow{position:absolute;width:0;height:0;border-color:transparent;_border-color:pink;_filter:chroma(color=pink);border-style:solid;}
+.tooltip-top .tooltip-arrow{bottom:0;_bottom:-16px;left:50%;margin-left:-5px;border-width:5px 5px 0;border-top-color:#000000;}
+.tooltip-right .tooltip-arrow{top:50%;left:0;_display:none;margin-top:-5px;border-width:5px 5px 5px 0;border-right-color:#000000;}
+.tooltip-left .tooltip-arrow{top:50%;right:0;_display:none;margin-top:-5px;border-width:5px 0 5px 5px;border-left-color:#000000;}
+.tooltip-bottom .tooltip-arrow{top:0;_top:-15px;left:50%;margin-left:-5px;border-width:0 5px 5px;border-bottom-color:#000000;}
+
+/* dropdown
+ * author: bootstrap
+ */
+.dropup,.dropdown{position:relative;}
+.dropdown-toggle{*margin-bottom:-3px;}
+.dropdown-toggle:active,.open .dropdown-toggle{outline:0;}
+.caret{display:inline-block;width:0;height:0;vertical-align:top;border-top:4px solid #000000;border-right:4px solid transparent;border-left:4px solid transparent;content:"";}
+.dropdown .caret{margin-top:8px;margin-left:2px;}
+.dropdown-menu{display:none;position:absolute;top:100%;_top:1em;left:0;z-index:1000;display:none;float:left;min-width:160px;padding:5px 0;margin:2px 0 0;list-style:none;background-color:#ffffff;border:1px solid #f2f1ec;border-right-width:2px;border-bottom-width:2px;-webkit-background-clip:padding-box;-moz-background-clip:padding;background-clip:padding-box;}
+.dropdown-menu.pull-right{right:0;left:auto;}
+.dropdown-menu .divider{*width:100%;height:1px;margin:9px 1px;*margin:-5px 0 5px;overflow:hidden;background-color:#e5e5e5;border-bottom:1px solid #ffffff;}
+.dropdown-menu li a{display:block;padding:3px 20px;clear:both;font-weight:normal;line-height:20px;color:#333333;white-space:nowrap;}
+.dropdown-menu li a:hover,.dropdown-menu li a:focus,.dropdown-submenu:hover a,.dropdown-submenu:focus a{text-decoration:none;color:#ffffff;background-color:#0081c2;background-image:-moz-linear-gradient(top, #0088cc, #0077b3);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0077b3));background-image:-webkit-linear-gradient(top, #0088cc, #0077b3);background-image:-o-linear-gradient(top, #0088cc, #0077b3);background-image:linear-gradient(to bottom, #0088cc, #0077b3);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);}
+.dropdown-menu .active a,.dropdown-menu .active a:hover,.dropdown-menu .active a:focus{color:#ffffff;text-decoration:none;outline:0;background-color:#0081c2;background-image:-moz-linear-gradient(top, #0088cc, #0077b3);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0077b3));background-image:-webkit-linear-gradient(top, #0088cc, #0077b3);background-image:-o-linear-gradient(top, #0088cc, #0077b3);background-image:linear-gradient(to bottom, #0088cc, #0077b3);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);}
+.dropdown-menu .disabled a,.dropdown-menu .disabled a:hover,.dropdown-menu .disabled a:focus{color:#999999;}
+.dropdown-menu .disabled a:hover,.dropdown-menu .disabled a:focus{text-decoration:none;background-color:transparent;background-image:none;filter:progid:DXImageTransform.Microsoft.gradient(enabled = false);cursor:default;}
+.open{*z-index:1000;}
+.open .dropdown-menu{display:block;}
+.dropdown-backdrop{position:fixed;left:0;right:0;bottom:0;top:0;z-index:990;}
+.pull-right .dropdown-menu{right:0;left:auto;}
+.dropup .caret,.navbar-fixed-bottom .dropdown .caret{border-top:0;border-bottom:4px solid #000000;content:"";}
+.dropup .dropdown-menu,.navbar-fixed-bottom .dropdown .dropdown-menu{top:auto;bottom:100%;margin-bottom:1px;}
+.dropdown-submenu{position:relative;}
+.dropdown-submenu .dropdown-menu{top:0;left:100%;margin-top:-6px;margin-left:-1px;}
+.dropdown-submenu:hover .dropdown-menu{display:block;}
+.dropup .dropdown-submenu .dropdown-menu{top:auto;bottom:0;margin-top:0;margin-bottom:-2px}
+.dropdown-submenu a:after{display:block;content:" ";float:right;width:0;height:0;border-color:transparent;border-style:solid;border-width:5px 0 5px 5px;border-left-color:#cccccc;margin-top:5px;margin-right:-10px;}
+.dropdown-submenu:hover a:after{border-left-color:#ffffff;}
+.dropdown-submenu.pull-left{float:none;}.dropdown-submenu.pull-left .dropdown-menu{left:-100%;margin-left:10px;}
+.dropdown .dropdown-menu .nav-header{padding-left:20px;padding-right:20px;}
