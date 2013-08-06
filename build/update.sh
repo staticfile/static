@@ -4,8 +4,8 @@ echo "- Update git"
 git pull
 git submodule update
 echo "- Update dist"
-cp -rn ref-cdnjs/ajax/libs/* dist/
-cp -rn libs/* dist/
+cp -ru ref-cdnjs/ajax/libs/* dist/
+cp -ru libs/* dist/
 echo "- Build packages.json"
 node build/build.js ./dist
 if [ ! -z $1 ]; then
