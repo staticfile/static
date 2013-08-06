@@ -1,17 +1,15 @@
 var glob = require("glob")
   , natcompare = require("./natcompare")
   , fs = require('fs')
-  , async = require('async')
 
-var tasks = {};
+if (!process.argv[2]) {
+  console.log('[Usage] node build/build.js <dir>');
+  process.exit();
+}
 
-['cdnjs', 'libs'].forEach(function (lib) {
-  tasks[lib] = function (callback) {
-    listPackages(lib, callback)
-  }
-});
+var dir = process.argv[2];
 
-async.parallel(tasks, function (err, results) {
+listPackages(dir, function (err, results) {
   var packages = [];
   Object.keys(results).forEach(function (key) {
     packages = packages.concat(results[key]);
