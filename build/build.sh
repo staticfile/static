@@ -13,9 +13,9 @@ else
 fi
 
 echo "- Build packages.json"
-node build/build.js ./dist
+node build/build.js ./dist ./dist
 if [ ! -z $1 ]; then
     echo "- Copy packages.json to $1"
-    cp packages.json $1
+    cp ./dist/packages.json $1
 fi
 echo "- Build ok!"
