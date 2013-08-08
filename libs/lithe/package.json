@@ -1,0 +1,26 @@
+{
+  "name": "lithe",
+  "filename":"lithe.js",
+  "homepage":"http://xiaojue.github.io/lithe",
+  "version": "0.1.8",
+  "author": {
+    "name": "xiaojue",
+    "email": "designsor@gmail.com",
+    "url": "http://tuer.me/user/profile/designsor"
+  },
+  "description": "a javascript common loader",
+  "keywords": [
+    "javascript loader",
+    "commonjs cmd loader"
+  ],
+  "main": "./lithe.js",
+  "dependencies": {
+    "uglify-js": "1.3.4",
+    "optimist":"0.3.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiaojue/lithe.git"
+  },
+  "license": "BSD"
+}
