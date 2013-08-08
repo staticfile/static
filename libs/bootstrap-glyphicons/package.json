@@ -1,0 +1,22 @@
+{
+    "name": "bootstrap-glyphicons",
+    "filename": "bootstrap-glyphicons.css",
+    "version": "1.0",
+    "description": "Icon font for use with Bootstrap, based on Glyphicons.",
+    "homepage": "http://glyphicons.getbootstrap.com",
+    "keywords": [
+       "bootstrap", "css", "icons"
+   ],
+   "maintainers": [
+       {
+           "name": "Mark Otto",
+           "web": "http://markdotto.com" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/twbs/bootstrap-glyphicons.git"
+        }
+   ]
+}
