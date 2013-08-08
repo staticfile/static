@@ -3,21 +3,25 @@
   "filename": "eventproxy.js",
   "description": "An implementation of task/event based asynchronous pattern.",
   "homepage": "https://github.com/JacksonTian/eventproxy",
+  "version": "0.2.5",
   "keywords": [
     "event",
     "task-base",
     "event machine",
     "nested callback terminator"
   ],
-  "author": "Jackson Tian <shyvo1987@gmail.com>",
   "maintainers": [
-    {"Jackson Tian": "shyvo1987@gmail.com"},
-    {"fengmk2": "fengmk2@gmail.com"}
+    {
+      "name": "Jackson Tian",
+      "mail": "shyvo1987@gmail.com"
+    },
+    {
+      "name": "fengmk2",
+      "mail": "fengmk2@gmail.com"
+    }
   ],
-  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "git://github.com/JacksonTian/eventproxy.git"
-  },
-  "version": "0.2.5"
+  }
 }
