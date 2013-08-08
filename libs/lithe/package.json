@@ -1,0 +1,22 @@
+{
+    "name": "lithe",
+    "filename":"lithe.js",
+    "version": "0.1.8",
+    "description": "a javascript common loader",
+    "homepage":"http://xiaojue.github.io/lithe",
+    "keywords": [
+        "javascript loader","commonjs cmd loader"
+    ],
+    "maintainers": [
+        {
+            "name": "xiaojue",
+            "web": "http://tuer.me/user/profile/designsor"
+        }
+    ],
+    "repositories":[
+        {
+            "type": "git",
+            "url": "https://github.com/xiaojue/lithe.git"
+        }
+    ]
+}
