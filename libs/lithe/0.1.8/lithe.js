@@ -1,7 +1,7 @@
 /**
 * @author xiaojue[designsor@gmail.com]
 * @fileoverview lithe main file
-* @version 0.1.2
+* @version 0.1.8
 */
 (function(global, undef) {
 
