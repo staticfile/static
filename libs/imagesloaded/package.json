@@ -1,0 +1,25 @@
+{
+    "name": "imagesloaded",
+    "filename": "imagesloaded.pkgd.js",
+    "version": "3.0.4",
+
+    "description": "JavaScript is all like \"You images are done yet or what?\"",
+    "homepage": "http://desandro.github.io",
+    "keywords": [],
+    "maintainers": [
+       {
+           "name": "David DeSandro",
+           "web": "http://desandro.com"
+       },
+       {
+           "name": "Tomas Sardyha",
+           "web": "http://darsa.in"
+       }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/desandro/imagesloaded"
+        }
+    ]
+}
