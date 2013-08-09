@@ -1,6 +1,6 @@
 {
     "name": "bootstrap-glyphicons",
-    "filename": "bootstrap-glyphicons.css",
+    "filename": "css/bootstrap-glyphicons.css",
     "version": "1.0",
     "description": "Icon font for use with Bootstrap, based on Glyphicons.",
     "homepage": "http://glyphicons.getbootstrap.com",
