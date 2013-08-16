@@ -1,0 +1,21 @@
+{
+    "name": "respond.js",
+    "filename": "respond.min.js",
+    "description": "让IE8以下浏览器支持Media Query",
+    "homepage": "https://scottjehl.com",
+    "keywords": [
+       "respond", "js"
+   ],
+   "maintainers": [
+       {
+           "name": "Scott Jehl",
+           "web": "https://scottjehl.com" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/scottjehl/Respond"
+        }
+   ]
+}
