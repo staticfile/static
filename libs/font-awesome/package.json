@@ -1,0 +1,22 @@
+{
+    "name": "Font Awesome",
+    "filename": "font-awesome.css",
+    "version": "3.2.1",
+    "description": "The iconic font designed for Bootstrap",
+    "homepage": "http://fontawesome.io/",
+    "keywords": [
+       "Font Awesome"
+   ],
+   "maintainers": [
+       {
+           "name": "Dave Gandy",
+           "web": "http://twitter.com/davegandy" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/FortAwesome/Font-Awesome"
+        }
+   ]
+}
