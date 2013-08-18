@@ -1,0 +1,23 @@
+{
+  "name": "behave.js",
+  "filename": "behave.js",
+  "version": "1.5.0",
+
+  "description": "A lightweight, cross browser library for adding IDE style behaviors to plain text areas",
+  "homepage": "https://github.com/jakiestfu/Behave.js",
+  "keywords": [
+    "editor", "textarea"
+  ],
+  "maintainers": [
+    {
+      "name": "jakiestfu",
+      "web": "https://github.com/jakiestfu"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/jakiestfu/Snap.js"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "snap.js",
+  "filename": "snap.min.js",
+  "version": "1.9.0",
+
+  "description": "A Library for creating beautiful mobile shelfs in Javascript (Facebook and Path style side menus)",
+  "homepage": "http://jakiestfu.github.io/Snap.js/",
+  "keywords": [
+    "editor",
+    "textarea"
+  ],
+  "maintainers": [
+    {
+      "name": "jakiestfu",
+      "web": "https://github.com/jakiestfu"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/jakiestfu/Snap.js"
+    }
+  ]
+}
