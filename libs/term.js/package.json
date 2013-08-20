@@ -1,0 +1,22 @@
+{
+    "name": "term.js",
+    "filename": "term.js",
+    "version": "0.0.2",
+    "description": "A full xterm clone written in javascript.",
+    "homepage": "https://github.com/chjj/term.js",
+    "keywords": [
+       "typo", "css"
+   ],
+   "maintainers": [
+       {
+           "name": "Christopher Jeffrey",
+           "web": "https://github.com/chjj/term.js" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/chjj/term.js"
+        }
+   ]
+}
