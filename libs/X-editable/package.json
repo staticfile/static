@@ -1,0 +1,25 @@
+{
+  "name": "X-editable",
+  "filename": "bootstrap-editable.min.js",
+  "version": "1.4.5",
+
+  "description": "This library allows you to create editable elements on your page. It can be used with any engine (bootstrap, jquery-ui, jquery only) and includes both popup and inline modes. ",
+  "homepage": "http://vitalets.github.io/x-editable/",
+  "keywords": [
+    "x-editable",
+    "editable",
+    "bootstrap"
+  ],
+  "maintainers": [
+    {
+      "name": "vitalets",
+      "web": "https://github.com/vitalets"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/vitalets/x-editable"
+    }
+  ]
+}
