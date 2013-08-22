@@ -1,0 +1,23 @@
+{
+  "name": "Lazy Load Plugin for jQuery",
+  "filename": "jquery.lazyload.min.js",
+  "version": "1.8.5",
+
+  "description": "Lazy Load delays loading of images in long web pages. ",
+  "homepage": "http://www.appelsiini.net/projects/lazyload",
+  "keywords": [
+    "lazyload"
+  ],
+  "maintainers": [
+    {
+      "name": "tuupola",
+      "web": "https://github.com/tuupola"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/tuupola/jquery_lazyload"
+    }
+  ]
+}
