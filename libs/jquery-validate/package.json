@@ -1,0 +1,25 @@
+{
+  "name": "jQuery Validation Plugin",
+  "filename": "additional-methods.min.js",
+  "version": "1.11.1",
+
+  "description": "The jQuery Validation Plugin provides drop-in validation for your existing forms, while making all kinds of customizations to fit your application really easy. ",
+  "homepage": "http://jqueryvalidation.org/",
+  "keywords": [
+    "Validation",
+    "validate",
+    "validator"
+  ],
+  "maintainers": [
+    {
+      "name": "jzaefferer",
+      "web": "https://github.com/jzaefferer"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/jzaefferer/jquery-validation"
+    }
+  ]
+}
