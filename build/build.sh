@@ -1,10 +1,8 @@
 #!/bin/bash
 
-platform=`uname`
-
 echo "- Update dist"
 mkdir -p dist/
-if [ "$platform" == "Linux" ];then
+if [ "$1" == "-f" ];then
     cp -ru ref-cdnjs/ajax/libs/* dist/
     cp -ru libs/* dist/
 else
