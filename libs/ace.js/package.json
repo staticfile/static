@@ -1,0 +1,22 @@
+{
+    "name": "ace.js",
+    "filename": "ace.js",
+    "version": "v1.1.01",
+    "description": "Ace is a standalone code editor written in JavaScript",
+    "homepage": "http://ace.c9.io",
+    "keywords": [
+       "editor", "code"
+   ],
+   "maintainers": [
+       {
+           "name": "ajaxorg",
+           "web": "http://www.ajax.org" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/ajaxorg/ace"
+        }
+   ]
+}
