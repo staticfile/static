@@ -2,13 +2,8 @@
 
 echo "- Update dist"
 mkdir -p dist/
-if [ "$1" == "-f" ];then
-    cp -ru ref-cdnjs/ajax/libs/* dist/
-    cp -ru libs/* dist/
-else
-    cp -rn ref-cdnjs/ajax/libs/* dist/
-    cp -rn libs/* dist/
-fi
+cp -ru ref-cdnjs/ajax/libs/* dist/
+cp -ru libs/* dist/
 
 echo "- Build packages.json"
 node build/build.js ./dist ./dist
