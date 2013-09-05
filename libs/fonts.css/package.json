@@ -1,0 +1,21 @@
+{
+  "name": "fonts.css",
+  "filename": "fonts.css",
+  "version": "1.0.0",
+  "description": "这个库打包了一些常见字体的名字，希望能覆盖 Windows、Mac 以及 Linux 的常见字体，方便引用。",
+  "homepage": "https://github.com/zenozeng/fonts.css",
+  "keywords": ["fonts"],
+  "maintainers": [
+    {
+      "name": "Zeno Zeng",
+      "web": "http://zenoes.com",
+      "mail": "zenoofzeng@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/zenozeng/fonts.css"
+    }
+  ]
+}
