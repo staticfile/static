@@ -1,0 +1,22 @@
+{
+    "name": "video.js",
+    "filename": "video.js",
+    "version": "4.1.0",
+    "description": "Open source HTML5 & Flash video player",
+    "homepage": "http://www.videojs.com/",
+    "keywords": [
+       "video.js"
+   ],
+   "maintainers": [
+       {
+           "name": "videojs",
+           "web": "http://www.videojs.com/" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/videojs/video.js.git"
+        }
+   ]
+}
