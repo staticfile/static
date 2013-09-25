@@ -1,0 +1,23 @@
+{
+  "name": "Chart.js",
+  "filename": "Chart.min.js",
+  "version": "0.2.0",
+  "description": "Simple HTML5 Charts using the canvas element.",
+  "homepage": "http://www.chartjs.org/",
+  "keywords": [
+    "Chart.js","charts"
+  ],
+  "maintainers": [
+    {
+      "name": "nnnick",
+      "web": "http://www.nickdownie.com/",
+      "mail": "hello@nickdownie.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/nnnick/Chart.js"
+    }
+  ]
+}
