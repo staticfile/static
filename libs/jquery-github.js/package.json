@@ -1,0 +1,31 @@
+{
+	"name": "jquery.github",
+	"title": "jQuery Github Widget",
+	"description": "A simple github widget for embeding in a page, displays an arbitrary number of your most recently active repositories.",
+	"version": "0.1.1",
+	"homepage": "https://github.com/JoePettersson/jquery-github-widget",
+	"author": {
+		"name": "Joe Pettersson",
+		"url": "http://joepettersson.com/"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/JoePettersson/jquery-github-widget.git"
+	},
+	"bugs": {
+		"url": "https://github.com/JoePettersson/jquery-github-widget/issues"
+	},
+	"devDependencies": {
+		"grunt": ">= 0.3.12"
+		, "grunt-jasmine-task": ">= 0.2.2"
+		, "grunt-css": ">= 0.2.1"
+		, "temporary": ">= 0.0.4"
+	},
+	"dependencies": {
+		"jquery": ">= 1.5.0"
+	},
+	"scripts": {
+		"test": "grunt"
+	},
+	"keywords": ["github", "jquery"]
+}
