@@ -1,0 +1,23 @@
+{
+  "name": "bootswatch",
+  "filename": "bootswatch",
+  "version": "3.0.0",
+
+  "description": "Bootswatch is a collection of free themes for Bootstrap. Check it out at bootswatch.com.",
+  "homepage": "http://bootswatch.com/",
+  "keywords": [
+    "UI", "Bootstrap","theme"
+  ],
+  "maintainers": [
+    {
+      "name": "thomaspark",
+      "web": "https://github.com/thomaspark"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/thomaspark/bootswatch/"
+    }
+  ]
+}
