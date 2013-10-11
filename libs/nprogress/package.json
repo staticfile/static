@@ -1,0 +1,22 @@
+{
+  "name": "nprogress",
+  "filename": "nprogress.js",
+
+  "description": "A nanoscopic progress bar. Featuring realistic trickle animations to convince your users that something is happening!",
+  "homepage": "http://ricostacruz.com/nprogress/",
+  "keywords": ["progress bar", "UI"],
+
+  "maintainers": [
+    {
+      "name": "Rico Sta. Cruz",
+      "mail": "hi@ricostacruz.com"
+    }
+  ],
+
+  "version": "0.1.2",
+  "repository": {
+     "type": "git",
+     "url": "https://github.com/rstacruz/nprogress.git"
+  },
+  "license": "MIT"
+}
