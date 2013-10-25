@@ -5,7 +5,7 @@
     "description": "Open source HTML5 & Flash video player",
     "homepage": "http://www.videojs.com/",
     "keywords": [
-       "video.js"
+       "video", "js"
    ],
    "maintainers": [
        {
