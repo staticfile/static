@@ -1,0 +1,24 @@
+{
+  "name": "sequence.js",
+  "filename": "jquery.sequence.js",
+  "version": "1.0.1.1",
+
+  "description": "The Responsive Slider with Advanced CSS3 Transitions",
+  "homepage": "http://www.sequencejs.com/",
+  "keywords": [
+    "slider",
+    "responsive"
+  ],
+  "maintainers": [
+    {
+      "name": "Ian Lunn",
+      "web": "https://github.com/IanLunn/Sequence"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/IanLunn/Sequence"
+    }
+  ]
+}
