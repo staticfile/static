@@ -1,0 +1,33 @@
+{
+  "name": "thenjs",
+  "description": "Another very small asynchronous promise tool!",
+  "author": {
+    "name": "zensh"
+  },
+  "version": "0.9.5",
+  "main": "then.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/teambition/then.js"
+  },
+  "homepage": "https://github.com/teambition/then.js",
+  "keywords": [
+    "promise",
+    "then"
+  ],
+  "tags": [
+    "promise",
+    "then"
+  ],
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-coffee": "~0.4.0",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-nodeunit": "~0.2.2"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
