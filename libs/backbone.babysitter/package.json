@@ -1,0 +1,22 @@
+{
+    "name": "backbone.babysitter",
+    "filename": "backbone.babysitter.js",
+    "version": "v0.0.6",
+    "description": "Manage child views in a Backbone.View.",
+    "homepage": "http://marionettejs.com",
+    "keywords": [
+       "backbone", "babysitter", "marionette"
+   ],
+   "maintainers": [
+       {
+           "name": "marionettejs",
+           "web": "http://marionettejs.com" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/marionettejs/backbone.babysitter"
+        }
+   ]
+}
