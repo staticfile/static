@@ -1,5 +1,5 @@
 {
-    "name": "Date Format"
+    "name": "Date Format",
     "filename": "date.format.js",
     "version": "1.2.3",
     "description": "Accepts a date, a mask, or a date and a mask.  Returns a formatted version of the given date.",
