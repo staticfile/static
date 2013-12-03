@@ -1,0 +1,23 @@
+{
+  "name": "thenjs",
+  "main": "then.js",
+  "version": "0.9.5",
+  "homepage": "https://github.com/teambition/then.js",
+  "authors": [
+    "Yan Qing <admin@zensh.com>"
+  ],
+  "description": "Another very small asynchronous promise tool!",
+  "keywords": [
+    "promise",
+    "then",
+    "async"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
