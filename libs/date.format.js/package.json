@@ -1,0 +1,22 @@
+{
+    "name": "Date Format",
+    "filename": "date.format.js",
+    "version": "1.2.3",
+    "description": "Accepts a date, a mask, or a date and a mask.  Returns a formatted version of the given date.",
+    "homepage": "http://blog.stevenlevithan.com/archives/date-time-format",
+    "keywords": [
+       "dateformat"
+   ],
+   "maintainers": [
+       {
+           "name": "Steven Levithan",
+           "web": "https://github.com/slevithan" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "none",
+            "url": "http://stevenlevithan.com/assets/misc/date.format.js"
+        }
+   ]
+}

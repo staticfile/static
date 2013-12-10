@@ -1,0 +1,22 @@
+{
+  "name": "MinDB",
+  "filename": "min.js",
+  "version": "0.0.2",
+
+  "description": "Database on JavaScript",
+  "homepage": "http://github.com/iwillwen/mindb",
+  "keywords": [ "html5", "database", "data modeling" ],
+  "maintainers": [
+    {
+      "name": "iwillwen",
+      "web": "http://lifemap.in",
+      "mail": "willwengunn@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/iwillwen/mindb"
+    }
+  ]
+}

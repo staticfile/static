@@ -1,0 +1,19 @@
+{
+  "name": "opentip",
+  "filename":"opentip-jquery.min.js",
+  "version": "2.0",
+  "description":"漂亮的tooltips组件",
+  "homepage": "http://www.opentip.org/",
+  "keywords":["opentip","tooltips"],
+  "maintainers": [
+    {
+      "name": "Matias Meno",
+      "web": "https://github.com/enyo",
+      "mail": "m@tias.me"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/enyo/opentip"
+  }
+}

@@ -5,7 +5,7 @@
     "description": "A full xterm clone written in javascript.",
     "homepage": "https://github.com/chjj/term.js",
     "keywords": [
-       "typo", "css"
+       "term"
    ],
    "maintainers": [
        {
