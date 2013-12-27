@@ -5,7 +5,7 @@
     "description": "OSMF + Flex based flash video player, which provides most needed functionality in nowadays.",
     "homepage": "http://osmfhls.kutu.ru/docs/grind/",
     "keywords": [
-       "seajs", "video", "audio", "flash", "osmf", "player"
+       "video", "audio", "flash", "osmf", "player"
    ],
    "maintainers": [
        {
