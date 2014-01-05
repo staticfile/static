@@ -1,7 +1,7 @@
 {
   "name": "MinDB",
   "filename": "min.js",
-  "version": "0.0.2",
+  "version": "0.0.3",
 
   "description": "Database on JavaScript",
   "homepage": "http://github.com/iwillwen/mindb",
