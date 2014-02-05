@@ -1,0 +1,22 @@
+{
+    "name": "swffit.js",
+    "filename": "swffit.js",
+    "version": "2.4",
+    "description": "swffit is a smart script that resizes your flash automatically if your browser window size is smaller or greater than your flash minimum desired size keeping it accessible independent of screen resolution.",
+    "homepage": "http://swffit.millermedeiros.com/",
+    "keywords": [
+       "swffit", "js"
+   ],
+   "maintainers": [
+       {
+           "name": "Miller Medeiros",
+           "web": "http://www.millermedeiros.com/"
+       }
+   ],
+   "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/millermedeiros/swffit.git"
+        }
+   ]
+}
