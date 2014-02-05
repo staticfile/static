@@ -1,0 +1,10 @@
+{
+    "name": "jquery.uploadify",
+    "filename": "jquery.uploadify",
+    "version": "3.2.1",
+    "description": "Flash-Based Multiple File Uploader.",
+    "homepage": "http://www.uploadify.com",
+    "keywords": [
+       "uploadify", "upload", "jqueryplugin"
+   ]
+}
