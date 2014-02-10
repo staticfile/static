@@ -1,0 +1,24 @@
+{
+    "name": "cssrefresh.js",
+    "filename": "cssrefresh.js",
+    "version": "1.0.2",
+    "description": "Automatically refresh CSS files",
+    "homepage": "http://cssrefresh.frebsite.nl/",
+    "keywords": [
+       "cssrefresh",
+       "refresh",
+       "liveload"
+    ],
+    "maintainers": [
+       {
+           "name": "wangwen1220",
+           "web": "http://wangwen1220.github.com/"
+       }
+    ],
+    "repositories": [
+       {
+           "type": "git",
+           "url": "https://github.com/wangwen1220/cssrefresh/"
+       }
+    ]
+}
