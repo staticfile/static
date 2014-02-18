@@ -1,0 +1,18 @@
+{
+  "author": "fengmk2 <fengmk2@gmail.com> (http://fengmk2.github.com/)",
+  "name": "emoji",
+  "filename": "emoji.js",
+  "description": "This library allows the handling and conversion of Emoji in Javascript.",
+  "version": "0.2.2",
+  "homepage": "https://github.com/fengmk2/emoji",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fengmk2/emoji.git"
+  },
+  "maintainers": [
+    {
+    "name": "fengmk2",
+    "email": "fengmk2@gmail.com"
+    }
+  ]
+}
