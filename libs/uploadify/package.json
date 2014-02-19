@@ -6,5 +6,11 @@
     "homepage": "http://www.uploadify.com",
     "keywords": [
        "uploadify", "upload", "jqueryplugin"
+   ],
+   "maintainers": [
+       {
+           "name": "Ronnie Garcia",
+           "web": "http://www.uploadify.com" 
+       }
    ]
 }
