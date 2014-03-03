@@ -2,7 +2,7 @@
     "name": "Plupload",
     "filename": "plupload.full.min.js",
     "version": "2.1.1",
-    "description": "一个国外流行的上传插件，可通过html5、flash、html4 等方式上传文件",
+    "description": "一个流行的上传插件，可通过html5、flash、html4 等方式上传文件",
     "homepage": "http://www.plupload.com/",
     "keywords": [
         "plupload", "Upload in Chunks", "Drag'n'Drop", "Upload in HTML5"
