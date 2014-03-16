@@ -1,0 +1,23 @@
+{
+    "name": "jquery-fullPage",
+    "filename": "jquery.fullPage.js",
+    "version": "1.7.5",
+    "description": "A simple and easy to use plugin to create fullscreen scrolling websites (also known as single page websites). It allows the creation of fullscreen scrolling websites, as well as adding some landscape sliders inside the sections of the site.",
+    "homepage": "https://github.com/alvarotrigo/fullPage.js",
+    "keywords": [
+        "jQuery", "fullPage"
+    ],
+    "maintainers": [
+        {
+            "name": "Alvaro Trigo",
+            "web": "https://github.com/alvarotrigo/fullPage.js",
+            "mail": "alvaro@alvarotrigo.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/alvarotrigo/fullPage.js"
+        }
+    ]
+}
