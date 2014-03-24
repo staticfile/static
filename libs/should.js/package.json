@@ -1,0 +1,22 @@
+{
+    "name": "should.js",
+    "filename": "should.js",
+    "version": "3.1.4",
+    "description": "BDD风格的assertion库",
+    "homepage": "https://github.com/visionmedia/should.js/",
+    "keywords": [
+       "should", "js"
+   ],
+   "maintainers": [
+       {
+           "name": "visionmedia",
+           "web": "https://github.com/visionmedia" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/visionmedia/should.js/"
+        }
+   ]
+}
