@@ -1,0 +1,22 @@
+{
+    "name": "comic-sans-replacer",
+    "filename": "userContent.css",
+    "version": "1.1",
+    "description": "Comic Sans Replacer with Comic Neue web font",
+    "homepage": "https://github.com/niutech/comic-sans-replacer",
+    "keywords": [
+       "comic", "sans", "ms", "neue", "webfont", "web", "font"
+   ],
+   "maintainers": [
+       {
+           "name": "niu tech",
+           "web": "http://niute.ch" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/niutech/comic-sans-replacer"
+        }
+   ]
+}
