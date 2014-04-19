@@ -1,0 +1,15 @@
+{
+    "name": "hbalqc"
+  , "filename": "1.css"
+  , "description": "css"
+  , "version": "1.0"
+  , "homepage": "https://github.com/guogewo/theone"
+  , "maintainers": [{
+       "name": "hbalqc",
+       "web": "http://cdn.hbalqc.com"
+  }]
+  , "repository": [{
+        "type": "git"
+      , "url": "https://github.com/guogewo/theone.git"
+  }]
+}
