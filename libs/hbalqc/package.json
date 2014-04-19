@@ -1,0 +1,17 @@
+{
+  "name": "staticfile",
+  "version": "0.1.0",
+  "homepage": "http://staticfile.org/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/staticfile/static.git"
+  },
+  "scripts": {
+    "build": "./bin/build.js"
+  },
+  "dependencies": {
+    "underscore": "~1.4.4",
+    "glob": "3.2.6",
+    "async": "0.2.9"
+  }
+}
