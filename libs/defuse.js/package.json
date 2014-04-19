@@ -1,0 +1,27 @@
+{
+  "name": "defuse.js",
+  "filename": "defuse.min.js",
+  "version": "1.0.0",
+
+  "description": "define it, then use it.",
+  "main": "defuse.js",
+  "maintainers": [
+    {
+      "name": "Towry Wang",
+      "web": "http://github.com/towry/defuse.js",
+      "mail": "tovvry@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/towry/defuse.js"
+  },
+  "keywords": [
+    "module",
+    "loader"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/towry/defuse.js/issues"
+  }
+}
