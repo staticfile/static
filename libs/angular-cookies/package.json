@@ -1,0 +1,16 @@
+{
+  "name": "angular-cookies",
+  "filename": "angular-cookies.js",
+  "version": "1.2.16",
+  "description": "angular-resource bower repo",
+  "homepage": "https://github.com/angular/bower-angular-cookies",
+  "keywords": ["angular", "cookies"],
+   "maintainers": [{
+     "name": "angular",
+     "web": "https://angularjs.org/"
+   }],
+   "repositories": [{   
+      "type": "git",
+      "url": "https://github.com/angular/bower-angular-cookies"
+    }]
+}

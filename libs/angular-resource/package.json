@@ -1,0 +1,16 @@
+{
+  "name": "angular-resource",
+  "filename": "angular-resource.js",
+  "version": "1.2.16",
+  "description": "angular-resource bower repo",
+  "homepage": "https://github.com/angular/bower-angular-resource",
+  "keywords": ["angular", "resource"],
+   "maintainers": [{
+     "name": "angular",
+     "web": "https://angularjs.org/"
+   }],
+   "repositories": [{   
+      "type": "git",
+      "url": "https://github.com/angular/bower-angular-resource"
+    }]
+}
