@@ -1,0 +1,22 @@
+{
+    "name": "Bilibili_Fixer_Perfect.js",
+    "filename": "bfp.user.js",
+    "version": "8.3",
+    "description": "对www.Bilibili.tv用宝具 谁用谁知道",
+    "homepage": "http://firebfplite.duapp.com/?index=1#",
+    "keywords": [
+       "bilibili", "BFP", "黑科技", "剑仙", "FireAwayH"
+   ],
+   "maintainers": [
+       {
+           "name": "FireAwayH",
+           "web": "http://firebfplite.duapp.com/" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/hejiheji001/Bilibili_Fixer_Perfect"
+        }
+   ]
+}
