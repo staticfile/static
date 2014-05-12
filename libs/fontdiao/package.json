@@ -1,0 +1,10 @@
+{
+    "name": "fontdiao",
+    "filename": "css/fontdiao.css",
+    "version": "0.0.8",
+    "description": "FontDiao",
+    "homepage": "https://github.com/lexrus/fontdiao",
+    "keywords": [
+       "css", "font", "icons"
+    ]
+}
