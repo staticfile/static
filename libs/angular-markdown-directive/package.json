@@ -1,0 +1,16 @@
+{
+  "name": "angular-markdown-directive",
+  "filename": "markdown.js",
+  "version": "0.3.0",
+  "description": "simple AngularJS markdown directive with showdown",
+  "homepage": "https://github.com/btford/angular-markdown-directive",
+  "keywords": ["angular", "angularjs", "markdown", "directive"],
+  "maintainers": [{
+    "name": "btford",
+    "web": "https://github.com/btford"
+  }],
+  "repositories": [{
+    "type": "git",
+    "url": "https://github.com/btford/angular-markdown-directive"
+  }]
+}
