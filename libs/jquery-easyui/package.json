@@ -1,0 +1,22 @@
+{
+    "name": "jquery.easyui",
+    "filename": "jquery.easyui.min.js",
+    "version": "1.3.6",
+    "description": "jquery前端UI插件",
+    "homepage": "http://www.jeasyui.com/index.php",
+    "keywords": [
+       "typo", "easyui"
+   ],
+   "maintainers": [
+       {
+           "name": "www.jeasyui.com",
+           "web": "http://www.jeasyui.com" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "",
+            "url": "http://www.jeasyui.com/download/downloads/jquery-easyui-1.3.6.zip"
+        }
+   ]
+}
