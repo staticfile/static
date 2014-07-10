@@ -1,0 +1,207 @@
+/**
+ * Hello there!
+ *
+ * hideShowPassword doesn't have any CSS requirements.
+ *
+ * If you're looking for examples of how you might
+ * style the inner toggle, check out...
+ *
+ * - example.minimal.css
+ * - example.wink.css
+ *
+ * ...in the same directory as this.
+ *
+ * Thanks for checking out our plugin! :)
+ */
+
+/* custom toggle style */
+
+.my-toggle {
+  background: transparent;
+  border: 0;
+  border-radius: 0.25em;
+  color: #888;
+  cursor: pointer;
+  font-size: 0.75em;
+  font-weight: bold;
+  margin-right: 0.5em;
+  padding: 0.5em;
+  text-transform: uppercase;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+.my-toggle:hover,
+.my-toggle:focus {
+  background-color: #eee;
+  color: #555;
+  outline: transparent;
+}
+
+/* demo-specific styles */
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #f6f6f6;
+}
+
+body {
+  color: #444;
+  font: 100%/1.5 sans-serif;
+  margin: 1em auto 2em;
+  max-width: 30em;
+  padding: 0 1em;
+}
+
+input {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: normal;
+}
+
+a {
+  color: #0088cc;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 1.25em;
+  line-height: 1.25;
+  margin: 1.5em 0 0.5em;
+}
+
+h2 {
+  border-top: 3px solid #e6e6e6;
+  font-size: 1.125em;
+  line-height: 1.5;
+  margin: 1.5em 0 1em;
+  padding-top: 1em;
+}
+
+.for {
+  font-weight: normal;
+  white-space: nowrap;
+}
+
+p {
+  margin: 0 0 1em; /* 1.5em; */
+}
+
+figure {
+  margin: 0 0 1.5em;
+}
+
+figcaption {
+  color: #999;
+  font-size: 0.875em;
+  margin-top: 0.5em;
+  /*text-align: center;*/
+}
+
+.login,
+.login-field {
+  border-radius: 0.25em;
+}
+
+.login {
+  background-color: #e6e6e6;
+}
+
+.login-label,
+.login-field {
+  display: block;
+}
+
+.login-label {
+  font-size: 0.875em;
+  padding: 0.57142857142857em 0.57142857142857em 0.28571428571429em;*/
+}
+
+.inputplaceholder .login-label {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.login-field {
+  background-color: #fff;
+  border: 2px solid #ccc;
+  margin: 0;
+  padding: 0.75em;
+  position: relative;
+  width: 100%;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+.login-field:focus {
+  border-color: #0088cc;
+  outline: transparent;
+  z-index: 2;
+}
+
+.inputplaceholder .login-field-username {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-bottom: -2px;
+}
+
+.inputplaceholder .login-field-password {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.login-footer {
+  padding: 0.25em 0.5em 0.5em;
+}
+
+.hideShowPassword-toggle,
+.my-toggle {
+  z-index: 3;
+}
+
+.btns {
+  list-style: none;
+  margin: 0 0 1.5em;
+  padding: 0;
+}
+
+.btns li {
+  display: inline-block;
+  margin-left: 0.5em;
+}
+
+.btns li:first-child {
+  margin-left: 0;
+}
+
+.btn {
+  background: #0088cc;
+  border-radius: 0.25em;
+  color: #fff;
+  display: inline-block;
+  padding: 0.5em 1em;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #0077b3;
+  outline: transparent;
+}
+
+.byline {
+  color: #999;
+  border-top: 3px solid #e6e6e6;
+  font-size: 0.875em;
+  padding-top: 1em;
+}
