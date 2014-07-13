@@ -1,0 +1,35 @@
+{
+  "name": "planetary.js",
+  "version": "1.1.1",
+  "description": "Awesome interactive globes for the web",
+  "main": "dist/planetaryjs",
+  "scripts": {
+    "build": "rm -r dist/ ; gulp && cp dist/planetaryjs.min.js site/public/js/lib",
+    "jshint": "gulp jshint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/BinaryMuse/planetary.js.git"
+  },
+  "author": "Brandon Tilley <brandon@brandontilley.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BinaryMuse/planetary.js/issues"
+  },
+  "homepage": "http://planetaryjs.com",
+  "devDependencies": {
+    "gulp": "~3.6.2",
+    "gulp-concat": "BinaryMuse/gulp-concat",
+    "gulp-header": "~1.0.2",
+    "gulp-uglify": "~0.3.0",
+    "gulp-rename": "~1.2.0",
+    "bower": "~1.2.8",
+    "gulp-jshint": "~1.6.1",
+    "gulp-replace": "~0.3.0"
+  },
+  "dependencies": {
+    "topojson": ">=1.4.6",
+    "d3": ">=3.3.13"
+  }
+}
