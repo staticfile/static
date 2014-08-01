@@ -3,7 +3,7 @@
   "filename": "eventproxy.js",
   "description": "An implementation of task/event based asynchronous pattern.",
   "homepage": "https://github.com/JacksonTian/eventproxy",
-  "version": "0.2.5",
+  "version": "0.3.1",
   "keywords": [
     "event",
     "task-base",
