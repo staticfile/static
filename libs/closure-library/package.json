@@ -1,0 +1,22 @@
+{
+    "name": "closure-library",
+    "filename": "base.js",
+    "version": "1.0",
+    "description": "Google's common JavaScript library",
+    "homepage": "http://code.google.com/closure/library/",
+    "keywords": [
+       "closure", "google", "library", "javascript"
+   ],
+   "maintainers": [
+       {
+           "name": "Nathan Naze",
+           "web": "http://cs.wisc.edu/~naze" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/google/closure-library"
+        }
+   ]
+}
