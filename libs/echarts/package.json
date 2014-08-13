@@ -1,0 +1,21 @@
+{
+  "name": "echarts",
+  "filename": "主文件名，比如 XYZ.js",
+  "version": "2.0.2",
+  "description": "基于Canvas，纯Javascript图表库，提供直观，生动，可交互，可个性化定制的数据可视化图表。",
+  "homepage": "http://echarts.baidu.com/",
+  "keywords": [],
+  "maintainers": [
+    {
+      "name": "Baidu EFE team",
+      "web": "http://efe.baidu.com/",
+      "mail": "efe@baidu.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/ecomfe/echarts"
+    }
+  ]
+}
