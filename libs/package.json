@@ -1,0 +1,36 @@
+{
+"name": "iGEM CAU_China Wiki",
+"filename": "main.js",
+"version": "0.1",
+"description": "Construct wiki for CAU iGEM",
+"homepage": "http://2014.igem.org/Team:CAU_China",
+"keywords": [
+"js", "css","wiki","timeline"
+],
+"maintainers": [
+{
+"name": "Qin Peng",
+"mail": "qin.p.dean@gmail.com"
+}
+],
+"repositories": [
+{
+"type": "git",
+"url": "https://github.com/CAU-China/static"
+}
+]
+}
+
+    Status
+    API
+    Training
+    Shop
+    Blog
+    About
+
+    © 2014 GitHub, Inc.
+    Terms
+    Privacy
+    Security
+    Contact
+
