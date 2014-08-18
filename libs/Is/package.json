@@ -1,0 +1,20 @@
+{
+    "name": "Is",
+    "filename": "Is",
+    "version": "0.1.10",
+    "description": "A better way to write JavaScript conditional statements and still have pretty code.",
+    "homepage": "https://github.com/jumpkick-studios/Is",
+    "maintainers": [
+        {
+            "name": "abogartz",
+            "web": "http://www.jumpkick.pro",
+            "mail": "alex@jumpkick.pro"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/jumpkick-studios/Is/blob/master/dist/is.min.js"
+        }
+    ]
+}
