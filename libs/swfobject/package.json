@@ -1,0 +1,22 @@
+{
+    "name": "swfobject",
+    "filename": "swfobject.js",
+    "version": "2.2",
+    "description": "An open source Javascript framework for detecting the Adobe Flash Player plugin and embedding Flash (swf) files",
+    "homepage": "https://github.com/swfobject/swfobject",
+    "keywords": [
+       "jquery", "layer", "windows"
+   ],
+   "maintainers": [
+       {
+           "name": "swfobject",
+           "web": "https://github.com/swfobject/swfobject" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/swfobject/swfobject"
+        }
+   ]
+}
