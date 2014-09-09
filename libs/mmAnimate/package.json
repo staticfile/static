@@ -1,0 +1,16 @@
+{
+  "name": "mmAnimate",
+  "filename": "mmAnimate.js",
+  "version": "0.1",
+  "description": "迷你简单易用的MVVM框架-动画组件",
+  "homepage": "https://github.com/RubyLouvre/mmAnimate",
+  "keywords": ["avalon", "avalon.js","mmAnimate","mmAnimate.js"],
+   "maintainers": [{
+     "name": "RubyLouvre",
+     "web": "http://www.cnblogs.com/rubylouvre/"
+   }],
+   "repositories": [{   
+      "type": "git",
+      "url": "https://github.com/RubyLouvre/mmAnimate"
+    }]
+}

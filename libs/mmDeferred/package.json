@@ -1,0 +1,16 @@
+{
+  "name": "mmDeferred",
+  "filename": "mmDeferred.js",
+  "version": "0.1",
+  "description": "一个完全遵循Promise/A+规范的Deferred 库",
+  "homepage": "https://github.com/RubyLouvre/mmDeferred",
+  "keywords": ["avalon", "avalon.js","mmDeferred","mmDeferred.js"],
+   "maintainers": [{
+     "name": "RubyLouvre",
+     "web": "http://www.cnblogs.com/rubylouvre/"
+   }],
+   "repositories": [{   
+      "type": "git",
+      "url": "https://github.com/RubyLouvre/mmDeferred"
+    }]
+}
