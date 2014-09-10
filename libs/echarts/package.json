@@ -2,7 +2,7 @@
   "name": "echarts",
   "filename": "echarts.js",
   "version": "2.0.2",
-  "description": "»ùÓÚCanvas£¬´¿JavascriptÍ¼±í¿â£¬Ìá¹©Ö±¹Û£¬Éú¶¯£¬¿É½»»¥£¬¿É¸öĞÔ»¯¶¨ÖÆµÄÊı¾İ¿ÉÊÓ»¯Í¼±í¡£",
+  "description": "åŸºäºCanvasï¼Œçº¯Javascriptå›¾è¡¨åº“ï¼Œæä¾›ç›´è§‚ï¼Œç”ŸåŠ¨ï¼Œå¯äº¤äº’ï¼Œå¯ä¸ªæ€§åŒ–å®šåˆ¶çš„æ•°æ®å¯è§†åŒ–å›¾è¡¨ã€‚",
   "homepage": "http://echarts.baidu.com/",
   "keywords": [],
   "maintainers": [
