@@ -17,5 +17,20 @@
     "framework",
     "web",
     "web-components"
-  ]
+  ],
+  "maintainers": [
+    {
+      "name": "Minwe",
+      "email": "minwe@yunshipei.com",
+      "homepage": "http://csspod.com"
+    },
+    {
+      "name": "HZP",
+      "email": "hzp@yunshipei.com"
+    }
+  ],
+  "repositories": {
+    "type": "git",
+    "url": "git://github.com/allmobilize/amazeui.git"
+  }
 }
