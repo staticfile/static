@@ -1,0 +1,21 @@
+{
+  "name": "amazeui",
+  "filename": "css/amui.min.css",
+  "description": "中国本土化的轻量级、跨屏前端框架。",
+  "version": "1.0.0-beta2",
+  "homepage": "http://amazeui.org/",
+  "keywords": [
+    "AMUI",
+    "Amaze UI",
+    "AllMobile",
+    "css",
+    "js",
+    "less",
+    "mobile-first",
+    "responsive",
+    "front-end",
+    "framework",
+    "web",
+    "web-components"
+  ]
+}
