@@ -1,4 +1,4 @@
-/*! Amaze UI v1.0.0-beta2 | by Amaze UI Team | (c) 2014 AllMobilize, Inc. | Licensed under MIT | 2014-09-27T01:09:19 UTC */
+/*! Amaze UI v1.0.0-beta2 | by Amaze UI Team | (c) 2014 AllMobilize, Inc. | Licensed under MIT | 2014-09-27T02:09:57 UTC */
 /**
  * Fix the flawed CSS box model - Yes, IE6's box model is better
  * Browser support: IE8+
@@ -15,8 +15,7 @@
 /* Set <html> and <body> to inherit the height of the viewport */
 html,
 body {
-  height: 100%;
-  max-height: 100%;
+  min-height: 100%;
 }
 /**
  * NOTE: Use `text-rendering` with caution - http://cbrac.co/SJt8p1
@@ -8532,8 +8531,8 @@ a.am-close:hover {
   width: 200px;
   height: 200px;
 }
-.with-fixed-navbar {
-  padding-bottom: 49px;
+.am-with-fixed-navbar {
+  padding-bottom: 54px;
 }
 /**
   * Navbar Theme: default
