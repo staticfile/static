@@ -1,4 +1,4 @@
-/*! AmazeUI v1.0.0-beta2 | by Amaze UI Team | (c) 2014 AllMobilize, Inc. | Licensed under MIT | 2014-09-26T15:09:19 UTC */ 
+/*! Amaze UI v1.0.0-beta2 | by Amaze UI Team | (c) 2014 AllMobilize, Inc. | Licensed under MIT | 2014-09-27T01:09:19 UTC */ 
 
 /*! Sea.js 2.2.1 | seajs.org/LICENSE.md */
 !function(a,b){function c(a){return function(b){return{}.toString.call(b)=="[object "+a+"]"}}function d(){return A++}function e(a){return a.match(D)[0]}function f(a){for(a=a.replace(E,"/");a.match(F);)a=a.replace(F,"/");return a=a.replace(G,"$1/")}function g(a){var b=a.length-1,c=a.charAt(b);return"#"===c?a.substring(0,b):".js"===a.substring(b-2)||a.indexOf("?")>0||".css"===a.substring(b-3)||"/"===c?a:a+".js"}function h(a){var b=v.alias;return b&&x(b[a])?b[a]:a}function i(a){var b=v.paths,c;return b&&(c=a.match(H))&&x(b[c[1]])&&(a=b[c[1]]+c[2]),a}function j(a){var b=v.vars;return b&&a.indexOf("{")>-1&&(a=a.replace(I,function(a,c){return x(b[c])?b[c]:a})),a}function k(a){var b=v.map,c=a;if(b)for(var d=0,e=b.length;e>d;d++){var f=b[d];if(c=z(f)?f(a)||a:a.replace(f[0],f[1]),c!==a)break}return c}function l(a,b){var c,d=a.charAt(0);if(J.test(a))c=a;else if("."===d)c=f((b?e(b):v.cwd)+a);else if("/"===d){var g=v.cwd.match(K);c=g?g[0]+a.substring(1):a}else c=v.base+a;return 0===c.indexOf("//")&&(c=location.protocol+c),c}function m(a,b){if(!a)return"";a=h(a),a=i(a),a=j(a),a=g(a);var c=l(a,b);return c=k(c)}function n(a){return a.hasAttribute?a.src:a.getAttribute("src",4)}function o(a,b,c){var d=S.test(a),e=L.createElement(d?"link":"script");if(c){var f=z(c)?c(a):c;f&&(e.charset=f)}p(e,b,d,a),d?(e.rel="stylesheet",e.href=a):(e.async=!0,e.src=a),T=e,R?Q.insertBefore(e,R):Q.appendChild(e),T=null}function p(a,c,d,e){function f(){a.onload=a.onerror=a.onreadystatechange=null,d||v.debug||Q.removeChild(a),a=null,c()}var g="onload"in a;return!d||!V&&g?(g?(a.onload=f,a.onerror=function(){C("error",{uri:e,node:a}),f()}):a.onreadystatechange=function(){/loaded|complete/.test(a.readyState)&&f()},b):(setTimeout(function(){q(a,c)},1),b)}function q(a,b){var c=a.sheet,d;if(V)c&&(d=!0);else if(c)try{c.cssRules&&(d=!0)}catch(e){"NS_ERROR_DOM_SECURITY_ERR"===e.name&&(d=!0)}setTimeout(function(){d?b():q(a,b)},20)}function r(){if(T)return T;if(U&&"interactive"===U.readyState)return U;for(var a=Q.getElementsByTagName("script"),b=a.length-1;b>=0;b--){var c=a[b];if("interactive"===c.readyState)return U=c}}function s(a){var b=[];return a.replace(X,"").replace(W,function(a,c,d){d&&b.push(d)}),b}function t(a,b){this.uri=a,this.dependencies=b||[],this.exports=null,this.status=0,this._waitings={},this._remain=0}if(!a.seajs){var u=a.seajs={version:"2.2.1"},v=u.data={},w=c("Object"),x=c("String"),y=Array.isArray||c("Array"),z=c("Function"),A=0,B=v.events={};u.on=function(a,b){var c=B[a]||(B[a]=[]);return c.push(b),u},u.off=function(a,b){if(!a&&!b)return B=v.events={},u;var c=B[a];if(c)if(b)for(var d=c.length-1;d>=0;d--)c[d]===b&&c.splice(d,1);else delete B[a];return u};var C=u.emit=function(a,b){var c=B[a],d;if(c)for(c=c.slice();d=c.shift();)d(b);return u},D=/[^?#]*\//,E=/\/\.\//g,F=/\/[^/]+\/\.\.\//,G=/([^:/])\/\//g,H=/^([^/:]+)(\/.+)$/,I=/{([^{]+)}/g,J=/^\/\/.|:\//,K=/^.*?\/\/.*?\//,L=document,M=e(L.URL),N=L.scripts,O=L.getElementById("seajsnode")||N[N.length-1],P=e(n(O)||M);u.resolve=m;var Q=L.head||L.getElementsByTagName("head")[0]||L.documentElement,R=Q.getElementsByTagName("base")[0],S=/\.css(?:\?|$)/i,T,U,V=+navigator.userAgent.replace(/.*(?:AppleWebKit|AndroidWebKit)\/(\d+).*/,"$1")<536;u.request=o;var W=/"(?:\\"|[^"])*"|'(?:\\'|[^'])*'|\/\*[\S\s]*?\*\/|\/(?:\\\/|[^\/\r\n])+\/(?=[^\/])|\/\/.*|\.\s*require|(?:^|[^$])\brequire\s*\(\s*(["'])(.+?)\1\s*\)/g,X=/\\\\/g,Y=u.cache={},Z,$={},_={},ab={},bb=t.STATUS={FETCHING:1,SAVED:2,LOADING:3,LOADED:4,EXECUTING:5,EXECUTED:6};t.prototype.resolve=function(){for(var a=this,b=a.dependencies,c=[],d=0,e=b.length;e>d;d++)c[d]=t.resolve(b[d],a.uri);return c},t.prototype.load=function(){var a=this;if(!(a.status>=bb.LOADING)){a.status=bb.LOADING;var c=a.resolve();C("load",c);for(var d=a._remain=c.length,e,f=0;d>f;f++)e=t.get(c[f]),e.status<bb.LOADED?e._waitings[a.uri]=(e._waitings[a.uri]||0)+1:a._remain--;if(0===a._remain)return a.onload(),b;var g={};for(f=0;d>f;f++)e=Y[c[f]],e.status<bb.FETCHING?e.fetch(g):e.status===bb.SAVED&&e.load();for(var h in g)g.hasOwnProperty(h)&&g[h]()}},t.prototype.onload=function(){var a=this;a.status=bb.LOADED,a.callback&&a.callback();var b=a._waitings,c,d;for(c in b)b.hasOwnProperty(c)&&(d=Y[c],d._remain-=b[c],0===d._remain&&d.onload());delete a._waitings,delete a._remain},t.prototype.fetch=function(a){function c(){u.request(g.requestUri,g.onRequest,g.charset)}function d(){delete $[h],_[h]=!0,Z&&(t.save(f,Z),Z=null);var a,b=ab[h];for(delete ab[h];a=b.shift();)a.load()}var e=this,f=e.uri;e.status=bb.FETCHING;var g={uri:f};C("fetch",g);var h=g.requestUri||f;return!h||_[h]?(e.load(),b):$[h]?(ab[h].push(e),b):($[h]=!0,ab[h]=[e],C("request",g={uri:f,requestUri:h,onRequest:d,charset:v.charset}),g.requested||(a?a[g.requestUri]=c:c()),b)},t.prototype.exec=function(){function a(b){return t.get(a.resolve(b)).exec()}var c=this;if(c.status>=bb.EXECUTING)return c.exports;c.status=bb.EXECUTING;var e=c.uri;a.resolve=function(a){return t.resolve(a,e)},a.async=function(b,c){return t.use(b,c,e+"_async_"+d()),a};var f=c.factory,g=z(f)?f(a,c.exports={},c):f;return g===b&&(g=c.exports),delete c.factory,c.exports=g,c.status=bb.EXECUTED,C("exec",c),g},t.resolve=function(a,b){var c={id:a,refUri:b};return C("resolve",c),c.uri||u.resolve(c.id,b)},t.define=function(a,c,d){var e=arguments.length;1===e?(d=a,a=b):2===e&&(d=c,y(a)?(c=a,a=b):c=b),!y(c)&&z(d)&&(c=s(""+d));var f={id:a,uri:t.resolve(a),deps:c,factory:d};if(!f.uri&&L.attachEvent){var g=r();g&&(f.uri=g.src)}C("define",f),f.uri?t.save(f.uri,f):Z=f},t.save=function(a,b){var c=t.get(a);c.status<bb.SAVED&&(c.id=b.id||a,c.dependencies=b.deps||[],c.factory=b.factory,c.status=bb.SAVED)},t.get=function(a,b){return Y[a]||(Y[a]=new t(a,b))},t.use=function(b,c,d){var e=t.get(d,y(b)?b:[b]);e.callback=function(){for(var b=[],d=e.resolve(),f=0,g=d.length;g>f;f++)b[f]=Y[d[f]].exec();c&&c.apply(a,b),delete e.callback},e.load()},t.preload=function(a){var b=v.preload,c=b.length;c?t.use(b,function(){b.splice(0,c),t.preload(a)},v.cwd+"_preload_"+d()):a()},u.use=function(a,b){return t.preload(function(){t.use(a,b,v.cwd+"_use_"+d())}),u},t.define.cmd={},a.define=t.define,u.Module=t,v.fetchedList=_,v.cid=d,u.require=function(a){var b=t.get(t.resolve(a));return b.status<bb.EXECUTING&&(b.onload(),b.exec()),b.exports};var cb=/^(.+?\/)(\?\?)?(seajs\/)+/;v.base=(P.match(cb)||["",P])[1],v.dir=P,v.cwd=M,v.charset="utf-8",v.preload=function(){var a=[],b=location.search.replace(/(seajs-\w+)(&|$)/g,"$1=1$2");return b+=" "+L.cookie,b.replace(/(seajs-\w+)=1/g,function(b,c){a.push(c)}),a}(),u.config=function(a){for(var b in a){var c=a[b],d=v[b];if(d&&w(d))for(var e in c)d[e]=c[e];else y(d)?c=d.concat(c):"base"===b&&("/"!==c.slice(-1)&&(c+="/"),c=l(c)),v[b]=c}return C("config",a),u}}}(this);
@@ -3825,156 +3825,6 @@ define("ui.add2home", [], function(require, exports, module) {
     $.AMUI.addToHomescreen = ath;
     module.exports = ath;
 });
-define("ui.alert", [ "core", "zepto.extend.fx", "zepto.extend.data", "zepto.extend.selector" ], function(require, exports, module) {
-    "use strict";
-    require("core");
-    var $ = window.Zepto, UI = $.AMUI;
-    /**
-     * @via https://github.com/Minwe/bootstrap/blob/master/js/alert.js
-     * @copyright Copyright 2013 Twitter, Inc.
-     * @license Apache 2.0
-     */
-    // Alert Class
-    // NOTE: removeElement option is unavailable now
-    var Alert = function(element, options) {
-        this.options = $.extend({}, Alert.DEFAULTS, options);
-        this.$element = $(element);
-        this.$element.addClass("am-fade am-in").on("click.alert.amui", ".am-close", $.proxy(this.close, this));
-    };
-    Alert.DEFAULTS = {
-        removeElement: true
-    };
-    Alert.prototype.close = function() {
-        var $this = $(this), $target = $this.hasClass("am-alert") ? $this : $this.parent(".am-alert");
-        $target.trigger("close:alert:amui");
-        $target.removeClass("am-in");
-        function processAlert() {
-            $target.off().trigger("closed:alert:amui").remove();
-        }
-        UI.support.transition && $target.hasClass("am-fade") ? $target.one(UI.support.transition.end, processAlert).emulateTransitionEnd(200) : processAlert();
-    };
-    UI.alert = Alert;
-    // Alert Plugin
-    $.fn.alert = function(option) {
-        return this.each(function() {
-            var $this = $(this), data = $this.data("amui.alert"), options = typeof option == "object" && option;
-            if (!data) {
-                $this.data("amui.alert", data = new Alert(this, options || {}));
-            }
-            if (typeof option == "string") {
-                data[option].call($this);
-            }
-        });
-    };
-    // Init code
-    $(document).on("click.alert.amui", "[data-am-alert]", function(e) {
-        var $target = $(e.target);
-        $(this).addClass("am-fade am-in");
-        $target.is(".am-close") && $(this).alert("close");
-    });
-    module.exports = Alert;
-});
-define("ui.button", [ "core", "zepto.extend.fx", "zepto.extend.data", "zepto.extend.selector" ], function(require, exports, module) {
-    "use strict";
-    require("core");
-    var $ = window.Zepto, UI = $.AMUI;
-    /**
-     * @via https://github.com/twbs/bootstrap/blob/master/js/button.js
-     * @copyright (c) 2011-2014 Twitter, Inc
-     * @license The MIT License
-     */
-    var Button = function(element, options) {
-        this.$element = $(element);
-        this.options = $.extend({}, Button.DEFAULTS, options);
-        this.isLoading = false;
-        this.hasSpinner = false;
-    };
-    Button.DEFAULTS = {
-        loadingText: "loading...",
-        className: {
-            loading: "am-btn-loading",
-            disabled: "am-disabled"
-        },
-        spinner: undefined
-    };
-    Button.prototype.setState = function(state) {
-        var disabled = "disabled", $element = this.$element, options = this.options, val = $element.is("input") ? "val" : "html", loadingClassName = options.className.disabled + " " + options.className.loading;
-        state = state + "Text";
-        if (!options.resetText) {
-            options.resetText = $element[val]();
-        }
-        // add spinner for element with html()
-        if (UI.support.animation && options.spinner && val === "html" && !this.hasSpinner) {
-            options.loadingText = '<span class="am-icon-' + options.spinner + ' am-icon-spin"></span>' + options.loadingText;
-            this.hasSpinner = true;
-        }
-        $element[val](options[state]);
-        // push to event loop to allow forms to submit
-        setTimeout($.proxy(function() {
-            if (state == "loadingText") {
-                $element.addClass(loadingClassName).attr(disabled, disabled);
-                this.isLoading = true;
-            } else if (this.isLoading) {
-                $element.removeClass(loadingClassName).removeAttr(disabled);
-                this.isLoading = false;
-            }
-        }, this), 0);
-    };
-    Button.prototype.toggle = function() {
-        var changed = true, $element = this.$element, $parent = this.$element.parent(".am-btn-group");
-        if ($parent.length) {
-            var $input = this.$element.find("input");
-            if ($input.prop("type") == "radio") {
-                if ($input.prop("checked") && $element.hasClass("am-active")) {
-                    changed = false;
-                } else {
-                    $parent.find(".am-active").removeClass("am-active");
-                }
-            }
-            if (changed) {
-                $input.prop("checked", !$element.hasClass("am-active")).trigger("change");
-            }
-        }
-        if (changed) {
-            $element.toggleClass("am-active");
-            if (!$element.hasClass("am-active")) {
-                $element.blur();
-            }
-        }
-    };
-    // Button plugin
-    function Plugin(option) {
-        return this.each(function() {
-            var $this = $(this);
-            var data = $this.data("amui.button");
-            var options = typeof option == "object" && option || {};
-            if (!data) {
-                $this.data("amui.button", data = new Button(this, options));
-            }
-            if (option == "toggle") {
-                data.toggle();
-            } else if (typeof option == "string") {
-                data.setState(option);
-            }
-        });
-    }
-    $.fn.button = Plugin;
-    // Init code
-    $(document).on("click.button.amui", "[data-am-button]", function(e) {
-        var $btn = $(e.target);
-        if (!$btn.hasClass("am-btn")) {
-            $btn = $btn.closest(".am-btn");
-        }
-        Plugin.call($btn, "toggle");
-        e.preventDefault();
-    });
-    $(function() {
-        $("[data-am-loading]").each(function() {
-            $(this).button(UI.utils.parseOptions($(this).data("amLoading")));
-        });
-    });
-    module.exports = Button;
-});
 define("ui.collapse", [ "core", "zepto.extend.fx", "zepto.extend.data", "zepto.extend.selector" ], function(require, exports, module) {
     "use strict";
     require("core");
@@ -4150,154 +4000,6 @@ define("ui.dimmer", [ "core", "zepto.extend.fx", "zepto.extend.data", "zepto.ext
     var dimmer = new Dimmer();
     UI.dimmer = dimmer;
     module.exports = dimmer;
-});
-define("ui.dropdown", [ "core", "zepto.extend.fx", "zepto.extend.data", "zepto.extend.selector" ], function(require, exports, module) {
-    require("core");
-    var $ = window.Zepto, UI = $.AMUI, animation = UI.support.animation;
-    /**
-     * @via https://github.com/Minwe/bootstrap/blob/master/js/dropdown.js
-     * @copyright (c) 2011-2014 Twitter, Inc
-     * @license The MIT License
-     */
-    var toggle = "[data-am-dropdown] > .am-dropdown-toggle";
-    var Dropdown = function(element, options) {
-        this.options = $.extend({}, Dropdown.DEFAULTS, options);
-        options = this.options;
-        this.$element = $(element);
-        this.$toggle = this.$element.find(options.selector.toggle);
-        this.$dropdown = this.$element.find(options.selector.dropdown);
-        this.$boundary = options.boundary === window ? $(window) : this.$element.closest(options.boundary);
-        this.$justify = options.justify && $(options.justify).length && $(options.justify) || undefined;
-        !this.$boundary.length && (this.$boundary = $(window));
-        this.active = this.$element.hasClass("am-active") ? true : false;
-        this.animating = null;
-        this.events();
-    };
-    Dropdown.DEFAULTS = {
-        animation: "am-animation-slide-top-fixed",
-        boundary: window,
-        justify: undefined,
-        selector: {
-            dropdown: ".am-dropdown-content",
-            toggle: ".am-dropdown-toggle"
-        },
-        trigger: "click"
-    };
-    Dropdown.prototype.toggle = function() {
-        this.clear();
-        if (this.animating) return;
-        this[this.active ? "close" : "open"]();
-    };
-    Dropdown.prototype.open = function(e) {
-        var $toggle = this.$toggle, $element = this.$element, $dropdown = this.$dropdown;
-        if ($toggle.is(".am-disabled, :disabled")) return;
-        if (this.active) return;
-        $element.trigger("open:dropdown:amui").addClass("am-active");
-        $toggle.trigger("focus");
-        this.checkDimensions();
-        var complete = $.proxy(function() {
-            $element.trigger("opened:dropdown:amui");
-            this.active = true;
-            this.animating = 0;
-        }, this);
-        if (animation) {
-            this.animating = 1;
-            $dropdown.addClass(this.options.animation).on(animation.end + ".open.dropdown.amui", $.proxy(function() {
-                complete();
-                $dropdown.removeClass(this.options.animation);
-            }, this));
-        } else {
-            complete();
-        }
-    };
-    Dropdown.prototype.close = function() {
-        if (!this.active) return;
-        var animationName = this.options.animation + " am-animation-reverse", $element = this.$element, $dropdown = this.$dropdown;
-        $element.trigger("close:dropdown:amui");
-        var complete = $.proxy(function complete() {
-            $element.removeClass("am-active").trigger("closed:dropdown:amui");
-            this.active = false;
-            this.animating = 0;
-            this.$toggle.blur();
-        }, this);
-        if (animation) {
-            $dropdown.addClass(animationName);
-            this.animating = 1;
-            // animation
-            $dropdown.one(animation.end + ".close.dropdown.amui", function() {
-                complete();
-                $dropdown.removeClass(animationName);
-            });
-        } else {
-            complete();
-        }
-    };
-    Dropdown.prototype.checkDimensions = function() {
-        if (!this.$dropdown.length) return;
-        var $dropdown = this.$dropdown, offset = $dropdown.offset(), width = $dropdown.outerWidth(), boundaryWidth = this.$boundary.width(), boundaryOffset = $.isWindow(this.boundary) && this.$boundary.offset() ? this.$boundary.offset().left : 0;
-        if (this.$justify) {
-            $dropdown.css({
-                "min-width": this.$justify.width()
-            });
-        }
-        if (width + (offset.left - boundaryOffset) > boundaryWidth) {
-            this.$element.addClass("am-dropdown-flip");
-        }
-    };
-    Dropdown.prototype.clear = function() {
-        $("[data-am-dropdown]").not(this.$element).each(function() {
-            var data = $(this).data("amui.dropdown");
-            data && data["close"]();
-        });
-    };
-    Dropdown.prototype.events = function() {
-        var eventNS = "dropdown.amui", triggers = this.options.trigger.split(" "), $toggle = this.$toggle;
-        $toggle.on("click." + eventNS, $.proxy(this.toggle, this));
-        /*for (var i = triggers.length; i--;) {
-            var trigger = triggers[i];
-
-            if (trigger === 'click') {
-                $toggle.on('click.' + eventNS, $.proxy(this.toggle, this))
-            }
-
-            if (trigger === 'focus' || trigger === 'hover') {
-                var eventIn  = trigger == 'hover' ? 'mouseenter' : 'focusin';
-                var eventOut = trigger == 'hover' ? 'mouseleave' : 'focusout';
-
-                this.$element.on(eventIn + '.' + eventNS, $.proxy(this.open, this))
-                    .on(eventOut + '.' + eventNS, $.proxy(this.close, this));
-            }
-        }*/
-        $(document).on("keydown.dropdown.amui", $.proxy(function(e) {
-            e.keyCode === 27 && this.active && this.close();
-        }, this)).on("click.outer.dropdown.amui", $.proxy(function(e) {
-            var $target = $(e.target);
-            if (this.active && (this.$element[0] === e.target || !this.$element.find(e.target).length)) {
-                this.close();
-            }
-        }, this));
-    };
-    UI.dropdown = Dropdown;
-    // Dropdown Plugin
-    function Plugin(option) {
-        return this.each(function() {
-            var $this = $(this), data = $this.data("amui.dropdown"), options = $.extend({}, UI.utils.parseOptions($this.attr("data-am-dropdown")), typeof option == "object" && option);
-            if (!data) {
-                $this.data("amui.dropdown", data = new Dropdown(this, options));
-            }
-            if (typeof option == "string") {
-                data[option]();
-            }
-        });
-    }
-    $.fn.dropdown = Plugin;
-    // Init code
-    $(function() {
-        $("[data-am-dropdown]").dropdown();
-    });
-    $(document).on("click.dropdown.amui", ".am-dropdown form", function(e) {
-        e.stopPropagation();
-    });
 });
 define("ui.iscroll-lite", [], function(require, exports, module) {
     /*! iScroll v5.1.2 ~ (c) 2008-2014 Matteo Spinelli ~ http://cubiq.org/license */
@@ -5266,471 +4968,6 @@ define("ui.offcanvas", [ "zepto.outerdemension", "zepto.extend.data", "core", "z
     });
     module.exports = OffCanvas;
 });
-define("ui.popover", [ "core", "zepto.extend.fx", "zepto.extend.data", "zepto.extend.selector" ], function(require, exports, module) {
-    require("core");
-    var $ = window.Zepto, UI = $.AMUI, $w = $(window), $doc = $(document);
-    /**
-     * @reference https://github.com/nolimits4web/Framework7/blob/master/src/js/modals.js
-     * @license https://github.com/nolimits4web/Framework7/blob/master/LICENSE
-     */
-    var Popover = function(element, options) {
-        this.options = $.extend({}, Popover.DEFAULTS, options || {});
-        this.$element = $(element);
-        this.active = null;
-        this.$popover = this.options.target && $(this.options.target) || null;
-        this.init();
-        this.events();
-    };
-    Popover.DEFAULTS = {
-        trigger: "click",
-        content: "",
-        open: false,
-        target: undefined,
-        tpl: '<div class="am-popover"><div class="am-popover-inner"></div><div class="am-popover-caret"></div></div>'
-    };
-    Popover.prototype.init = function() {
-        var me = this, $element = this.$element, $popover;
-        if (!this.options.target) {
-            this.$popover = this.getPopover();
-            this.setContent();
-        }
-        $popover = this.$popover;
-        $popover.appendTo($("body"));
-        this.sizePopover();
-        function sizePopover() {
-            me.sizePopover();
-        }
-        $(window).on("resize:popover:amui", UI.utils.debounce(sizePopover, 50));
-        $element.on("open:popover:amui", function() {
-            $(window).on("resize:popover:amui", UI.utils.debounce(sizePopover, 50));
-        });
-        $element.on("close:popover:amui", function() {
-            $(window).off("resize:popover:amui", sizePopover);
-        });
-        this.options.open && this.open();
-    };
-    Popover.prototype.sizePopover = function sizePopover() {
-        var $element = this.$element, $popover = this.$popover;
-        if (!$popover || !$popover.length) return;
-        var popSize = $popover.getSize(), popWidth = $popover.width() || popSize.width, popHeight = $popover.height() || popSize.height, $popCaret = $popover.find(".am-popover-caret"), popCaretSize = $popCaret.width() / 2 || 10, popTotalHeight = popHeight + popCaretSize;
-        var triggerWidth = $element.outerWidth(), triggerHeight = $element.outerHeight(), triggerOffset = $element.offset(), triggerRect = $element[0].getBoundingClientRect();
-        var winHeight = $w.height(), winWidth = $w.width();
-        var popTop = 0, popLeft = 0, diff = 0, spacing = 3, popPosition = "top";
-        $popover.css({
-            left: "",
-            top: ""
-        }).removeClass("am-popover-left am-popover-right am-popover-top am-popover-bottom");
-        $popCaret.css({
-            left: "",
-            top: ""
-        });
-        if (popTotalHeight - spacing < triggerRect.top + spacing) {
-            // on Top
-            popTop = triggerOffset.top - popTotalHeight - spacing;
-        } else if (popTotalHeight < winHeight - triggerRect.top - triggerRect.height) {
-            // On bottom
-            popPosition = "bottom";
-            popTop = triggerOffset.top + triggerHeight + popCaretSize + spacing;
-        } else {
-            // On middle
-            popPosition = "middle";
-            popTop = triggerHeight / 2 + triggerOffset.top - popHeight / 2;
-        }
-        // Horizontal Position
-        if (popPosition === "top" || popPosition === "bottom") {
-            popLeft = triggerWidth / 2 + triggerOffset.left - popWidth / 2;
-            diff = popLeft;
-            if (popLeft < 5) popLeft = 5;
-            if (popLeft + popWidth > winWidth) {
-                popLeft = winWidth - popWidth - 20;
-            }
-            if (popPosition === "top") $popover.addClass("am-popover-bottom");
-            if (popPosition === "bottom") $popover.addClass("am-popover-top");
-            diff = diff - popLeft;
-            $popCaret.css({
-                left: popWidth / 2 - popCaretSize + diff + "px"
-            });
-        } else if (popPosition === "middle") {
-            popLeft = triggerOffset.left - popWidth - popCaretSize;
-            $popover.addClass("am-popover-left");
-            if (popLeft < 5) {
-                popLeft = triggerOffset.left + triggerWidth + popCaretSize;
-                $popover.removeClass("am-popover-left").addClass("am-popover-right");
-            }
-            if (popLeft + popWidth > winWidth) {
-                popLeft = winWidth - popWidth - 5;
-                $popover.removeClass("am-popover-left").addClass("am-popover-right");
-            }
-            $popCaret.css({
-                top: popHeight / 2 - popCaretSize / 2 + "px"
-            });
-        }
-        // Apply position style
-        $popover.css({
-            top: popTop + "px",
-            left: popLeft + "px"
-        });
-    };
-    Popover.prototype.toggle = function() {
-        return this[this.active ? "close" : "open"]();
-    };
-    Popover.prototype.open = function() {
-        var $popover = this.$popover;
-        this.$element.trigger("open:popover:amui");
-        this.sizePopover();
-        $popover.show().addClass("am-active");
-        this.active = true;
-    };
-    Popover.prototype.close = function() {
-        var $popover = this.$popover;
-        this.$element.trigger("close:popover:amui");
-        $popover.removeClass("am-active").trigger("closed:popover:amui").hide();
-        this.active = false;
-    };
-    Popover.prototype.getPopover = function() {
-        var uid = UI.utils.generateGUID("am-popover");
-        return $(this.options.tpl, {
-            id: uid
-        });
-    };
-    Popover.prototype.setContent = function() {
-        this.$popover && this.$popover.find(".am-popover-inner").empty().html(this.options.content);
-    };
-    Popover.prototype.events = function() {
-        var eventNS = "popover.amui", triggers = this.options.trigger.split(" ");
-        for (var i = triggers.length; i--; ) {
-            var trigger = triggers[i];
-            if (trigger === "click") {
-                this.$element.on("click." + eventNS, $.proxy(this.toggle, this));
-            } else {
-                // hover or focus
-                var eventIn = trigger == "hover" ? "mouseenter" : "focusin";
-                var eventOut = trigger == "hover" ? "mouseleave" : "focusout";
-                this.$element.on(eventIn + "." + eventNS, $.proxy(this.open, this));
-                this.$element.on(eventOut + "." + eventNS, $.proxy(this.close, this));
-            }
-        }
-    };
-    UI.popover = Popover;
-    function Plugin(option) {
-        return this.each(function() {
-            var $this = $(this), data = $this.data("am.popover"), options = $.extend({}, UI.utils.parseOptions($this.attr("data-am-popover")), typeof option == "object" && option);
-            if (!data) {
-                $this.data("am.popover", data = new Popover(this, options));
-            }
-            if (typeof option == "string") {
-                data[option]();
-            }
-        });
-    }
-    $.fn.popover = Plugin;
-    // Init code
-    $(function() {
-        $("[data-am-popover]").popover();
-    });
-    module.exports = Popover;
-});
-define("ui.progress", [ "core", "zepto.extend.fx", "zepto.extend.data", "zepto.extend.selector" ], function(require, exports, module) {
-    require("core");
-    var $ = window.Zepto, UI = $.AMUI;
-    var Progress = function() {
-        /**
-         * NProgress (c) 2013, Rico Sta. Cruz
-         * @via http://ricostacruz.com/nprogress
-         */
-        var NProgress = {}, $html = $("html");
-        NProgress.version = "0.1.6";
-        var Settings = NProgress.settings = {
-            minimum: .08,
-            easing: "ease",
-            positionUsing: "",
-            speed: 200,
-            trickle: true,
-            trickleRate: .02,
-            trickleSpeed: 800,
-            showSpinner: true,
-            parent: "body",
-            barSelector: '[role="nprogress-bar"]',
-            spinnerSelector: '[role="nprogress-spinner"]',
-            template: '<div class="nprogress-bar" role="nprogress-bar">' + '<div class="nprogress-peg"></div></div>' + '<div class="nprogress-spinner" role="nprogress-spinner">' + '<div class="nprogress-spinner-icon"></div></div>'
-        };
-        /**
-         * Updates configuration.
-         *
-         *     NProgress.configure({
-   *       minimum: 0.1
-   *     });
-         */
-        NProgress.configure = function(options) {
-            var key, value;
-            for (key in options) {
-                value = options[key];
-                if (value !== undefined && options.hasOwnProperty(key)) Settings[key] = value;
-            }
-            return this;
-        };
-        /**
-         * Last number.
-         */
-        NProgress.status = null;
-        /**
-         * Sets the progress bar status, where `n` is a number from `0.0` to `1.0`.
-         *
-         *     NProgress.set(0.4);
-         *     NProgress.set(1.0);
-         */
-        NProgress.set = function(n) {
-            var started = NProgress.isStarted();
-            n = clamp(n, Settings.minimum, 1);
-            NProgress.status = n === 1 ? null : n;
-            var progress = NProgress.render(!started), bar = progress.querySelector(Settings.barSelector), speed = Settings.speed, ease = Settings.easing;
-            progress.offsetWidth;
-            /* Repaint */
-            queue(function(next) {
-                // Set positionUsing if it hasn't already been set
-                if (Settings.positionUsing === "") Settings.positionUsing = NProgress.getPositioningCSS();
-                // Add transition
-                css(bar, barPositionCSS(n, speed, ease));
-                if (n === 1) {
-                    // Fade out
-                    css(progress, {
-                        transition: "none",
-                        opacity: 1
-                    });
-                    progress.offsetWidth;
-                    /* Repaint */
-                    setTimeout(function() {
-                        css(progress, {
-                            transition: "all " + speed + "ms linear",
-                            opacity: 0
-                        });
-                        setTimeout(function() {
-                            NProgress.remove();
-                            next();
-                        }, speed);
-                    }, speed);
-                } else {
-                    setTimeout(next, speed);
-                }
-            });
-            return this;
-        };
-        NProgress.isStarted = function() {
-            return typeof NProgress.status === "number";
-        };
-        /**
-         * Shows the progress bar.
-         * This is the same as setting the status to 0%, except that it doesn't go backwards.
-         *
-         *     NProgress.start();
-         *
-         */
-        NProgress.start = function() {
-            if (!NProgress.status) NProgress.set(0);
-            var work = function() {
-                setTimeout(function() {
-                    if (!NProgress.status) return;
-                    NProgress.trickle();
-                    work();
-                }, Settings.trickleSpeed);
-            };
-            if (Settings.trickle) work();
-            return this;
-        };
-        /**
-         * Hides the progress bar.
-         * This is the *sort of* the same as setting the status to 100%, with the
-         * difference being `done()` makes some placebo effect of some realistic motion.
-         *
-         *     NProgress.done();
-         *
-         * If `true` is passed, it will show the progress bar even if its hidden.
-         *
-         *     NProgress.done(true);
-         */
-        NProgress.done = function(force) {
-            if (!force && !NProgress.status) return this;
-            return NProgress.inc(.3 + .5 * Math.random()).set(1);
-        };
-        /**
-         * Increments by a random amount.
-         */
-        NProgress.inc = function(amount) {
-            var n = NProgress.status;
-            if (!n) {
-                return NProgress.start();
-            } else {
-                if (typeof amount !== "number") {
-                    amount = (1 - n) * clamp(Math.random() * n, .1, .95);
-                }
-                n = clamp(n + amount, 0, .994);
-                return NProgress.set(n);
-            }
-        };
-        NProgress.trickle = function() {
-            return NProgress.inc(Math.random() * Settings.trickleRate);
-        };
-        /**
-         * (Internal) renders the progress bar markup based on the `template`
-         * setting.
-         */
-        NProgress.render = function(fromStart) {
-            if (NProgress.isRendered()) return document.getElementById("nprogress");
-            $html.addClass("nprogress-busy");
-            var progress = document.createElement("div");
-            progress.id = "nprogress";
-            progress.innerHTML = Settings.template;
-            var bar = progress.querySelector(Settings.barSelector), perc = fromStart ? "-100" : toBarPerc(NProgress.status || 0), parent = document.querySelector(Settings.parent), spinner;
-            css(bar, {
-                transition: "all 0 linear",
-                transform: "translate3d(" + perc + "%,0,0)"
-            });
-            if (!Settings.showSpinner) {
-                spinner = progress.querySelector(Settings.spinnerSelector);
-                spinner && $(spinner).remove();
-            }
-            if (parent != document.body) {
-                $(parent).addClass("nprogress-custom-parent");
-            }
-            parent.appendChild(progress);
-            return progress;
-        };
-        /**
-         * Removes the element. Opposite of render().
-         */
-        NProgress.remove = function() {
-            $html.removeClass("nprogress-busy");
-            $(Settings.parent).removeClass("nprogress-custom-parent");
-            var progress = document.getElementById("nprogress");
-            progress && $(progress).remove();
-        };
-        /**
-         * Checks if the progress bar is rendered.
-         */
-        NProgress.isRendered = function() {
-            return !!document.getElementById("nprogress");
-        };
-        /**
-         * Determine which positioning CSS rule to use.
-         */
-        NProgress.getPositioningCSS = function() {
-            // Sniff on document.body.style
-            var bodyStyle = document.body.style;
-            // Sniff prefixes
-            var vendorPrefix = "WebkitTransform" in bodyStyle ? "Webkit" : "MozTransform" in bodyStyle ? "Moz" : "msTransform" in bodyStyle ? "ms" : "OTransform" in bodyStyle ? "O" : "";
-            if (vendorPrefix + "Perspective" in bodyStyle) {
-                // Modern browsers with 3D support, e.g. Webkit, IE10
-                return "translate3d";
-            } else if (vendorPrefix + "Transform" in bodyStyle) {
-                // Browsers without 3D support, e.g. IE9
-                return "translate";
-            } else {
-                // Browsers without translate() support, e.g. IE7-8
-                return "margin";
-            }
-        };
-        /**
-         * Helpers
-         */
-        function clamp(n, min, max) {
-            if (n < min) return min;
-            if (n > max) return max;
-            return n;
-        }
-        /**
-         * (Internal) converts a percentage (`0..1`) to a bar translateX
-         * percentage (`-100%..0%`).
-         */
-        function toBarPerc(n) {
-            return (-1 + n) * 100;
-        }
-        /**
-         * (Internal) returns the correct CSS for changing the bar's
-         * position given an n percentage, and speed and ease from Settings
-         */
-        function barPositionCSS(n, speed, ease) {
-            var barCSS;
-            if (Settings.positionUsing === "translate3d") {
-                barCSS = {
-                    transform: "translate3d(" + toBarPerc(n) + "%,0,0)"
-                };
-            } else if (Settings.positionUsing === "translate") {
-                barCSS = {
-                    transform: "translate(" + toBarPerc(n) + "%,0)"
-                };
-            } else {
-                barCSS = {
-                    "margin-left": toBarPerc(n) + "%"
-                };
-            }
-            barCSS.transition = "all " + speed + "ms " + ease;
-            return barCSS;
-        }
-        /**
-         * (Internal) Queues a function to be executed.
-         */
-        var queue = function() {
-            var pending = [];
-            function next() {
-                var fn = pending.shift();
-                if (fn) {
-                    fn(next);
-                }
-            }
-            return function(fn) {
-                pending.push(fn);
-                if (pending.length == 1) next();
-            };
-        }();
-        /**
-         * (Internal) Applies css properties to an element, similar to the jQuery
-         * css method.
-         *
-         * While this helper does assist with vendor prefixed property names, it
-         * does not perform any manipulation of values prior to setting styles.
-         */
-        var css = function() {
-            var cssPrefixes = [ "Webkit", "O", "Moz", "ms" ], cssProps = {};
-            function camelCase(string) {
-                return string.replace(/^-ms-/, "ms-").replace(/-([\da-z])/gi, function(match, letter) {
-                    return letter.toUpperCase();
-                });
-            }
-            function getVendorProp(name) {
-                var style = document.body.style;
-                if (name in style) return name;
-                var i = cssPrefixes.length, capName = name.charAt(0).toUpperCase() + name.slice(1), vendorName;
-                while (i--) {
-                    vendorName = cssPrefixes[i] + capName;
-                    if (vendorName in style) return vendorName;
-                }
-                return name;
-            }
-            function getStyleProp(name) {
-                name = camelCase(name);
-                return cssProps[name] || (cssProps[name] = getVendorProp(name));
-            }
-            function applyCss(element, prop, value) {
-                prop = getStyleProp(prop);
-                element.style[prop] = value;
-            }
-            return function(element, properties) {
-                var args = arguments, prop, value;
-                if (args.length == 2) {
-                    for (prop in properties) {
-                        value = properties[prop];
-                        if (value !== undefined && properties.hasOwnProperty(prop)) applyCss(element, prop, value);
-                    }
-                } else {
-                    applyCss(element, args[1], args[2]);
-                }
-            };
-        }();
-        return NProgress;
-    }();
-    UI.progress = Progress;
-    module.exports = Progress;
-});
 define("ui.pureview", [ "core", "zepto.extend.fx", "zepto.extend.data", "zepto.extend.selector", "zepto.pinchzoom", "util.hammer" ], function(require, exports, module) {
     require("core");
     var PinchZoom = require("zepto.pinchzoom"), Hammer = require("util.hammer"), $ = window.Zepto, UI = $.AMUI, animation = UI.support.animation, transition = UI.support.transition, $html = $("html");
@@ -5979,174 +5216,6 @@ define("ui.pureview", [ "core", "zepto.extend.fx", "zepto.extend.data", "zepto.e
         $("[data-am-pureview]").pureview();
     });
     module.exports = PureView;
-});
-define("ui.scrollspy", [ "core", "zepto.extend.fx", "zepto.extend.data", "zepto.extend.selector" ], function(require, exports, module) {
-    "use strict";
-    require("core");
-    var $ = window.Zepto, UI = $.AMUI;
-    /**
-     * @via https://github.com/uikit/uikit/blob/master/src/js/scrollspy.js
-     * @license https://github.com/uikit/uikit/blob/master/LICENSE.md
-     */
-    var ScrollSpy = function(element, options) {
-        if (!UI.support.animation) return;
-        this.options = $.extend({}, ScrollSpy.DEFAULTS, options);
-        this.$element = $(element);
-        var checkViewRAF = function() {
-            UI.utils.rAF.call(window, $.proxy(this.checkView, this));
-        }.bind(this);
-        this.$window = $(window).on("scroll.scrollspy.amui", checkViewRAF).on("resize.scrollspy.amui orientationchange.scrollspy.amui", UI.utils.debounce(checkViewRAF, 50));
-        this.timer = this.inViewState = this.initInView = null;
-        checkViewRAF();
-    };
-    ScrollSpy.DEFAULTS = {
-        animation: "fade",
-        className: {
-            inView: "am-scrollspy-inview",
-            init: "am-scrollspy-init"
-        },
-        repeat: true,
-        delay: 0,
-        topOffset: 0,
-        leftOffset: 0
-    };
-    ScrollSpy.prototype.checkView = function() {
-        var $element = this.$element, options = this.options, inView = UI.utils.isInView($element, options), animation = options.animation ? " am-animation-" + options.animation : "";
-        if (inView && !this.inViewState) {
-            if (this.timer) clearTimeout(this.timer);
-            if (!this.initInView) {
-                $element.addClass(options.className.init);
-                this.offset = $element.offset();
-                this.initInView = true;
-                $element.trigger("init:scrollspy:amui");
-            }
-            this.timer = setTimeout(function() {
-                if (inView) {
-                    $element.addClass(options.className.inView + animation).width();
-                }
-            }, options.delay);
-            this.inViewState = true;
-            $element.trigger("inview:scrollspy:amui");
-        }
-        if (!inView && this.inViewState && options.repeat) {
-            $element.removeClass(options.className.inView + animation);
-            this.inViewState = false;
-            $element.trigger("outview:scrollspy:amui");
-        }
-    };
-    ScrollSpy.prototype.check = function() {
-        UI.utils.rAF.call(window, $.proxy(this.checkView, this));
-    };
-    UI.scrollspy = ScrollSpy;
-    // Sticky Plugin
-    function Plugin(option) {
-        return this.each(function() {
-            var $this = $(this), data = $this.data("am.scrollspy"), options = typeof option == "object" && option;
-            if (!data) $this.data("am.scrollspy", data = new ScrollSpy(this, options));
-            if (typeof option == "string") data[option]();
-        });
-    }
-    $.fn.scrollspy = Plugin;
-    // Init code
-    $(function() {
-        $("[data-am-scrollspy]").each(function() {
-            var $this = $(this), options = UI.utils.options($this.attr("data-am-scrollspy"));
-            $this.scrollspy(options);
-        });
-    });
-    module.exports = ScrollSpy;
-});
-define("ui.scrollspynav", [ "core", "zepto.extend.fx", "zepto.extend.data", "zepto.extend.selector", "ui.smooth-scroll" ], function(require, exports, module) {
-    "use strict";
-    require("core");
-    require("ui.smooth-scroll");
-    var $ = window.Zepto, UI = $.AMUI;
-    /**
-     * @via https://github.com/uikit/uikit/
-     * @license https://github.com/uikit/uikit/blob/master/LICENSE.md
-     */
-    // ScrollSpyNav Class
-    var ScrollSpyNav = function(element, options) {
-        this.options = $.extend({}, ScrollSpyNav.DEFAULTS, options);
-        this.$element = $(element);
-        this.anchors = [];
-        this.$links = this.$element.find('a[href^="#"]').each(function(i, link) {
-            this.anchors.push($(link).attr("href"));
-        }.bind(this));
-        this.$targets = $(this.anchors.join(", "));
-        var processRAF = function() {
-            UI.utils.rAF.call(window, $.proxy(this.process, this));
-        }.bind(this);
-        this.$window = $(window).on("scroll.scrollspynav.amui", processRAF).on("resize.scrollspynav.amui orientationchange.scrollspynav.amui", UI.utils.debounce(processRAF, 50));
-        processRAF();
-        this.scrollProcess();
-    };
-    ScrollSpyNav.DEFAULTS = {
-        className: {
-            active: "am-active"
-        },
-        closest: false,
-        smooth: true
-    };
-    ScrollSpyNav.prototype.process = function() {
-        var scrollTop = this.$window.scrollTop(), options = this.options, inViews = [], $links = this.$links;
-        var $targets = this.$targets;
-        $targets.each(function(i, target) {
-            if (UI.utils.isInView(target, options)) {
-                inViews.push(target);
-            }
-        });
-        //console.log(inViews.length);
-        if (inViews.length) {
-            var $target;
-            $.each(inViews, function(i, item) {
-                if ($(item).offset().top >= scrollTop) {
-                    // console.log($(item));
-                    $target = $(item);
-                    return false;
-                }
-            });
-            if (!$target) return;
-            if (options.closest) {
-                $links.closest(options.closest).removeClass(options.className.active);
-                $links.filter('a[href="#' + $target.attr("id") + '"]').closest(options.closest).addClass(options.className.active);
-            } else {
-                $links.removeClass(options.className.active).filter('a[href="#' + $target.attr("id") + '"]').addClass(options.className.active);
-            }
-        }
-    };
-    ScrollSpyNav.prototype.scrollProcess = function() {
-        var $links = this.$links;
-        // smoothScroll
-        if (this.options.smooth) {
-            $links.on("click", function(e) {
-                e.preventDefault();
-                var $this = $(this), $target = $($this.attr("href"));
-                if (!$target) return;
-                $(window).smoothScroll({
-                    position: $target.offset().top
-                });
-            });
-        }
-    };
-    UI.scrollspynav = ScrollSpyNav;
-    // ScrollSpyNav Plugin
-    function Plugin(option) {
-        return this.each(function() {
-            var $this = $(this), data = $this.data("am.scrollspynav"), options = typeof option == "object" && option;
-            if (!data) $this.data("am.scrollspynav", data = new ScrollSpyNav(this, options));
-            if (typeof option == "string") data[option]();
-        });
-    }
-    $.fn.scrollspynav = Plugin;
-    // Init code
-    $(function() {
-        $("[data-am-scrollspy-nav]").each(function() {
-            var $this = $(this), options = UI.utils.options($this.attr("data-am-scrollspy-nav"));
-            Plugin.call($this, options);
-        });
-    });
-    module.exports = ScrollSpyNav;
 });
 define("ui.share", [ "core", "zepto.extend.fx", "zepto.extend.data", "zepto.extend.selector", "ui.modal", "ui.dimmer", "util.qrcode" ], function(require, exports, module) {
     require("core");
@@ -6511,141 +5580,6 @@ define("ui.smooth-scroll", [ "core", "zepto.extend.fx", "zepto.extend.data", "ze
         $(window).smoothScroll(options);
     });
 });
-define("ui.sticky", [ "core", "zepto.extend.fx", "zepto.extend.data", "zepto.extend.selector" ], function(require, exports, module) {
-    require("core");
-    var $ = window.Zepto, UI = $.AMUI;
-    /**
-     * @via https://github.com/uikit/uikit/blob/master/src/js/addons/sticky.js
-     * @license https://github.com/uikit/uikit/blob/master/LICENSE.md
-     */
-    // Sticky Class
-    var Sticky = function(element, options) {
-        var me = this;
-        this.options = $.extend({}, Sticky.DEFAULTS, options);
-        this.$element = $(element);
-        this.sticked = null;
-        this.inited = null;
-        this.$holder = undefined;
-        this.$window = $(window).on("scroll.sticky.amui", UI.utils.debounce($.proxy(this.checkPosition, this), 10)).on("resize.sticky.amui orientationchange.sticky.amui", UI.utils.debounce(function() {
-            me.reset(true, function() {
-                me.checkPosition();
-            });
-        }, 50)).on("load.sticky.amui", $.proxy(this.checkPosition, this));
-        this.offset = this.$element.offset();
-        this.init();
-    };
-    Sticky.DEFAULTS = {
-        top: 0,
-        bottom: 0,
-        animation: "",
-        className: {
-            sticky: "am-sticky",
-            resetting: "am-sticky-resetting",
-            stickyBtm: "am-sticky-bottom",
-            animationRev: "am-animation-reverse"
-        }
-    };
-    Sticky.prototype.init = function() {
-        var result = this.check();
-        if (!result) return false;
-        var $element = this.$element, $holder = $('<div class="am-sticky-placeholder"></div>').css({
-            height: $element.css("position") != "absolute" ? $element.outerHeight() : "",
-            "float": $element.css("float") != "none" ? $element.css("float") : "",
-            margin: $element.css("margin")
-        });
-        this.$holder = $element.css("margin", 0).wrap($holder).parent();
-        this.inited = 1;
-        return true;
-    };
-    Sticky.prototype.reset = function(force, cb) {
-        var options = this.options, $element = this.$element, animation = options.animation ? " am-animation-" + options.animation : "", complete = function() {
-            $element.css({
-                position: "",
-                top: "",
-                width: "",
-                left: "",
-                margin: 0
-            });
-            $element.removeClass([ animation, options.className.animationRev, options.className.sticky, options.className.resetting ].join(" "));
-            this.animating = false;
-            this.sticked = false;
-            this.offset = $element.offset();
-            cb && cb();
-        }.bind(this);
-        $element.addClass(options.className.resetting);
-        if (!force && options.animation && UI.support.animation) {
-            this.animating = true;
-            $element.removeClass(animation).one(UI.support.animation.end, function() {
-                complete();
-            }).width();
-            // force redraw
-            $element.addClass(animation + " " + options.className.animationRev);
-        } else {
-            complete();
-        }
-    };
-    Sticky.prototype.check = function() {
-        if (!this.$element.is(":visible")) return false;
-        var media = this.options.media;
-        if (media) {
-            switch (typeof media) {
-              case "number":
-                if (window.innerWidth < media) {
-                    return false;
-                }
-                break;
-
-              case "string":
-                if (window.matchMedia && !window.matchMedia(media).matches) {
-                    return false;
-                }
-                break;
-            }
-        }
-        return true;
-    };
-    Sticky.prototype.checkPosition = function() {
-        if (!this.inited) {
-            var initialized = this.init();
-            if (!initialized) return;
-        }
-        var options = this.options, scrollHeight = $("body").height(), scrollTop = this.$window.scrollTop(), offsetTop = options.top, offsetBottom = options.bottom, $element = this.$element, animation = options.animation ? " am-animation-" + options.animation : "", className = [ options.className.sticky, animation ].join(" ");
-        if (typeof offsetBottom == "function") offsetBottom = offsetBottom(this.$element);
-        var checkResult = scrollTop > this.$holder.offset().top;
-        if (!this.sticked && checkResult) {
-            $element.addClass(className);
-        } else if (this.sticked && !checkResult) {
-            this.reset();
-        }
-        this.$holder.height($element.height());
-        if (checkResult) {
-            $element.css({
-                top: offsetTop,
-                left: this.$holder.offset().left,
-                width: this.offset.width
-            });
-        }
-        this.sticked = checkResult;
-    };
-    UI.sticky = Sticky;
-    // Sticky Plugin
-    function Plugin(option) {
-        return this.each(function() {
-            var $this = $(this), data = $this.data("am.sticky"), options = typeof option == "object" && option;
-            if (!data) $this.data("am.sticky", data = new Sticky(this, options));
-            if (typeof option == "string") data[option]();
-        });
-    }
-    $.fn.sticky = Plugin;
-    // Init code
-    $(window).on("load", function() {
-        $("[data-am-sticky]").each(function() {
-            var $this = $(this), options = UI.utils.options($this.attr("data-am-sticky"));
-            Plugin.call($this, options);
-        });
-    });
-    module.exports = Sticky;
-});
 define("ui.tabs", [ "core", "zepto.extend.fx", "zepto.extend.data", "zepto.extend.selector", "util.hammer" ], function(require, exports, module) {
     require("core");
     var Hammer = require("util.hammer");
@@ -6825,98 +5759,6 @@ define("util.cookie", [ "core", "zepto.extend.fx", "zepto.extend.data", "zepto.e
     };
     UI.utils.cookie = cookie;
     module.exports = cookie;
-});
-define("util.fullscreen", [ "core", "zepto.extend.fx", "zepto.extend.data", "zepto.extend.selector" ], function(require, exports, module) {
-    require("core");
-    var $ = window.Zepto, UI = $.AMUI;
-    /**
-     * @via https://github.com/sindresorhus/screenfull.js
-     * @license MIT © Sindre Sorhus
-     * @version 1.2.1
-     */
-    "use strict";
-    var keyboardAllowed = typeof Element !== "undefined" && "ALLOW_KEYBOARD_INPUT" in Element;
-    var fn = function() {
-        var val;
-        var valLength;
-        var fnMap = [ [ "requestFullscreen", "exitFullscreen", "fullscreenElement", "fullscreenEnabled", "fullscreenchange", "fullscreenerror" ], // new WebKit
-        [ "webkitRequestFullscreen", "webkitExitFullscreen", "webkitFullscreenElement", "webkitFullscreenEnabled", "webkitfullscreenchange", "webkitfullscreenerror" ], // old WebKit (Safari 5.1)
-        [ "webkitRequestFullScreen", "webkitCancelFullScreen", "webkitCurrentFullScreenElement", "webkitCancelFullScreen", "webkitfullscreenchange", "webkitfullscreenerror" ], [ "mozRequestFullScreen", "mozCancelFullScreen", "mozFullScreenElement", "mozFullScreenEnabled", "mozfullscreenchange", "mozfullscreenerror" ], [ "msRequestFullscreen", "msExitFullscreen", "msFullscreenElement", "msFullscreenEnabled", "MSFullscreenChange", "MSFullscreenError" ] ];
-        var i = 0;
-        var l = fnMap.length;
-        var ret = {};
-        for (;i < l; i++) {
-            val = fnMap[i];
-            if (val && val[1] in document) {
-                for (i = 0, valLength = val.length; i < valLength; i++) {
-                    ret[fnMap[0][i]] = val[i];
-                }
-                return ret;
-            }
-        }
-        return false;
-    }();
-    var fullscreen = {
-        request: function(elem) {
-            var request = fn.requestFullscreen;
-            elem = elem || document.documentElement;
-            // Work around Safari 5.1 bug: reports support for
-            // keyboard in fullscreen even though it doesn't.
-            // Browser sniffing, since the alternative with
-            // setTimeout is even worse.
-            if (/5\.1[\.\d]* Safari/.test(navigator.userAgent)) {
-                elem[request]();
-            } else {
-                elem[request](keyboardAllowed && Element.ALLOW_KEYBOARD_INPUT);
-            }
-        },
-        exit: function() {
-            document[fn.exitFullscreen]();
-        },
-        toggle: function(elem) {
-            if (this.isFullscreen) {
-                this.exit();
-            } else {
-                this.request(elem);
-            }
-        },
-        onchange: function() {},
-        onerror: function() {},
-        raw: fn
-    };
-    if (!fn) {
-        module.exports = false;
-        return;
-    }
-    Object.defineProperties(fullscreen, {
-        isFullscreen: {
-            get: function() {
-                return !!document[fn.fullscreenElement];
-            }
-        },
-        element: {
-            enumerable: true,
-            get: function() {
-                return document[fn.fullscreenElement];
-            }
-        },
-        enabled: {
-            enumerable: true,
-            get: function() {
-                // Coerce to boolean in case of old WebKit
-                return !!document[fn.fullscreenEnabled];
-            }
-        }
-    });
-    document.addEventListener(fn.fullscreenchange, function(e) {
-        fullscreen.onchange.call(fullscreen, e);
-    });
-    document.addEventListener(fn.fullscreenerror, function(e) {
-        fullscreen.onerror.call(fullscreen, e);
-    });
-    //!window.fullscreen && (window.fullscreen = fullscreen);
-    UI.fullscreen = fullscreen;
-    module.exports = fullscreen;
 });
 define("util.qrcode", [], function(require, exports, module) {
     var $ = Zepto;
@@ -10404,5 +9246,585 @@ define("zepto.pinchzoom", [], function(require, exports, module) {
         return PinchZoom;
     };
     module.exports = definePinchZoom(window.Zepto);
+});
+define("accordion", [ "core", "zepto.extend.fx", "zepto.extend.data", "zepto.extend.selector", "ui.collapse" ], function(require, exports, module) {
+    require("core");
+    require("ui.collapse");
+    var $ = window.Zepto, UI = $.AMUI, accordionInit = function() {
+        var $accordion = $('[data-am-widget="accordion"]'), selector = {
+            item: ".am-accordion-item",
+            title: ".am-accordion-title",
+            content: ".am-accordion-content"
+        };
+        $accordion.each(function(i, item) {
+            var options = UI.utils.parseOptions($(item).attr("data-am-accordion")), $title = $accordion.find(selector.title);
+            $title.on("click", function() {
+                var $content = $(this).next(selector.content), $parent = $(this).parent(selector.item), data = $content.data("amui.collapse");
+                $parent.toggleClass("am-active");
+                if (!data) {
+                    $content.collapse();
+                } else {
+                    $content.collapse("toggle");
+                }
+                !options.multiple && $(item).children(".am-active").not($parent).removeClass("am-active").find(".am-accordion-content.am-in").collapse("close");
+            });
+        });
+    };
+    // Init on DOM ready
+    $(function() {
+        accordionInit();
+    });
+    exports.init = accordionInit;
+});
+define("divider", [], function(require, exports, module) {});
+define("duoshuo", [ "core", "zepto.extend.fx", "zepto.extend.data", "zepto.extend.selector" ], function(require, exports, module) {
+    require("core");
+    var $ = window.Zepto;
+    function duoshuoInit() {
+        var $dsThread = $(".ds-thread"), dsShortName = $dsThread.parent('[data-am-widget="duoshuo"]').attr("data-ds-short-name"), dsSrc = (document.location.protocol == "https:" ? "https:" : "http:") + "//static.duoshuo.com/embed.js";
+        if (!$dsThread.length || !dsShortName) return;
+        window.duoshuoQuery = {
+            short_name: dsShortName
+        };
+        // 已经有多说脚本
+        if ($('script[src="' + dsSrc + '"]').length) return;
+        var $dsJS = $("<script>", {
+            async: true,
+            type: "text/javascript",
+            src: dsSrc,
+            charset: "utf-8"
+        });
+        $("body").append($dsJS);
+    }
+    $(window).on("load", duoshuoInit);
+    exports.init = duoshuoInit;
+});
+define("figure", [ "core", "zepto.extend.fx", "zepto.extend.data", "zepto.extend.selector", "ui.pureview", "zepto.pinchzoom", "util.hammer" ], function(require, exports, module) {
+    require("core");
+    require("ui.pureview");
+    var $ = window.Zepto, UI = $.AMUI;
+    /**
+     * Is Images zoomable
+     * @return {Boolean}
+     */
+    $.isImgZoomAble = function(element) {
+        var t = new Image();
+        t.src = element.src;
+        var zoomAble = $(element).width() < t.width;
+        if (zoomAble) {
+            $(element).parent(".am-figure").addClass("am-figure-zoomable");
+        }
+        return zoomAble;
+    };
+    var figureInit = function() {
+        $(".am-figure").each(function(i, item) {
+            var options = UI.utils.parseOptions($(item).attr("data-am-figure"));
+            if (options.pureview) {
+                $(item).addClass("am-figure-zoomable").pureview();
+            } else if (options.autoZoom) {
+                var zoomAble = $.isImgZoomAble($(item).find("img")[0]);
+                zoomAble && $(item).pureview();
+            }
+        });
+    };
+    $(window).on("load", function() {
+        figureInit();
+    });
+    exports.init = figureInit;
+});
+define("footer", [ "core", "zepto.extend.fx", "zepto.extend.data", "zepto.extend.selector", "ui.add2home", "util.cookie", "ui.modal", "ui.dimmer" ], function(require, exports, module) {
+    require("core");
+    // add2home
+    var addToHS = require("ui.add2home");
+    var cookie = require("util.cookie"), modal = require("ui.modal"), $ = window.Zepto, footerInit = function() {
+        // modal mode
+        $(".am-footer-ysp").on("click", function() {
+            $("#am-footer-mode").modal();
+        });
+        addToHS();
+        // switch mode
+        // switch to desktop
+        $('[data-rel="desktop"]').on("click", function(e) {
+            e.preventDefault();
+            if (window.AMPlatform) {
+                // front end
+                AMPlatform.util.goDesktop();
+            } else {
+                // back end
+                cookie.set("allmobilize", "desktop", "", "/");
+                window.location = window.location;
+            }
+        });
+    };
+    $(window).on("load", function() {
+        footerInit();
+    });
+    exports.init = footerInit;
+});
+define("gallery", [ "core", "zepto.extend.fx", "zepto.extend.data", "zepto.extend.selector", "ui.pureview", "zepto.pinchzoom", "util.hammer" ], function(require, exports, module) {
+    require("core");
+    var PureView = require("ui.pureview");
+    var $ = window.Zepto, UI = $.AMUI;
+    var galleryInit = function() {
+        var $gallery = $('[data-am-widget="gallery"]'), $galleryOne = $gallery.filter(".am-gallery-one");
+        $gallery.each(function() {
+            var options = UI.utils.parseOptions($(this).attr("data-am-gallery"));
+            if (options.pureview) {
+                typeof options.pureview === "object" ? $(this).pureview(options.pureview) : $(this).pureview();
+            }
+        });
+        $galleryOne.each(function() {
+            galleryMore($(this));
+        });
+    };
+    function galleryMore(object) {
+        var moreData = $("<li class='am-gallery-more'><a href='javascript:;'>更多 &gt;&gt;</a></li>");
+        if (object.children().length > 6) {
+            object.children().each(function(index) {
+                if (index > 5) {
+                    $(this).hide();
+                }
+            });
+            object.find(".am-gallery-more").remove();
+            object.append(moreData);
+        }
+        object.find(".am-gallery-more").on("click", function() {
+            object.children().show();
+            $(this).hide();
+        });
+    }
+    $(function() {
+        galleryInit();
+    });
+    exports.init = galleryInit;
+});
+define("gotop", [ "core", "zepto.extend.fx", "zepto.extend.data", "zepto.extend.selector", "ui.smooth-scroll" ], function(require, exports, module) {
+    require("core");
+    require("ui.smooth-scroll");
+    var $ = window.Zepto;
+    var UI = $.AMUI;
+    var goTopInit = function() {
+        var $goTop = $('[data-am-widget="gotop"]'), $fixed = $goTop.filter(".am-gotop-fixed"), $win = $(window);
+        $goTop.find("a").on("click", function(e) {
+            e.preventDefault();
+            $win.smoothScroll();
+        });
+        function checkPosition() {
+            $fixed[($win.scrollTop() > 50 ? "add" : "remove") + "Class"]("am-active");
+        }
+        checkPosition();
+        $win.on("scroll.gotop.amui", $.AMUI.utils.debounce(checkPosition, 100));
+    };
+    $(function() {
+        goTopInit();
+    });
+    exports.init = goTopInit;
+});
+define("header", [], function(require, exports, module) {
+    var $ = window.Zepto;
+});
+define("intro", [], function(require, exports, module) {
+    var $ = window.Zepto;
+});
+define("list_news", [], function(require, exports, module) {
+    var $ = window.Zepto, listNewsInit = function() {
+        $(".am-list-news-one").each(function() {
+            amListNewsMore($(this));
+        });
+    };
+    function amListNewsMore(object) {
+        var $amList = object.find(".am-list");
+        var $listMore = "<a class='am-list-news-more am-btn am-btn-default' href='###'>更多 &gt;&gt;</a>";
+        if ($amList.children().length > 6) {
+            $amList.children().each(function(index) {
+                if (index > 5) {
+                    $(this).hide();
+                }
+            });
+            object.find(".am-list-news-more").remove();
+            object.append($listMore);
+        }
+        object.find(".am-list-news-more").on("click", function() {
+            $amList.children().show();
+            $(this).hide();
+        });
+    }
+    $(function() {
+        listNewsInit();
+    });
+    exports.init = listNewsInit;
+});
+define("map", [ "core", "zepto.extend.fx", "zepto.extend.data", "zepto.extend.selector" ], function(require, exports, module) {
+    require("core");
+    var $ = window.Zepto;
+    function addMapApi(callback) {
+        var $mapApi0 = $("<script/>", {
+            src: "http://api.map.baidu.com/getscript?type=quick&file=api&ak=WVAXZ05oyNRXS5egLImmentg&t=20140109092002"
+        });
+        $("body").append($mapApi0);
+        $mapApi0.on("load", function() {
+            var $mapApi1 = $("<script/>", {
+                src: "http://api.map.baidu.com/getscript?type=quick&file=feature&ak=WVAXZ05oyNRXS5egLImmentg&t=20140109092002"
+            });
+            $("body").append($mapApi1);
+            $mapApi1.on("load", function() {
+                var script = document.createElement("script");
+                script.textContent = "(" + callback.toString() + ")();";
+                $("body")[0].appendChild(script);
+            });
+        });
+    }
+    function addBdMap() {
+        // 如果使用 $ 选择符，minify 以后会报错: $ is undefined
+        // 即使传入 $ 也无效，改为使用原生方法
+        // 这个函数作为 callback 会插入到 body 以后才执行，应该是 $ 引用错误导致
+        var content = document.querySelector(".am-map"), defaultLng = 116.331398, //经度默认值
+        defaultLat = 39.897445, //纬度默认值
+        name = content.getAttribute("data-name"), address = content.getAttribute("data-address"), lng = content.getAttribute("data-longitude") || defaultLng, lat = content.getAttribute("data-latitude") || defaultLat;
+        var map = new BMap.Map("bd-map");
+        //实例化一个地理坐标点
+        var point = new BMap.Point(lng, lat);
+        //设初始化地图, options: 3-18
+        map.centerAndZoom(point, 18);
+        //添加地图缩放控件
+        map.addControl(new BMap.ZoomControl());
+        var opts = {
+            width: 200,
+            // 信息窗口宽度
+            //height: 'auto',     // 信息窗口高度
+            title: name
+        };
+        // 创建信息窗口对象
+        var infoWindow = new BMap.InfoWindow("地址：" + address, opts);
+        // 创建地址解析器实例
+        var myGeo = new BMap.Geocoder();
+        //判断有没有使用经纬度
+        if (lng == defaultLng && lat == defaultLat) {
+            // 使用地址反解析来设置地图
+            // 将地址解析结果显示在地图上,并调整地图视野
+            myGeo.getPoint(address, function(point) {
+                if (point) {
+                    map.centerAndZoom(point, 17);
+                    map.addOverlay(new BMap.Marker(point));
+                    map.openInfoWindow(infoWindow, point);
+                }
+            }, "");
+        } else {
+            // 使用经纬度来设置地图
+            myGeo.getLocation(point, function(result) {
+                map.centerAndZoom(point, 17);
+                map.addOverlay(new BMap.Marker(point));
+                if (address) {
+                    map.openInfoWindow(infoWindow, point);
+                } else {
+                    map.openInfoWindow(new BMap.InfoWindow(address, opts), point);
+                }
+            });
+        }
+    }
+    var mapInit = function() {
+        $(".am-map").length && addMapApi(addBdMap);
+    };
+    $(document).on("ready", mapInit);
+    exports.init = mapInit;
+});
+define("mechat", [], function(require, exports, module) {
+    var $ = window.Zepto;
+    var mechatInit = function() {
+        if (!$("#mechat").length) return;
+        var $mechat = $('[data-am-widget="mechat"]'), unitid = $mechat.data("am-mechat-unitid"), $mechatData = $("<script>", {
+            charset: "utf-8",
+            src: "http://mechatim.com/js/unit/button.js?id=" + unitid
+        });
+        $("body").append($mechatData);
+    };
+    // Lazy load
+    $(window).on("load", mechatInit);
+    exports.init = mechatInit;
+});
+define("menu", [ "core", "zepto.extend.fx", "zepto.extend.data", "zepto.extend.selector", "ui.offcanvas", "zepto.outerdemension", "ui.collapse", "ui.iscroll-lite" ], function(require, exports, module) {
+    require("core");
+    require("ui.offcanvas");
+    require("ui.collapse");
+    var IScroll = require("ui.iscroll-lite");
+    var $ = window.Zepto;
+    var UI = $.AMUI;
+    var menuInit = function() {
+        var $menus = $('[data-am-widget="menu"]');
+        $menus.find(".am-menu-nav .am-parent > a").on("click", function(e) {
+            e.preventDefault();
+            var $clicked = $(this), $parent = $clicked.parent(), $subMenu = $clicked.next(".am-menu-sub");
+            $parent.toggleClass("am-open");
+            $subMenu.collapse("toggle");
+            $parent.siblings(".am-parent").removeClass("am-open").children(".am-menu-sub.am-in").collapse("close");
+        });
+        // Dropdown/slidedown menu
+        $menus.filter("[data-am-menu-collapse]").find("> .am-menu-toggle").on("click", function(e) {
+            e.preventDefault();
+            var $this = $(this), $nav = $this.next(".am-menu-nav");
+            $this.toggleClass("am-active");
+            $nav.collapse("toggle");
+        });
+        // OffCanvas menu
+        $menus.filter("[data-am-menu-offcanvas]").find("> .am-menu-toggle").on("click", function(e) {
+            e.preventDefault();
+            var $this = $(this), $nav = $this.next(".am-offcanvas");
+            $this.toggleClass("am-active");
+            $nav.offCanvas("open");
+        });
+        // Close offCanvas when link clicked
+        var autoCloseOffCanvas = '.am-offcanvas[data-dismiss-on="click"]', $autoCloseOffCanvas = $(autoCloseOffCanvas);
+        $autoCloseOffCanvas.find("a").not(".am-parent>a").on("click", function(e) {
+            $(this).parents(autoCloseOffCanvas).offCanvas("close");
+        });
+        // one theme
+        $menus.filter(".am-menu-one").each(function(index) {
+            var $this = $(this), $wrap = $('<div class="am-menu-nav-sub-wrap"></div>'), allWidth = 0, prevIndex, $nav = $this.find(".am-menu-nav"), $navTopItem = $nav.children("li");
+            $navTopItem.filter(".am-parent").each(function(index) {
+                $(this).attr("data-rel", "#am-menu-sub-" + index);
+                $(this).find(".am-menu-sub").attr("id", "am-menu-sub-" + index).appendTo($wrap);
+            });
+            $this.append($wrap);
+            $nav.wrap('<div class="am-menu-nav-wrap" id="am-menu-' + index + '">');
+            // $navTopItem.eq(0).addClass('am-active');
+            // 计算出所有 li 宽度
+            $navTopItem.each(function(i) {
+                allWidth += parseFloat($(this).css("width"));
+            });
+            $nav.width(allWidth);
+            var menuScroll = new IScroll("#am-menu-" + index, {
+                eventPassthrough: true,
+                scrollX: true,
+                scrollY: false,
+                preventDefault: false
+            });
+            $navTopItem.on("click", function() {
+                var $clicked = $(this);
+                $clicked.addClass("am-active").siblings().removeClass("am-active");
+                $wrap.find(".am-menu-sub.am-in").collapse("close");
+                if ($clicked.is(".am-parent")) {
+                    !$clicked.hasClass(".am-open") && $wrap.find($clicked.attr("data-rel")).collapse("open");
+                } else {
+                    $clicked.siblings().removeClass("am-open");
+                }
+                // 第一次调用，没有prevIndex
+                if (prevIndex === undefined) {
+                    prevIndex = $(this).index() ? 0 : 1;
+                }
+                // 判断方向
+                var dir = $(this).index() > prevIndex;
+                var target = $(this)[dir ? "next" : "prev"]();
+                // 点击的按钮，显示一半
+                var offset = target.offset() || $(this).offset();
+                var within = $this.offset();
+                // 父类左边距
+                var listOffset, parentLeft = parseInt($this.css("padding-left"));
+                if (dir ? offset.left + offset.width > within.left + within.width : offset.left < within.left) {
+                    listOffset = $nav.offset();
+                    menuScroll.scrollTo(dir ? within.width - offset.left + listOffset.left - offset.width - parentLeft : listOffset.left - offset.left, 0, 400);
+                }
+                prevIndex = $(this).index();
+            });
+            $this.on("touchmove", function(event) {
+                event.preventDefault();
+            });
+        });
+    };
+    $(function() {
+        menuInit();
+    });
+    exports.init = menuInit;
+});
+define("navbar", [ "core", "zepto.extend.fx", "zepto.extend.data", "zepto.extend.selector", "util.qrcode", "ui.modal", "ui.dimmer", "ui.share" ], function(require, exports, module) {
+    require("core");
+    var $ = window.Zepto, UI = $.AMUI, QRCode = require("util.qrcode"), modal = require("ui.modal"), share = require("ui.share");
+    var navbarInit = function() {
+        var $navBar = $('[data-am-widget="navbar"]');
+        if (!$navBar.length) return;
+        var $win = $(window), $body = $("body"), $navBarNav = $navBar.find(".am-navbar-nav"), $navItems = $navBar.find("li"), navItemsCounter = $navItems.length;
+        configItems = $navBarNav.attr("class") && parseInt($navBarNav.attr("class").match(/sm-block-grid-(\d)/)[1]) || 3, 
+        navMinWidth = 60, //每个li最小宽度
+        offsetWidth = 16, $share = $navItems.filter("[data-am-navbar-share]"), $qrcode = $navItems.filter("[data-am-navbar-qrcode]"), 
+        activeStatus = "am-active", $moreActions = $('<ul class="am-navbar-actions"></ul>', {
+            id: UI.utils.generateGUID("am-navbar-actions")
+        }), $moreLink = $('<li class="am-navbar-labels am-navbar-more"><a href="javascript: void(0);"><span class="am-icon-angle-up"></span><span class="am-navbar-label">更多</span></a></li>');
+        // 如果有 Fix 的工具栏则设置 body 的 padding-bottom
+        if ($navBar.css("position") == "fixed") {
+            $body.addClass("with-fixed-navbar");
+        }
+        if ($qrcode.length) {
+            var qrId = "am-navbar-qrcode";
+            $qrModal = $("#" + qrId);
+            if (!$qrModal.length) {
+                var qrImg = $qrcode.attr("data-am-navbar-qrcode"), $qrModal = $('<div class="am-modal am-modal-no-btn" id="">' + '<div class="am-modal-dialog"><div class="am-modal-bd"></div></div>' + "</div>", {
+                    id: qrId
+                }), $qrContainer = $qrModal.find(".am-modal-bd");
+                // 判断上传自定义的二维码没有，否则生成二维码
+                if (qrImg) {
+                    $qrContainer.html('<img src="' + qrImg + '"/>');
+                } else {
+                    var qrnode = new QRCode({
+                        render: "canvas",
+                        correctLevel: 0,
+                        text: window.location.href,
+                        width: 200,
+                        height: 200,
+                        background: "#fff",
+                        foreground: "#000"
+                    });
+                    $qrContainer.html(qrnode);
+                }
+                $body.append($qrModal);
+            }
+            $qrcode.on("click", function(e) {
+                e.preventDefault();
+                $qrModal.modal();
+            });
+        }
+        if (navItemsCounter > configItems && navItemsCounter > calcSuiteItems()) {
+            initActions();
+        }
+        function initActions() {
+            $navBarNav.append($moreLink);
+            $navBarNav.find("li").not(".am-navbar-more").slice(calcSuiteItems() - 1).appendTo($moreActions);
+            // Append more actions
+            $navBar.append($moreActions);
+        }
+        function checkNavBarItems() {
+            // console.log('best: %d', calcSuiteItems());
+            if (calcSuiteItems() >= navItemsCounter) {
+                // 显示所有链接，隐藏 more
+                $moreLink.hide();
+                $moreActions.find("li").insertBefore($moreLink);
+                return;
+            }
+            !$navBar.find(".am-navbar-actions").length && initActions();
+            $moreLink.show();
+            if ($navBarNav.find("li").length < calcSuiteItems()) {
+                $moreActions.find("li").slice(0, calcSuiteItems() - $navBarNav.find("li").length).insertBefore($moreLink);
+            } else if ($navBarNav.find("li").length > calcSuiteItems()) {
+                if ($moreActions.find("li").length) {
+                    $navBarNav.find("li").not($moreLink).slice(calcSuiteItems() - 1).insertBefore($moreActions.find("li").first());
+                } else {
+                    $navBarNav.find("li").not($moreLink).slice(calcSuiteItems() - 1).appendTo($moreActions);
+                }
+            }
+        }
+        /**
+         * 计算最适合显示的条目个数
+         * @returns {number}
+         */
+        function calcSuiteItems() {
+            return Math.floor(($win.width() - offsetWidth) / navMinWidth);
+        }
+        $navBar.on("click.navbar.amui", ".am-navbar-more", function(e) {
+            e.preventDefault();
+            $moreLink[$moreActions.hasClass(activeStatus) ? "removeClass" : "addClass"](activeStatus);
+            $moreActions.toggleClass(activeStatus);
+        });
+        if ($share.length) {
+            $share.on("click.navbar.amui", function(e) {
+                e.preventDefault();
+                share.toggle();
+            });
+        }
+        $win.on("resize.navbar.amui orientationchange.navbar.amui", UI.utils.debounce(checkNavBarItems, 150));
+    };
+    // DOMContent ready
+    $(function() {
+        navbarInit();
+    });
+    exports.init = navbarInit;
+});
+define("pagination", [], function(require, exports, module) {
+    var $ = window.Zepto;
+});
+define("paragraph", [ "core", "zepto.extend.fx", "zepto.extend.data", "zepto.extend.selector", "ui.iscroll-lite" ], function(require, exports, module) {
+    require("core");
+    var $ = window.Zepto, UI = $.AMUI;
+    // Iscroll-lite Plugin
+    var IScroll = require("ui.iscroll-lite");
+    var paragraphInit;
+    /**
+     * 表格滚动
+     * @param index ID 标识，多个 paragraph 里面多个 table
+     */
+    $.fn.scrollTable = function(index) {
+        var $this = $(this), $parent;
+        $this.wrap("<div class='am-paragraph-table-container' id='am-paragraph-table-" + index + "'><div class='am-paragraph-table-scroller'></div></div>");
+        $parent = $this.parent();
+        $parent.width($this.width());
+        $parent.height($this.height());
+        var tableScroll = new IScroll("#am-paragraph-table-" + index, {
+            eventPassthrough: true,
+            scrollX: true,
+            scrollY: false,
+            preventDefault: false
+        });
+    };
+    paragraphInit = function() {
+        var $body = $("body"), $paragraph = $('[data-am-widget="paragraph"]');
+        $paragraph.each(function(index) {
+            var $this = $(this), options = UI.utils.parseOptions($this.attr("data-am-paragraph")), $index = index;
+            if (options.pureview) {
+                $this.pureview();
+            }
+            if (options.tableScrollable) {
+                $this.find("table").each(function(index) {
+                    if ($(this).width() > $(window).width()) {
+                        $(this).scrollTable($index + "-" + index);
+                    }
+                });
+            }
+        });
+    };
+    $(window).on("load", function() {
+        paragraphInit();
+    });
+    exports.init = paragraphInit;
+});
+define("slider", [ "core", "zepto.extend.fx", "zepto.extend.data", "zepto.extend.selector", "zepto.flexslider" ], function(require, exports, module) {
+    require("core");
+    require("zepto.flexslider");
+    var $ = window.Zepto, UI = $.AMUI;
+    var sliderInit = function() {
+        var $sliders = $('[data-am-widget="slider"]');
+        $sliders.not(".am-slider-manual").each(function(i, item) {
+            var options = UI.utils.parseOptions($(item).attr("data-am-slider"));
+            $(item).flexslider(options);
+        });
+    };
+    $(document).on("ready", sliderInit);
+    exports.init = sliderInit;
+});
+define("sohucs", [], function(require, exports, module) {
+    var $ = window.Zepto;
+    var sohuCSInit = function() {
+        if (!$("#SOHUCS").length) return;
+        var $sohucs = $('[data-am-widget="sohucs"]'), appid = $sohucs.attr("data-am-sohucs-appid"), conf = $sohucs.attr("data-am-sohucs-conf"), $cy = $("<script></script>", {
+            charset: "utf-8",
+            id: "changyan_mobile_js",
+            src: "http://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=" + appid + "&conf=" + conf
+        });
+        $("body").append($cy);
+    };
+    // Lazy load
+    $(window).on("load", sohuCSInit);
+    exports.init = sohuCSInit;
+});
+define("tabs", [ "core", "zepto.extend.fx", "zepto.extend.data", "zepto.extend.selector", "ui.tabs", "util.hammer" ], function(require, exports, module) {
+    require("core");
+    require("ui.tabs");
+    var $ = window.Zepto;
+    var tabsInit = function() {
+        $('[data-am-widget="tabs"]').tabs();
+    };
+    $(function() {
+        tabsInit();
+    });
+    exports.init = tabsInit;
+});
+define("titlebar", [], function(require, exports, module) {
+    var $ = window.Zepto;
 });
 seajs.use(["core","util.fastclick","util.hammer","zepto.outerdemension","zepto.extend.data","zepto.extend.fx","zepto.extend.selector","ui.add2home","ui.alert","ui.button","ui.collapse","ui.dimmer","ui.dropdown","ui.iscroll-lite","ui.modal","ui.offcanvas","ui.popover","ui.progress","ui.pureview","ui.scrollspy","ui.scrollspynav","ui.share","ui.smooth-scroll","ui.sticky","ui.tabs","util.cookie","util.fullscreen","util.qrcode","zepto.flexslider","zepto.pinchzoom","accordion","divider","duoshuo","figure","footer","gallery","gotop","header","intro","list_news","map","mechat","menu","navbar","pagination","paragraph","slider","sohucs","tabs","titlebar"]);
