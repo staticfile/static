@@ -1,3 +1,4 @@
+/*! Amaze UI v1.0.0-beta2 ~ helper | by Amaze UI Team | (c) 2014 AllMobilize, Inc. | Licensed under MIT | 2014-09-28T02:09:21 UTC */ 
 (function(undefined) {
     var registerIfCondHelper = function(hbs) {
         hbs.registerHelper('ifCond', function(v1, operator, v2, options) {
