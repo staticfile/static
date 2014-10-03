@@ -1,0 +1,22 @@
+{
+  "name": "PxLoader",
+  "filename": "PxLoader.min.js",
+  "version": "0.1",
+  "description": "PxLoader is a Javascript library that helps you download images, sound files or anything else you need before you take a specific action on your site (like showing a user interface or starting a game). You can use it to create a preloader for HTML5 games and websites.",
+  "homepage": "http://thinkpixellab.com/pxloader/",
+  "keywords": [
+     "pxloader", "PxLoader", "preloader", "jspreloader"
+  ],
+ "maintainers": [
+   {
+     "name": "Pixel Lab",
+     "web": " http://thinkpixellab.com"
+   }
+ ],
+ "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/thinkpixellab/PxLoader"
+    }
+ ]
+}
