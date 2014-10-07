@@ -1,0 +1,26 @@
+{
+  "name": "angular-hotkeys",
+  "filename": "hotkeys.min.js",
+  "version": "1.4.5",
+  "description": "Configuration-centric keyboard shortcuts for your Angular apps.",
+  "homepage": "http://chieffancypants.github.io/angular-hotkeys/",
+  "keywords": [
+    "angular",
+    "angularjs",
+    "keyboard",
+    "shortcut",
+    "hotkey"
+  ],
+ "maintainers": [
+   {
+     "name": "Wes Cruver",
+     "web": "http://chieffancypants.github.io/angular-hotkeys/"
+   }
+ ],
+ "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/chieffancypants/angular-hotkeys"
+    }
+ ]
+}
