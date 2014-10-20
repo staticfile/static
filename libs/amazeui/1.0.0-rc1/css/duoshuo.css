@@ -1,0 +1,260 @@
+/**
+ * Duoshuo Comments Style for Amaze UI
+ * by Minwe
+ */
+
+#ds-thread #ds-reset .ds-meta {
+  border-bottom-color: #eee;
+}
+
+/* Like button */
+
+#ds-thread #ds-reset a.ds-like-thread-button {
+  border: 1px solid #ddd;
+  background: #f8f8f8;
+  border-radius: 2px;
+}
+
+/* Comments counter */
+
+#ds-thread #ds-reset li.ds-tab a.ds-current {
+  border: 1px solid #ddd;
+  background-color: #f8f8f8;
+  border-radius: 2px;
+}
+
+#ds-thread #ds-reset #ds-hot-posts {
+  border-color: #eee;
+  border-width: 0 0 1px;
+  margin: 10px 0;
+  padding-bottom: 15px;
+  border-radius: 0;
+}
+
+/* Main avatar */
+
+#ds-reset .ds-avatar img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  padding: 1px;
+  background-color: #fff;
+}
+
+/* Comments list */
+
+#ds-thread #ds-reset .ds-comments {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding:10px 0 20px;
+  margin-bottom: 5px;
+}
+
+#ds-thread #ds-reset li.ds-post {
+  border-top: none;
+}
+
+#ds-thread #ds-reset .ds-post-self {
+  padding: 10px 2px;
+}
+
+#ds-thread #ds-reset .ds-comment-body {
+  padding-left: 0;
+  position: relative;
+  margin-left: 62px;
+  border: 1px solid #ddd;
+  padding: 0 10px 10px;
+  border-radius: 2px;
+}
+
+#ds-thread #ds-reset .ds-comment-body:before,
+#ds-thread #ds-reset .ds-comment-body:after {
+  position: absolute;
+  top: 8px;
+  left: -8px;
+  right: 100%;
+  width: 0;
+  height: 0;
+  display: block;
+  content: " ";
+  border-color: transparent;
+  border-style: solid solid dotted;
+  border-width: 8px 8px 8px 0;
+  pointer-events: none;
+}
+
+#ds-thread #ds-reset .ds-comment-body:before {
+  border-right-color: #dedede;
+  z-index: 1;
+}
+
+#ds-thread #ds-reset .ds-comment-body:after {
+  border-right-color: #f8f8f8;
+  margin-left: 1px;
+  z-index: 2;
+}
+
+#ds-thread #ds-reset .ds-comment-header {
+  background-color: #f8f8f8;
+  padding: 10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  border-bottom: 1px solid #eee;
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+#ds-thread #ds-reset .ds-comment-body p {
+  font-size: 14px;
+}
+
+#ds-thread #ds-reset .ds-comment-footer {
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+/* Nested */
+
+#ds-thread #ds-reset #ds-ctx {
+ font-size: 13px;
+  margin-bottom: 15px;
+}
+
+#ds-reset #ds-ctx .ds-ctx-entry .ds-avatar {
+  border-radius: 50%;
+}
+
+
+/* Comment textarea */
+
+#ds-thread #ds-reset .ds-textarea-wrapper {
+  background-image: none;
+  border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
+  border-color: #ddd;
+}
+
+#ds-reset .ds-gradient-bg {
+  background: #f8f8f8;
+}
+
+#ds-thread #ds-reset .ds-post-options {
+  border-bottom-left-radius: 2px;
+  border-color: #ddd;
+  height: 36px;
+}
+
+#ds-thread #ds-reset .ds-sync {
+  line-height: 34px;
+}
+
+#ds-thread #ds-reset .ds-toolbar-buttons {
+  top: 8px;
+  left: 10px;
+}
+
+#ds-thread #ds-reset .ds-textarea-wrapper textarea {
+  font-size: 14px;
+}
+
+/* Post Butoon */
+
+#ds-thread #ds-reset .ds-post-button {
+  border-bottom-right-radius: 2px;
+  background: #3bb4f2;
+  color: #fff;
+  text-shadow: none;
+  box-shadow: none;
+  border: 1px solid #ddd;
+  height: 38px;
+}
+
+#ds-thread #ds-reset .ds-post-button:hover {
+  background: #0f9ae0;
+  color: #fff;
+  text-shadow: none;
+}
+
+#ds-thread #ds-reset .ds-post-button:focus,
+#ds-thread #ds-reset .ds-post-button:active {
+  outline: 0;
+}
+
+#ds-thread #ds-reset .ds-paginator {
+  margin-bottom: 20px;
+}
+
+#ds-thread #ds-reset .ds-paginator a:hover,
+#ds-thread #ds-reset .ds-paginator a.ds-current {
+  border-radius: 2px;
+  border-color: #ddd;
+}
+
+/** Icon - Dependence FontAwesome */
+
+.ds-icon:before,
+.ds-add-emote:before {
+  display: inline-block;
+  font-family: "FontAwesome";
+  font-weight: normal;
+  font-style: normal;
+  vertical-align: baseline;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ds-icon-heart,
+.ds-icon-reply,
+.ds-icon-like,
+.ds-icon-share,
+.ds-icon-report,
+.ds-icon-delete,
+.ds-icon-settings {
+  line-height: 13px !important;
+  background-image: none !important;
+}
+
+.ds-icon-heart:before {
+  content: "\f004";
+  color: #dd514c;
+}
+
+.ds-icon-reply:before {
+  content: "\f112";
+}
+
+.ds-icon-like:before {
+  content: "\f08a";
+}
+
+.ds-icon-share:before {
+  content: "\f064";
+}
+
+.ds-icon-report:before {
+  content: "\f06a";
+}
+
+.ds-icon-delete:before {
+  content: "\f00d";
+}
+
+.ds-icon-settings {
+  font-size: 12px !important;
+}
+
+.ds-icon-settings:before {
+  content: "\f013";
+}
+
+.ds-add-emote {
+  line-height: 19px !important;
+  background: none !important;
+  font-size: 18px !important;
+}
+
+.ds-add-emote:before {
+  content: "\f118";
+}
