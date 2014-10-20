@@ -1,0 +1,26 @@
+{
+  // 这三项让你的文件能正常被索引到
+  // 项目名要与文件夹名一致
+  "name": "simple",
+  "filename": "main.css",
+  "version": "1.0",
+
+  // 其他
+  "description": "仿制纯白小清新模板",
+  "homepage": "https://github.com/linwy/simple",
+  "keywords": [simple],
+  "maintainers": [
+    {
+      "name": "linwy",
+      "web": "http://www.zhaiblog.com/",
+      "mail": "i@zhaiblog.com"
+    }
+  ],
+  "repositories": [
+    {
+      // svn 等
+      "type": "git",
+      "url": "https://github.com/linwy/simple"
+    }
+  ]
+}
