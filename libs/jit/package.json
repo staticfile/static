@@ -1,0 +1,22 @@
+{
+    "name": "jit",
+    "filename": "jit.js",
+    "version": "2.0.1",
+    "description": "JavaScript可视化工具",
+    "homepage": "http://philogb.github.io/jit/index.html",
+    "keywords": [
+       "jit", "javaScript", "InfoVis", "Interactive Data"
+   ],
+   "maintainers": [
+       {
+           "name": "Nicolas",
+           "web": "http://philogb.github.io/blog/" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/philogb/jit.git"
+        }
+   ]
+}
