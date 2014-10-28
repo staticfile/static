@@ -1,0 +1,17 @@
+{
+  "name": "artTemplate.js",
+  "filename": "artTemplate.js",
+  "version": "3.0",
+  "description": "新一代 javascript 模板引擎",
+  "homepage": "https://github.com/aui/artTemplate",
+  "keywords": ["js模板引擎", "artTemplate.js"],
+   "maintainers": [{
+     "name": "aui",
+     "web": "http://www.planeart.cn",
+     "mail": "sugarpie.tang@gmail.com"
+   }],
+   "repositories": [{   
+      "type": "git",
+      "url": "git@github.com:aui/artTemplate.git"
+    }]
+}
