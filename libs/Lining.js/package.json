@@ -1,0 +1,20 @@
+{
+  "name": "Lining.js",
+  "filename": "lining.js",
+  "version": "0.3.2",
+  "description": "An easy to use javascript plugin offers you complete DOWN-TO-THE-LINE control for radical web typography.",
+  "homepage": "http://zencode.in/lining.js/",
+  "keywords": ["css", "nth-line", "lining"],
+  "maintainers": [
+    {
+      "name": "mzhou",
+      "web": "https://github.com/zmmbreeze"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/zmmbreeze/lining.js"
+    }
+  ]
+}
