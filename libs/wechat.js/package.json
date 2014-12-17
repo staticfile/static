@@ -1,7 +1,7 @@
 {
     "name": "wechat.js",
     "filename": "wechat.js",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "微信相关的 js 操作：分享、网络、菜单",
     "homepage": "http://sofish.github.io/wechat.js/",
     "keywords": [
