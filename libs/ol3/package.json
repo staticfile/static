@@ -1,0 +1,22 @@
+{
+    "name": "OpenLayers 3",
+    "filename": "ol3.js",
+    "version": "3.0.0",
+    "description": "A high-performance, feature-packed library for all your mapping needs.",
+    "homepage": "http://openlayers.org",
+    "keywords": [
+       "mapping", "OpenLayers"
+   ],
+   "maintainers": [
+       {
+           "name": "OpenLayers contributors",
+           "web": "http://openlayers.org" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/openlayers/ol3"
+        }
+   ]
+}
