@@ -1,6 +1,6 @@
 {
     "name": "OpenLayers 3",
-    "filename": "ol3.js",
+    "filename": "ol.js",
     "version": "3.0.0",
     "description": "A high-performance, feature-packed library for all your mapping needs.",
     "homepage": "http://openlayers.org",
