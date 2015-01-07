@@ -1,0 +1,22 @@
+{
+    "name": "engine.io-client",
+    "filename": "engine.io.min.js",
+    "version": "1.4.3",
+    "description": "the implementation of transport-based cross-browser/cross-device bi-directional communication layer for Socket.IO.",
+    "homepage": "http://socket.io",
+    "keywords": [
+       "websocket"
+   ],
+   "maintainers": [
+       {
+           "name": "socket.io contributors",
+           "web": "http://socket.io" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/Automattic/engine.io-client"
+        }
+   ]
+}
