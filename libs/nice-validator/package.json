@@ -1,0 +1,20 @@
+﻿{
+    "name": "nice-validator",
+    "filename": "jquery.validator.js",
+    "version": "0.7.3",
+    "description": "Simple, smart and pleasant verification solution.",
+    "homepage": "https://github.com/niceue/validator",
+    "keywords": ["jquery-plugin", "form", "validate", "validation", "validator", "nice-validator"],
+    "maintainers": [
+        {
+            "name": "Jony",
+            "web": "http://niceue.com/"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/niceue/validator"
+        }
+    ]
+}
