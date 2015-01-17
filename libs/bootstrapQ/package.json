@@ -1,0 +1,22 @@
+{
+    "name": "bootstrapQ",
+    "filename": "bootstrapQ.min.js",
+    "version": "0.0.1",
+    "description": "bootstrap封装及增强",
+    "homepage": "http://uikoo9.com/bootstrapQ",
+    "keywords": [
+       "bootstrap", "bootstrapQ", "封装","增强"
+   ],
+   "maintainers": [
+       {
+           "name": "uikoo9",
+           "web": "http://uikoo9.com" 
+       }   
+	],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/uikoo9/bootstrapQ"
+        }
+   ]
+}
