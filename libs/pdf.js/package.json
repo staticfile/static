@@ -1,0 +1,22 @@
+{
+    "name": "pdf.js",
+    "filename": "pdf.min.js",
+    "version": "1.0.1040",
+    "description": "PDF Reader in JavaScript",
+    "homepage": "https://github.com/mozilla/pdf.js",
+    "keywords": [
+       "pdf", "reader"
+   ],
+   "maintainers": [
+       {
+           "name": "Tim van der Meij",
+           "web": "https://github.com/timvandermeij" 
+       }   
+    ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/mozilla/pdf.js"
+        }
+   ]
+}
