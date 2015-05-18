@@ -1,0 +1,22 @@
+{
+    "name": "jquery.mobile",
+    "filename": "jquery.mobile.min.js",
+    "version": "1.4.5",
+    "description": "jquery mobile",
+    "homepage": "http://jquerymobile.com/",
+    "keywords": [
+       "typo", "jquery.mobile"
+   ],
+   "maintainers": [
+       {
+           "name": "www.jquerymobile.com",
+           "web": "http://jquerymobile.com/" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "",
+            "url": "http://jquerymobile.com/resources/download/jquery.mobile-1.4.5.zip"
+        }
+   ]
+}
