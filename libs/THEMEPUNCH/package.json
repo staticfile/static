@@ -1,0 +1,25 @@
+{
+ 
+  "name": "THEMEPUNCH",
+  "filename": "主文件名，比如 XYZ.js",
+  "version": "1.0",
+
+  // 其他
+  "description": "plugins.min.js",
+  "homepage": "http://staticfile.org",
+  "keywords": [],
+  "maintainers": [
+    {
+      "name": "作者/维护者",
+      "web": "http://staticfile.org",
+      "mail": "trimidea@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      // svn 等
+      "type": "git",
+      "url": "https://github.com/staticfile/static"
+    }
+  ]
+}
