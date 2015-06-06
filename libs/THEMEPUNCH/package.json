@@ -1,17 +1,17 @@
 {
  
   "name": "THEMEPUNCH",
-  "filename": "主文件名，比如 XYZ.js",
+  "filename": "plugins.min.js",
   "version": "1.0",
 
-  "description": "plugins.min.js",
-  "homepage": "http://staticfile.org",
+  "description": "响应式布局",
+  "homepage": "http://www.greensock.com",
   "keywords": [],
   "maintainers": [
     {
-      "name": "作者/维护者",
-      "web": "http://staticfile.org",
-      "mail": "trimidea@gmail.com"
+      "name": "Jack Doyle",
+      "web": "http://www.greensock.com",
+      "mail": "jack@greensock.com"
     }
   ],
   "repositories": [
