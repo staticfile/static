@@ -48,14 +48,5 @@
     "files": [
       "hprose-html5.js"
     ]
-  },
-  "npmName": "hprose-html5",
-  "npmFileMap": [
-    {
-      "basePath": "/dist",
-      "files": [
-        "**/*"
-      ]
-    }
-  ]
+  }
 }
