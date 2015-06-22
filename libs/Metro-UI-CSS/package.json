@@ -1,0 +1,22 @@
+{
+    "name": "Metro-UI-CSS",
+    "filename": "modern.css",
+    "version": "0.95-a",
+    "description": "Metro UI CSS a set of styles to create a site with an interface similar to Windows 8 Metro UI. This set of styles was developed as a self-contained solution.",
+    "homepage": "http://metroui.org.ua/",
+    "keywords": [
+       "metro ui", "css", "win8"
+   ],
+   "maintainers": [
+       {
+           "name": "Sergey Pimenov",
+           "web": "http://brainstorage.me/olton" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/olton/Metro-UI-CSS"
+        }
+   ]
+}
