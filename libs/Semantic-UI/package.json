@@ -1,0 +1,25 @@
+{
+    "name": "Semantic-UI",
+    "filename": "semantic.js",
+    "version": "1.7.3",
+    "description": "Semantic is a UI component framework based around useful principles from natural language.",
+    "homepage": "//http://semantic-ui.com",
+    "keywords": [
+        "semantic",
+        "semantic ui",
+        "semantic-ui",
+    ],
+    "maintainers": [
+        {
+            "name": "Semantic Organization",
+            "web": "http://semantic.com",
+            "mail": "jack@semantic-ui.com" 
+        }
+    ],
+    "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/Semantic-Org/Semantic-UI"
+        }
+    ]
+}
