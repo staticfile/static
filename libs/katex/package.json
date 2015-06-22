@@ -1,17 +1,26 @@
 {
-    "name": "katex"
-  , "filename": "katex.min.js"
-  , "description": "KaTeX is a fast, easy-to-use JavaScript library for TeX math rendering on the web."
-  , "keywords": ["math", "latex", "mathjax"]
-  , "version": "0.1.0"
-  , "homepage": "http://khan.github.io/KaTeX"
-  , "maintainers": [{
-       "name": "Emily Eisenberg"
-     , "web": "https://github.com/xymostech"
-     , "mail": "xymostech@gmail.com"
-  }]
-  , "repository": [{
-        "type": "git"
-      , "url": "https://github.com/Khan/KaTeX"
-  }]
+  "name": "KaTeX",
+  "filename": "katex.min.js",
+  "description": "Fast math typesetting for the web.",
+  "version": "0.4.3",
+  "homepage": "https://khan.github.io/KaTeX/",
+  "keywords": [
+    "tex",
+    "latex",
+    "khan"
+  ],
+  "author": "Khan Academy",
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git://github.com/Khan/KaTeX.git"
+    }
+  ],
+  "bugs": "https://github.com/Khan/KaTeX/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Khan/KaTeX/blob/master/LICENSE.txt"
+    }
+  ]
 }
