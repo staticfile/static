@@ -1,0 +1,36 @@
+{
+	"name": "bootstrap-select",
+	"filename": "bootstrap-select.js",
+	"version": "1.6.3",
+	"description": "A custom <select> for Bootstrap using button dropdown as replacement",	
+	"homepage": "http://silviomoreto.github.io/bootstrap-select",
+	"keywords": [
+		"form", "select", "bootstrap", "replacement"
+	],
+	"maintainers": [
+    {
+      "name": "Silvio Moreto",
+      "web": "https://github.com/silviomoreto"
+    },
+    {
+      "name": "Ana Carolina",
+      "web": "https://github.com/anacarolinats"
+    },
+    {
+      "name": "caseyjhol",
+      "web": "https://github.com/caseyjhol"
+    },
+    {
+      "name": "Matt Bryson",
+      "web": "https://github.com/mattbryson"
+    },
+    {
+      "name": "t0xicCode",
+      "web": "https://github.com/t0xicCode"
+    }
+  ],
+	"repositories": [{
+		"type": "git",
+		"url": "git://github.com/silviomoreto/bootstrap-select.git"
+	}]
+}
