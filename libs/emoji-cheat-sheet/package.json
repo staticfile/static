@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "name": "emoji-cheat-sheet",
+  "description": "A one pager listing the different emoji emoticons.",
+  "homepage": "http://www.emoji-cheat-sheet.com/",
+  "keywords": [
+    "emoji"
+  ],
+  "maintainers": {
+    "name": "arvida",
+    "web": "https://github.com/arvida/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:arvida/emoji-cheat-sheet.com.git"
+  }
+}
