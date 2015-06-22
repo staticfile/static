@@ -1,0 +1,22 @@
+{
+    "name": "Simditor",
+    "filename": "simditor.min.js",
+    "version": "2.0.4",
+    "description": "团队协作工具 Tower 使用的富文本编辑器",
+    "homepage": "http://simditor.tower.im/",
+    "keywords": [
+       "simditor", "editor", "WYSIWYG"
+   ],
+   "maintainers": [
+       {
+           "name": "farthinker",
+           "mail": "farthinker@gmail.com"
+       }
+   ],
+   "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/mycolorway/simditor"
+        }
+   ]
+}
