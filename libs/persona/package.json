@@ -1,0 +1,22 @@
+{
+    "name": "persona",
+    "filename": "include.js",
+    "version": "1.0.0",
+    "description": "persona无密码登录系统",
+    "homepage": "https://login.persona.org",
+    "keywords": [
+       "persona", "js"
+   ],
+   "maintainers": [
+       {
+           "name": "mozilla",
+           "web": "https://developer.mozilla.org/" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/mozilla/persona"
+        }
+   ]
+}
