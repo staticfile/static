@@ -1,0 +1,27 @@
+{
+    "name": "socket.io-client",
+    "filename": "socket.io.js",
+    "version": "1.3.3",
+    "description": "Realtime application framework (client) http://socket.io",
+    "homepage": "https://github.com/Automattic/socket.io-client",
+    "keywords": [ 
+    "realtime",
+    "framework",
+    "websocket",
+    "tcp",
+    "events",
+    "client"
+	],
+   "maintainers": [
+    {
+      "name": "rauchg",
+      "email": "rauchg@gmail.com"
+    },
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/Automattic/socket.io-client.git"
+        }
+   ]
+}
