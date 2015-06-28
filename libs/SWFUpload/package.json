@@ -1,0 +1,23 @@
+{
+    "name": "SWFUpload",
+    "filename": "swfupload.js",
+    "version": "2.2.0.1",
+    "description": "JavaScript & Flash Upload Library",
+    "homepage": "https://code.google.com/p/swfupload/",
+    "keywords": [
+        "swf",
+        "upload"
+    ],
+    "maintainers": [
+        {
+            "name": "jakerobe...@gmail.com robloach",
+            "web": "https://code.google.com/p/swfupload/"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "zip",
+            "url": "https://code.google.com/p/swfupload/"
+        }
+    ]
+}
