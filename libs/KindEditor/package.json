@@ -1,0 +1,20 @@
+{
+  "name": "KindEditor",
+  "filename": "kindeditor.min.js",
+  "description": "开源的在线HTML编辑器，可以无缝地与Java、.NET、PHP、ASP等程序集成。",
+  "version": "4.1.10",
+  "homepage": "http://kindeditor.net/",
+  "keywords": [
+    "editor", "css", "js", "web-components"
+  ],
+  "maintainers": [
+    {
+      "name": "huaiping",
+      "email": "huaiping@live.cn"
+    }
+  ],
+  "repositories": {
+    "type": "git",
+    "url": "https://github.com/huaiping/KindEditor.git"
+  }
+}
