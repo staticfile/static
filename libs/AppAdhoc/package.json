@@ -1,0 +1,29 @@
+{
+	"name": "AppAdhoc",
+	"title": "AppAdhoc JS",
+	"description": "A/B testing and dark/gray launch tool.",
+	"version": "0.1.2",
+	"keywords": [
+		"AppAdhoc",
+		"adhoc",
+		"A/B Testing",
+		"dark launch",
+		"gray launch"
+	],
+	"homepage": "http://AppAdhoc.com",
+	"author": "Adhoc Inc.",
+	"scripts": {
+		"build": "uglify -s adhoc.js -o adhoc.min.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/AppAdhoc/js"
+	},
+	"bugs": {
+		"url": "https://github.com/AppAdhoc/js/issues"
+	},
+	"dependencies": {
+		"uglify": "^0.1.5"
+	},
+	"license": "Apache 2.0"
+}
