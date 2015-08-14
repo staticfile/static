@@ -1,0 +1,299 @@
+
+/*app page*/
+.appDown, .feature1, .feature2, .feature3, .feature4, .feature5, .feature6{
+    position: relative;
+    height: 800px;
+    width: 100%;
+}
+
+.appDown{
+    background: url("../images/app/banner.png") no-repeat;
+    background-position:50% 0;
+}
+.appDown .app_description{
+    position: relative;
+    width: 50%;
+    top: 35%;
+    padding-right: 15%;
+    text-align: right;
+}
+
+.appDown .app_description .app_name{
+    width: 400px;
+    font-size: 60px;
+    line-height: 66px;
+    color: #ffffff;
+    display: inline-block;
+}
+.appDown .app_description .app_slogan{
+    margin-top: 18px;
+    width: 400px;
+    vertical-align: top;
+    font-size: 36px;
+    line-height: 40px;
+    color: #ffffff;
+    display: inline-block;
+}
+.appDown .app_description .app_slogan .big{
+    text-align: right;
+    vertical-align: top;
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 66px;
+    display: inline-block;
+}
+.appDown .android{
+    position: absolute;
+    margin-top: 440px;
+    height: 70px;
+    width: 270px;
+    cursor: pointer;
+}
+.appDown .iphone{
+    position: absolute;
+    margin-top: 520px;
+    height: 70px;
+    width: 270px;
+    cursor: pointer;
+}
+
+.feature1{
+    background: url("../images/app/nav.png") no-repeat;
+    background-position:50% 0;
+}
+
+.feature1 .fea1_description{
+    position: relative;
+    float: right;
+    width: 50%;
+    top: 30%;
+    vertical-align: middle;
+    color: #ffffff;
+    padding-left: 3%;
+}
+
+.feature1 .fea1_description .fea1_title{
+    display: block;
+    font-size: 50px;
+    line-height: 54px;
+}
+.feature1 .fea1_description .fea1_text{
+    display: block;
+    font-size: 18px;
+    margin-top: 18px;
+}
+
+@media (min-width: 768px){
+    .feature1 .fea1_description .fea1_title{
+        width: 200px;
+    }
+    .feature1 .fea1_description .fea1_text{
+        width: 480px;
+    }
+    .feature1 .fea1_description .fea1_img{
+        position: relative;
+        margin-top:60px;
+        width: 337px;
+        height: 126px;
+        opacity: 0;
+    }
+}
+.feature2{
+    background: url("../images/app/updata.png") no-repeat;
+    background-position: 50% 0;
+}
+.feature2 .fea2_description{
+    float:left;
+    position: relative;
+    width: 50%;
+    top: 38%;
+    vertical-align: middle;
+    color: #ffffff;
+}
+
+.feature2 .fea2_description .fea2_title{
+    float: right;
+    display: block;
+    font-size: 50px;
+    line-height: 54px;
+    margin-right: 4%;
+}
+.feature2 .fea2_description .fea2_text{
+    float: right;
+    display: block;
+    font-size: 18px;
+    margin-right: 4%;
+    margin-top: 18px;
+}
+
+@media (min-width: 768px) {
+    .feature2 .fea2_description .fea2_title{
+        width: 480px;
+    }
+    .feature2 .fea2_description .fea2_text{
+        width: 480px;
+    }
+}
+.feature3{
+    background: url("../images/app/traffic.png") no-repeat;
+    background-position: 50% 0;
+}
+.feature3 .fea3_description{
+    position: relative;
+    float: right;
+    width: 50%;
+    top: 40%;
+    vertical-align: middle;
+    color: #4e4e4e;
+    padding-left: 4%;
+}
+
+.feature3 .fea3_description .fea3_title{
+    display: block;
+    font-size: 50px;
+    line-height: 54px;
+}
+.feature3 .fea3_description .fea3_text{
+    display: block;
+    font-size: 18px;
+    margin-top: 18px;
+}
+@media (min-width: 768px) {
+    .feature3 .fea3_description .fea3_title{
+        width: 200px;
+    }
+    .feature3 .fea3_description .fea3_text{
+        width: 480px;
+    }
+}
+.feature4{
+    background: url("../images/app/music.png") no-repeat;
+    background-position: 50% 0;
+}
+.feature4 .fea4_description{
+    float: left;
+    position: relative;
+    width: 40%;
+    top: 38%;
+    vertical-align: middle;
+    color: #4e4e4e;
+    /*padding-left: 15%;*/
+}
+
+.feature4 .fea4_description .fea4_title{
+    float: right;
+    display: block;
+    font-size: 50px;
+    line-height: 54px;
+    margin-right: 15%;
+}
+.feature4 .fea4_description .fea4_text{
+    float: right;
+    display: block;
+    font-size: 18px;
+    margin-right: 15%;
+    margin-top: 18px;
+}
+@media (min-width: 768px) {
+    .feature4 .fea4_description .fea4_title{
+        width: 250px;
+    }
+    .feature4 .fea4_description .fea4_text{
+        width: 250px;
+    }
+}
+.feature5{
+    background: url("../images/app/car.png") no-repeat;
+    background-position: 50% 0;
+}
+.feature5 .fea5_description{
+    position: relative;
+    float: right;
+    width: 50%;
+    top: 36%;
+    vertical-align: middle;
+    color: #ffffff;
+    /*padding-right: 10%;*/
+    padding-left: 3%;
+}
+
+.feature5 .fea5_description .fea5_title{
+    display: block;
+    font-size: 50px;
+    line-height: 54px;
+}
+.feature5 .fea5_description .fea5_text{
+    display: block;
+    font-size: 18px;
+    margin-top: 18px;
+}
+@media (min-width: 768px) {
+    .feature5 .fea5_description .fea5_title{
+        width: 200px;
+    }
+    .feature5 .fea5_description .fea5_text{
+        width: 480px;
+    }
+}
+.feature6{
+    background: url("../images/app/warning.png") no-repeat;
+    background-position: 50% 0;
+}
+.feature6 .fea6_description{
+    position: relative;
+    float: left;
+    width: 50%;
+    top: 32%;
+    vertical-align: middle;
+    color: #4e4e4e;
+    /*padding-left: 16%;*/
+}
+
+.feature6 .fea6_description .fea6_title{
+    float: right;
+    display: block;
+    font-size: 50px;
+    line-height: 54px;
+    margin-right: 5%;
+}
+.feature6 .fea6_description .fea6_text {
+    /*position: relative;*/
+    float: right;
+    display: block;
+    font-size: 18px;
+    margin-right: 5%;
+    margin-top: 18px;
+}
+@media (min-width: 768px) {
+    .feature6 .fea6_description .fea6_title{
+        width: 450px;
+    }
+    .feature6 .fea6_description .fea6_text{
+        width: 450px;
+    }
+    .feature6 .fea6_description .fea6_img{
+        /*position: absolute;*/
+        float: right;
+        /*top: 30px;*/
+        width: 450px;
+        margin-top: 30px;
+        margin-right: 5%;
+    }
+    .feature6 .fea6_description .fea6_img .fea6_img1, .feature6 .fea6_description .fea6_img .fea6_img2 {
+        position: relative;
+        width: 130px;
+        height: 130px;
+        opacity: 0;
+
+    }
+    .feature6 .fea6_description .fea6_img2{
+        margin-left: 46px;
+    }
+}
+
+
+@media (min-width: 767px){
+    /*.appDown, .feature1, .feature2, .feature3, .feature4, .feature5, .feature6{*/
+    /*background-position: 50% 0;*/
+    /*}*/
+}
