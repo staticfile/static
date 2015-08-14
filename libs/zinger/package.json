@@ -1,12 +1,12 @@
 
 {
-  "name": "zinger.js",
-  "filename": "zinger.js",
-  "version": "1.10.2",
-  "description": "jquery",
+  "name": "index.js",
+  "filename": "index.js",
+  "version": "1.0.0",
+  "description": "zinger官网静态文件js",
   "homepage": "http://www.qhzinger.com/zinger/",
   "keywords": [
-    "zinger.js","zinger"
+    "zinger"
   ],
   "maintainers": [
     {
@@ -18,7 +18,7 @@
   "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/bellazheng/chart.js"
+      "url": "https://github.com/Bellazheng/"
     }
   ]
 }
