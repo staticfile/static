@@ -1,0 +1,24 @@
+
+{
+  "name": "zinger.js",
+  "filename": "zinger.js",
+  "version": "1.10.2",
+  "description": "jquery",
+  "homepage": "http://www.qhzinger.com/zinger/",
+  "keywords": [
+    "zinger.js","zinger"
+  ],
+  "maintainers": [
+    {
+      "name": "bella",
+      "web": "",
+      "mail": "zhq_0812@163.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/bellazheng/chart.js"
+    }
+  ]
+}
