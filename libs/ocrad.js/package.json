@@ -1,0 +1,22 @@
+{
+  "name": "nprogress",
+  "filename": "ocrad.js",
+
+  "description": "OCR in JavaScript",
+  "homepage": "https://github.com/antimatter15/ocrad.js",
+  "keywords": ["ocr"],
+
+  "maintainers": [
+    {
+      "name": "Kevin Kwok",
+      "mail": "antimatter15@gmail.com"
+    }
+  ],
+
+  "version": "0.1.0",
+  "repository": {
+     "type": "git",
+     "url": "https://github.com/antimatter15/ocrad.js.git"
+  },
+  "license": "GPL v3"
+}
