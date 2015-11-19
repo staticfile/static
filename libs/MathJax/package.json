@@ -1,0 +1,22 @@
+{
+  "name": "MathJax",
+  "filename": "MathJax.js",
+  "version": "2.5-latest",
+
+  "description": "MathJax",
+  "homepage": "https://www.mathjax.org/",
+  "keywords": ["MathJax"],
+  "maintainers": [
+    {
+      "name": "Yuwei Ba",
+      "web": "blog.xiaoba.me",
+      "mail": "i@xiaoba.me"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/mathjax/MathJax"
+    }
+  ]
+}
