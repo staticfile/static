@@ -1,0 +1,22 @@
+{
+  "name": "Canvas",
+  "filename": "canvas.min.css",
+  "version": "1.1.1",
+  "description": "炫酷、有趣的CSS3动画库",
+  "homepage": "http://infang.github.io/Canvas/",
+  "keywords": ["CSS3","Canvas"],
+  "maintainers": [
+    {
+      "name": "InFaNg",
+      "web": "http://www.infang.ml/",
+      "mail": "infang@foxmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/InFaNg/Canvas.git"
+    }
+  ]
+}
+    
