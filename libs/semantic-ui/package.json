@@ -1,0 +1,22 @@
+{
+    "name": "semantic-ui",
+    "filename": "semantic-ui",
+    "version": "1.9.1",
+    "description": "语义化设计的前端框架，为攻城师而制作的可复用的开源前端框架。",
+    "homepage": "http://www.semantic-ui.com/",
+    "keywords": [
+      "semantic", "ui"
+    ],
+    "maintainers": [
+      {
+        "name": "Jack Lukic",
+        "web": "http://www.semantic-ui.com/"
+      }
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/Semantic-Org/Semantic-UI"
+      }
+    ]
+}
