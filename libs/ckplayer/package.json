@@ -1,0 +1,20 @@
+"name": "ckplayer",
+  "filename": "ckplayer.swf",
+  "version": "6.3",
+  "description": "flv player",
+  "homepage": "http://www.ckplayer.com/",
+  "keywords": [],
+  "maintainers": [
+    {
+      "name": "niandeng",
+      "web": "http://www.ckplayer.com/",
+      "mail": "14926108@qq.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/staticfile/static/lib/ckplayer"
+    }
+  ]
+}
