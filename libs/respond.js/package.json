@@ -1,0 +1,21 @@
+{
+    "name": "respond.js",
+    "filename": "respond.min.js",
+    "description": "A fast & lightweight polyfill for min/max-width CSS3 Media Queries (for IE 6-8, and more)",
+    "homepage": "https://scottjehl.com",
+    "keywords": [
+       "respond", "js"
+   ],
+   "maintainers": [
+       {
+           "name": "Scott Jehl",
+           "web": "https://scottjehl.com" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/scottjehl/Respond"
+        }
+   ]
+}
