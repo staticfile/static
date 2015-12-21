@@ -1,0 +1,22 @@
+{
+  "name": "AdminLTE",
+  "filename": "index.html",
+  "version": "2.3.0",
+
+  "description": "AdminLTE -- is a fully responsive admin template. Based on Bootstrap 3 framework. Highly customizable and easy to use. Fits many screen resolutions from small mobile devices to large desktops. Check out the live preview now and see for yourself.",
+  "homepage": "https://almsaeedstudio.com/preview",
+  "keywords": [],
+  "maintainers": [
+    {
+      "name": "almasaeed2010",
+      "web": "http://almsaeedstudio.com",
+      "mail": "support@almsaeedstudio.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "http://github.com/almasaeed2010/AdminLTE/"
+    }
+  ]
+}
