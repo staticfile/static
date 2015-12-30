@@ -1,0 +1,21 @@
+{
+  "name": "zui",
+  "filename": "css/zui.min.css",
+  "version": "1.3.1",
+
+  "description": "一个开源前端实践方案，帮助你快速构现代跨屏应用。",
+  "homepage": "http://zui.sexy/",
+  "keywords": ["ZUI", "css", "js", "less", "html5", "front-end", "framework", "web", "前端", "框架"],
+  "maintainers": [
+    {
+      "name": "Catouse",
+      "web": "catouse@cnezsoft.com",
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/easysoft/zui"
+    }
+  ]
+}
