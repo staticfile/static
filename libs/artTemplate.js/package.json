@@ -1,7 +1,7 @@
 {
   "name": "artTemplate.js",
   "filename": "artTemplate.js",
-  "version": "3.0",
+  "version": "3.0.1",
   "description": "新一代 javascript 模板引擎",
   "homepage": "https://github.com/aui/artTemplate",
   "keywords": ["js模板引擎", "artTemplate.js"],
