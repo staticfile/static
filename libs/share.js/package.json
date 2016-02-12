@@ -1,0 +1,22 @@
+{
+    "name": "share.js",
+    "filename": "share.js",
+    "version": "1.0.2",
+    "description": "Create social share buttons on your site.（一键分享到微博、QQ空间、QQ好友、微信、腾讯微博、豆瓣、Facebook、Twitter、Linkedin、Google+、点点等）",
+    "homepage": "http://overtrue.me/share.js/",
+    "keywords": [
+      "share", "social button", "分享", "社交网络"
+    ],
+    "maintainers": [
+      {
+        "name": "overtrue",
+        "web": "http://overtrue.me/"
+      }
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/overtrue/share.js"
+      }
+    ]
+}
