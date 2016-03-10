@@ -1,0 +1,20 @@
+﻿{
+    "name": "jquery",
+    "filename": "jquery.min.js",
+    "version": "2.2.1",
+    "description": "jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.",
+    "homepage": "http://jquery.com/",
+    "keywords": ["jquery", "js"],
+    "maintainers": [
+        {
+            "name": "jQuery Foundation and other contributors",
+            "web": "http://jquery.com/"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/jquery/jquery.git"
+        }
+    ]
+}
