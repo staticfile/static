@@ -1,0 +1,22 @@
+{
+  "name": "av-core",
+  "filename": "av-core.js",
+  "version": "0.6.1",
+
+  "description": "Tools for LeanCloud",
+  "homepage": "https://leancloud.cn/",
+  "keywords": ["av-core", "LeanCloud"],
+  "maintainers": [
+    {
+      "name": "LeanCloud",
+      "web": "https://leancloud.cn/",
+      "mail": "support@leancloud.cn"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/staticfile/static"
+    }
+  ]
+}
