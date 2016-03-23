@@ -1,20 +1,24 @@
 {
-    "name": "qiniu-js-sdk",
-    "version": "1.0.0-beta",
-    "filename": "qiniu.min.js",
-    "description": "七牛云存储 - JavaScript SDK",
-    "homepage": "https://github.com/qiniu/js-sdk",
-    "keywords": [ ],
-   "maintainers": [
+  "name": "qiniu-js-sdk",
+  "version": "1.0.14-beta",
+  "filename": "qiniu.min.js",
+  "description": "七牛云存储 - JavaScript SDK",
+  "homepage": "https://github.com/qiniu/js-sdk",
+  "keywords": [ ],
+  "maintainers": [
+    {
+      "name": "CodeDogFish",
+      "email": "jackyu@qiniu.com"
+    },
     {
       "name": "SunLn",
       "email": "dengchenhua@gmail.com"
     }
-   ],
-   "repositories": [
-        {   
-            "type": "git",
-            "url": "https://github.com/qiniu/js-sdk.git"
-        }
-   ]
+  ],
+  "repositories": [
+    {
+        "type": "git",
+        "url": "https://github.com/qiniu/js-sdk.git"
+    }
+  ]
 }
