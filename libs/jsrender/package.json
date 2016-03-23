@@ -1,0 +1,20 @@
+﻿{
+    "name": "jsrender",
+    "filename": "jsrender.min.js",
+    "version": "1.0.0-rc.70",
+    "description": "Best-of-breed templating in browser",
+    "homepage": "http://www.jsviews.com/#jsrender",
+    "keywords": ["javascript", "js", "template"],
+    "maintainers": [
+        {
+            "name": "BorisMoore",
+            "web": "http://www.jsviews.com/#jsrender"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/BorisMoore/jsrender"
+        }
+    ]
+}
