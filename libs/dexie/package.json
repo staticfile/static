@@ -1,0 +1,22 @@
+{
+  "name": "dexie.js",
+  "filename": "dexie.min.js",
+  "version": "1.3.4",
+  "description": "Dexie.js is a wrapper library for indexedDB - the standard database in the browser.",
+  "homepage": "http://www.dexie.org/",
+  "keywords": [
+    "dexie.js","dexie"
+  ],
+  "maintainers": [
+    {
+      "name": "dfahlander",
+      "web": "https://github.com/dfahlander",
+      "mail": "dfahlander@dexie.org"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/dfahlander/Dexie.js"
+    }
+  
