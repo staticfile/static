@@ -1,0 +1,23 @@
+{
+    "name": "aplayer",
+    "filename": "APlayer.min.js",
+    "version": "1.4.1",
+    "description": "Wow, such a beautiful html5 music player",
+    "homepage": "https://www.anotherhome.net/file/APlayer/",
+    "keywords": [
+       "player", "music"
+   ],
+   "maintainers": [
+       {
+           "name": "DIYgod",
+           "web": "https://www.anotherhome.net/",
+           "mail": "i@html.love"
+       }
+   ],
+   "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/DIYgod/APlayer"
+        }
+   ]
+}
