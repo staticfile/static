@@ -1,0 +1,22 @@
+{
+    "name": "zui",
+    "filename": "zui.js",
+    "version": "1.4.0",
+    "description": "ZUI is an HTML5 front UI framework.",
+    "homepage": " http://zui.sexy",
+    "keywords": [
+       "zui","ZUI"
+   ],
+   "maintainers": [
+       {
+           "name": "Catouse",
+           "web": "https://github.com/easysoft/zui"
+       }
+   ],
+   "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/easysoft/zui"
+        }
+   ]
+}
