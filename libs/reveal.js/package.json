@@ -1,0 +1,23 @@
+{
+  "name": "reveal.js",
+  "filename": "js/reveal.js",
+  "version": "3.3.0",
+
+  "description": "A framework for easily creating beautiful presentations using HTML.",
+  "homepage": "http://lab.hakim.se/reveal-js/",
+  "keywords": [],
+  "maintainers": [
+    {
+      "name": "hakimel",
+      "web": "http://hakim.se",
+      "mail": "hakim.elhattab@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/hakimel/reveal.js"
+    }
+  ]
+}
+  
