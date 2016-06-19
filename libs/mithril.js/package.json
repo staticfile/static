@@ -1,0 +1,22 @@
+{
+    "name": "mithril.js",
+    "filename": "mithril.min.js",
+    "version": "0.2.5",
+    "description": "Mithril is a client-side MVC framework - a tool to organize code in a way that is easy to think about and to maintain.",
+    "homepage": "http://mithril.js.org/",
+    "keywords": [
+       "framework", "mvc", "client-side", "mithril"
+   ],
+   "maintainers": [
+       {
+           "name": "Leo Horie",
+           "web": "http://lhorie.blogspot.com" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/lhorie/mithril.js.git"
+        }
+   ]
+}
