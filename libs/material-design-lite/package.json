@@ -1,0 +1,23 @@
+{
+    "name": "material-design-lite",
+    "filename": "material.min.js",
+    "version": "1.1.3",
+    "description": 
+        "Material Design Lite (MDL) lets you add a Material Design look and feel to your static content websites. It doesn't rely on any JavaScript frameworks or libraries. Optimized for cross-device use, gracefully degrades in older browsers, and offers an experience that is accessible from the get-go.",
+    "homepage": "https://getmdl.io",
+    "keywords": [
+       "material", "design", "css", "js"
+   ],
+   "maintainers": [
+       {
+           "name": "Google",
+           "web": "https://github.com/google/material-design-lite" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/google/material-design-lite.git"
+        }
+   ]
+}
