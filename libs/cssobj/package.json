@@ -1,0 +1,25 @@
+{
+  "name": "cssobj",
+  "filename": "cssobj.min.js",
+  "version": "0.2.29",
+  "description": "cssobj从JS对象生成CSS样式表规则，并可从JS动态更新。特性：CSS类本地化，自动为样式属性添加Vendor-Prefix，老浏览器Media-Query等。同时运行于Node与浏览器，插件易制作。",
+  "homepage": "https://cssobj.github.io/cssobj-demo/",
+  "keywords": [
+    "cssobj",
+    "cssom",
+    "css in js"
+  ],
+  "maintainers": [
+    {
+      "name": "James Yang",
+      "web": "https://github.com/cssobj/cssobj",
+      "email": "jamesyang999@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/cssobj/cssobj"
+    }
+  ]
+}
