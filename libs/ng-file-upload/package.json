@@ -1,0 +1,25 @@
+{
+  "name": "ng-file-upload",
+  "filename": "ng-file-upload.js",
+  "version": "12.2.8",
+  "description": "An AngularJS directive for file upload using HTML5 with FileAPI polyfill for unsupported browsers",
+  "repository": [{
+    "type": "git",
+    "url": "https://github.com/danialfarid/ng-file-upload.git"
+  }],
+  "keywords": [
+    "angularjs",
+    "ng-file-upload",
+    "file-upload",
+    "javascript"
+  ],
+  "maintainers": [{
+    "name": "danial.farid@gmail.com",
+    "web": "https://github.com/danialfarid"
+  }],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danialfarid/ng-file-upload/issues"
+  },
+  "homepage": "https://github.com/danialfarid/ng-file-upload"
+}
