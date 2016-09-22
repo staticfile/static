@@ -1,26 +1,24 @@
 {
-  // 这三项让你的文件能正常被索引到
-  // 项目名要与文件夹名一致
-  "name": "项目名",
-  "filename": "主文件名，比如 XYZ.js",
-  "version": "1.0",
 
-  // 其他
-  "description": "项目简介",
-  "homepage": "项目主页，如 http://staticfile.org",
-  "keywords": [],
+  "name": "Framework7",
+  "filename": "Framework7",
+  "version": "1.4.2",
+
+
+  "description": "移动框架",
+  "homepage": "http://framework7.taobao.org/",
+  "keywords": ["framework7"],
   "maintainers": [
     {
-      "name": "作者/维护者",
-      "web": "http://staticfile.org",
-      "mail": "trimidea@gmail.com"
+      "name": "",
+      "web": "",
+      "mail": ""
     }
   ],
   "repositories": [
     {
-      // svn 等
       "type": "git",
-      "url": "https://github.com/staticfile/static"
+      "url": "https://github.com/nolimits4web/Framework7.git"
     }
   ]
 }
