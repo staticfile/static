@@ -1,12 +1,12 @@
 {
   "name": "avalon.js",
   "filename": "avalon.js",
-  "version": "1.3.4",
-  "description": "迷你简单易用的MVVM框架",
-  "homepage": "https://github.com/RubyLouvre/avalon",
-  "keywords": ["avalon", "avalon.js"],
+  "version": "2.1.6",
+  "description": "迷你简单易用的MVVM框架,支持后湍渲染, virtual dom",
+  "homepage": "http://avalonjs.coding.me/",
+  "keywords": ["avalon", "avalon.js","mvvm"],
    "maintainers": [{
-     "name": "RubyLouvre",
+     "name": "RubyLouvre(司徒正美)",
      "web": "http://www.cnblogs.com/rubylouvre/"
    }],
    "repositories": [{   
