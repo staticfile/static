@@ -1,0 +1,24 @@
+{
+  "name": "amazeui",
+  "filename": "css/amazeui.min.css",
+  "description": "Flat UI is a beautiful theme for Bootstrap. We have redesigned many of its components to look flat in every pixel.",
+  "version": "2.3.0",
+  "homepage": "http://designmodo.github.io/Flat-UI/",
+  "keywords": [
+    "css",
+    "js",
+    "framework",
+    "web",
+    "web-components"
+  ],
+  "maintainers": [
+    {
+      "name": "StefanYohansson",
+      "email": "sy.fen0@gmail.com"
+    },
+  ],
+  "repositories": {
+    "type": "git",
+    "url": "git@github.com:designmodo/Flat-UI.git"
+  }
+}
