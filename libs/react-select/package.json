@@ -1,0 +1,29 @@
+{
+    "name": "react-select",
+    "filename": "react-select.min.js",
+    "version": "1.0.0-rc.1",
+    "description": "A Select control built with and for ReactJS",
+    "homepage": "http://jedwatson.github.io/react-select/",
+    "keywords": [
+        "combobox",
+        "form",
+        "input",
+        "multiselect",
+        "react",
+        "react-component",
+        "select",
+        "ui"
+    ],
+    "maintainers": [
+        {
+            "name": "Jed Watson",
+            "web": "https://github.com/JedWatson" 
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/JedWatson/react-select"
+        }
+    ]
+}
