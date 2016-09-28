@@ -1,0 +1,24 @@
+
+{
+  "name": "index.js",
+  "filename": "index.js",
+  "version": "1.0.0",
+  "description": "zinger官网静态文件js",
+  "homepage": "http://www.qhzinger.com/zinger/",
+  "keywords": [
+    "zinger"
+  ],
+  "maintainers": [
+    {
+      "name": "bella",
+      "web": "",
+      "mail": "zhq_0812@163.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/Bellazheng/"
+    }
+  ]
+}
