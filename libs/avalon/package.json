@@ -1,0 +1,22 @@
+{
+    "name": "avalon",
+    "filename": "avalon.js",
+    "version": "1.3.3",
+    "description": "迷你简单易用的MVVM框架",
+    "homepage": "http://rubylouvre.github.io/mvvm/",
+    "keywords": [
+       "mvvm", "avalon"
+   ],
+   "maintainers": [
+       {
+           "name": "司徒正美",
+           "web": "http://www.cnblogs.com/rubylouvre/" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/RubyLouvre/avalon"
+        }
+   ]
+}

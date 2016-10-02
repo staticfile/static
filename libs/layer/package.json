@@ -1,0 +1,22 @@
+{
+    "name": "layer",
+    "filename": "layer.js",
+    "version": "1.8.5",
+    "description": "一个让你想到即可做到的web弹窗/层 解决方案",
+    "homepage": "http://sentsin.com/jquery/layer/",
+    "keywords": [
+       "jquery", "layer", "windows"
+   ],
+   "maintainers": [
+       {
+           "name": "贤心",
+           "web": "http://sentsin.com/" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/sentsin/layer"
+        }
+   ]
+}

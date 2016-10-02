@@ -1,0 +1,22 @@
+{
+    "name": "artdialog",
+    "filename": "dialog.js",
+    "version": "6.0.2",
+    "description": "经典的网页对话框组件，内外皆用心雕琢",
+    "homepage": "http://artdialog.cn/",
+    "keywords": [
+       "dialog", "artDialog"
+   ],
+   "maintainers": [
+       {
+           "name": "aui",
+           "web": "http://artdialog.cn/" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/aui/artDialog"
+        }
+   ]
+}
