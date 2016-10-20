@@ -1,0 +1,22 @@
+{
+  "name": "min-model",
+  "filename": "model.js",
+  "version": "0.1.11",
+
+  "description": "This is a model layer for MinDB. It can make MinDB more human-friendly and more fit to the real application development.",
+  "homepage": "http://github.com/MinDB/min-model",
+  "keywords": [ "html5", "database", "data modeling" ],
+  "maintainers": [
+    {
+      "name": "iwillwen",
+      "web": "http://lifemap.in",
+      "mail": "willwengunn@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "http://github.com/MinDB/min-model"
+    }
+  ]
+}
