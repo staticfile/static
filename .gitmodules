@@ -1,3 +1,0 @@
-[submodule "cdnjs"]
-	path = ref-cdnjs
-	url = https://github.com/cdnjs/cdnjs.git
