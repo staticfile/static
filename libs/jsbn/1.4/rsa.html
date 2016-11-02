@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>JavaScript RSA Encryption Demo</title>
+  </head>
+
+<script language="JavaScript" type="text/javascript" src="jsbn.js"></script>
+<script language="JavaScript" type="text/javascript" src="prng4.js"></script>
+<script language="JavaScript" type="text/javascript" src="rng.js"></script>
+<script language="JavaScript" type="text/javascript" src="rsa.js"></script>
+<script language="JavaScript" type="text/javascript" src="base64.js"></script>
+<script language="JavaScript">
+<!--
+function set_512e3() {
+  document.rsatest.n.value="BC86E3DC782C446EE756B874ACECF2A115E613021EAF1ED5EF295BEC2BED899D\n26FE2EC896BF9DE84FE381AF67A7B7CBB48D85235E72AB595ABF8FE840D5F8DB";
+  document.rsatest.e.value="3";
+}
+function set_512f4() {
+  document.rsatest.n.value="C4E3F7212602E1E396C0B6623CF11D26204ACE3E7D26685E037AD2507DCE82FC\n28F2D5F8A67FC3AFAB89A6D818D1F4C28CFA548418BD9F8E7426789A67E73E41";
+  document.rsatest.e.value="10001";
+}
+function set_1024e3() {
+  document.rsatest.n.value="ABC30681295774F7CECA691EC17F4E762DA6DE70F198EAEE3CCE3A435FC006B9\n71DC24E55904F1D2705758C041C2B0B18E8BFAE2C9CD96B50082D7D8C7342CBA\nB7F6E0622DA53B8B56DBDB24174F00173263CFECAE604795CDA2A037BC3A69B7\nC0090AA2DE1568998BCD6D70CC2E0574755B9F7986AE01CE8714A26144279CDB";
+  document.rsatest.e.value="3"
+}
+function set_1024f4() {
+  document.rsatest.n.value="a5261939975948bb7a58dffe5ff54e65f0498f9175f5a09288810b8975871e99\naf3b5dd94057b0fc07535f5f97444504fa35169d461d0d30cf0192e307727c06\n5168c788771c561a9400fb49175e9e6aa4e23fe11af69e9412dd23b0cb6684c4\nc2429bce139e848ab26d0829073351f4acd36074eafd036a5eb83359d2a698d3";
+  document.rsatest.e.value="10001";
+}
+function do_encrypt() {
+  var before = new Date();
+  var rsa = new RSAKey();
+  rsa.setPublic(document.rsatest.n.value, document.rsatest.e.value);
+  var res = rsa.encrypt(document.rsatest.plaintext.value);
+  var after = new Date();
+  if(res) {
+    document.rsatest.ciphertext.value = linebrk(res, 64);
+    document.rsatest.cipherb64.value = linebrk(hex2b64(res), 64);
+    document.rsatest.status.value = "Time: " + (after - before) + "ms";
+  }
+}
+//-->
+</script>
+
+  <body onLoad='set_1024f4();' onClick='rng_seed_time();' onKeyPress='rng_seed_time();'>
+    <h1>JavaScript RSA Encryption Demo</h1>
+
+<form name="rsatest" onSubmit='do_encrypt();return false;'>
+Plaintext (string):<br>
+<input name="plaintext" type="text" value="test" size=40>
+<input type="button" value="encrypt" onClick="do_encrypt();"><p>
+Ciphertext (hex):<br>
+<textarea name="ciphertext" rows=4 cols=70></textarea><p>
+Ciphertext (base64):<br>
+<textarea name="cipherb64" rows=3 cols=70></textarea><p>
+Status:<br>
+<input name="status" type="text" size=40><p>
+<hr>
+<h2>RSA public key</h2><p>
+Public exponent (hex, F4=0x10001):<br>
+<input name="e" type="text" value="3" size=20><p>
+Modulus (hex):<br>
+<textarea name="n" type="text" rows=4 cols=70></textarea><br>
+<input type="button" value="1024 bit" onClick='set_1024f4();'>
+<input type="button" value="1024 bit (e=3)" onClick='set_1024e3();'>
+<input type="button" value="512 bit" onClick='set_512f4();'>
+<input type="button" value="512 bit (e=3)" onClick='set_512e3();'>
+</form>
+    <hr>
+    <address><a href="mailto:tom@arcot.com">Tom Wu</a></address>
+<!-- Created: Sun May  4 19:00:47 PDT 2003 -->
+<!-- hhmts start -->
+Last modified: Mon Jun 23 16:06:05 PDT 2003
+<!-- hhmts end -->
+  </body>
+</html>
