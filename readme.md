@@ -13,5 +13,4 @@
 ├── license.txt
 ├── package.json
 ├── readme.md
-└── ref-cdnjs              ... 来自 CDNJS 的开源库 (git-submodule)
 ```
