@@ -1,0 +1,22 @@
+{
+    "name": "jsbn",
+    "filename": "jsbn.js",
+    "version": "1.4",
+    "description": "The jsbn library is a fast, portable implementation of large-number math in pure JavaScript, enabling public-key crypto and other applications on desktop and mobile browsers.",
+    "homepage": "http://www-cs-students.stanford.edu/~tjw/jsbn/",
+    "keywords": [
+       "jsbn", "rsa", "ecc"
+   ],
+   "maintainers": [
+       {
+           "name": "Tom Wu",
+           "web": "http://www-cs-students.stanford.edu/~tjw/jsbn/" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/jasondavies/jsbn.git"
+        }
+   ]
+}
