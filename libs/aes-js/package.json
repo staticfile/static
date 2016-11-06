@@ -1,0 +1,22 @@
+{
+    "name": "aes-js",
+    "filename": "index.js",
+    "version": "2.1.0",
+    "description": "A pure JavaScript implementation of the AES block cipher algorithm and all common modes of operation (CBC, CFB, CTR, ECB and OFB).",
+    "homepage": "https://github.com/ricmoo/aes-js",
+    "keywords": [
+       "aes"
+   ],
+   "maintainers": [
+       {
+           "name": "ricmoo",
+           "web": "https://github.com/ricmoo/aes-js" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/ricmoo/aes-js.git"
+        }
+   ]
+}
