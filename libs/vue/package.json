@@ -1,0 +1,20 @@
+{
+    "name": "vue.js",
+    "filename": "vue.min.js",
+    "version": "1.0.18",
+    "description": "Vue.js is a library for building interactive web interfaces. It provides data-reactive components with a simple and flexible API. ",
+    "homepage": "http://vuejs.org",
+    "keywords": ["javascript", "js"],
+    "maintainers": [
+        {
+            "name": "vue",
+            "web": "https://github.com/vuejs"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/vuejs/vue"
+        }
+    ]
+}
