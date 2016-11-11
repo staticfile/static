@@ -4,6 +4,9 @@
 
 简介&帮助：https://www.staticfile.org/about.html
 
+[![Throughput Graph](https://graphs.waffle.io/staticfile/static/throughput.svg)](https://waffle.io/staticfile/static/metrics/throughput)
+
+
 ### 目录结构
 
 ```
