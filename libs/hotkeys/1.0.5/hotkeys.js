@@ -1,9 +1,9 @@
 /*!
  * hotkeys-js v1.0.5
- * A simple micro-library for defining and dispatching keyboard shortcuts. It has no dependencies.
+ * JS achieve the browser title flashing , scrolling, voice prompts , chrome notice.
  * 
- * Copyright (c) 2016 undefined
- * https://github.com/jaywcjlove/hotkeys.git
+ * Copyright (c) 2016 
+ * https://github.com/jaywcjlove/iNotify
  * 
  * Licensed under the  license.
  */
