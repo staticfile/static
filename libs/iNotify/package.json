@@ -1,0 +1,27 @@
+{
+  "name": "iNotify",
+  "filename": "iNotify.js",
+  "version": "1.0.12",
+  "description": "JS 实现浏览器的 title 闪烁、滚动、声音提示、chrome、Firefox、Safari等系统通知。",
+  "homepage": "http://jaywcjlove.github.io/iNotify",
+  "keywords": [
+    "inotify",
+    "notify",
+    "alert",
+    "notice",
+    "notification"
+  ],
+  "maintainers": [
+    {
+      "name": "kenny wang",
+      "web": "http://wangchujiang.com",
+      "mail": "wowohoo@qq.com"
+    }
+  ],
+  "repositories": [
+    {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/iNotify.git"
+    }
+  ]
+}
