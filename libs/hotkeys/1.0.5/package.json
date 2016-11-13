@@ -4,7 +4,16 @@
   "version": "1.0",
   "description": "这是一个强健的 Javascript 库用于捕获键盘输入和输入的组合键，它没有依赖，压缩只有只有(~3kb)。",
   "homepage": "http://jaywcjlove.github.io/hotkeys/",
-  "keywords": [],
+  "keywords": [
+    "hotkey",
+    "hotkeys",
+    "hotkeys-js",
+    "hotkeysjs",
+    "key",
+    "keys",
+    "keyboard",
+    "shortcuts"
+  ],
   "maintainers": [
     {
       "name": "kenny wang",
