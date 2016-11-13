@@ -1,0 +1,32 @@
+{
+  "name": "validator",
+  "filename": "validator.js",
+  "version": "1.0.4",
+  "description": "轻量级的JavaScript表单验证，字符串验证。没有依赖，支持UMD，~3kb。",
+  "homepage": "http://jaywcjlove.github.io/validator.js",
+  "keywords": [
+    "validator",
+    "validator.tool",
+    "validator.js",
+    "validation",
+    "validate",
+    "sanitization",
+    "sanitize",
+    "sanitisation",
+    "sanitise",
+    "assert"
+  ],
+  "maintainers": [
+    {
+      "name": "kenny wang",
+      "web": "http://wangchujiang.com",
+      "mail": "wowohoo@qq.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/jaywcjlove/validator.js"
+    }
+  ]
+}
