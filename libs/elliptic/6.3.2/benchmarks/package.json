@@ -1,0 +1,21 @@
+{
+  "name": "bn.js-benchmark",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "benchmark": "^1.0.0",
+    "eccjs": "^0.3.1",
+    "ecdsa": "^0.6.0",
+    "eckey": "^0.8.0",
+    "hash.js": "^0.3.2",
+    "jodid25519": "git://github.com/meganz/jodid25519.git",
+    "secp256k1": "~0.0.13",
+    "sjcl": "^1.0.1"
+  }
+}

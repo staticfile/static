@@ -1,0 +1,22 @@
+{
+    "name": "elliptic",
+    "filename": "elliptic.js",
+    "version": "6.3.2",
+    "description": "Fast Elliptic Curve Cryptography in plain javascript",
+    "homepage": "https://github.com/indutny/elliptic",
+    "keywords": [
+       "elliptic ecc ecdsa eddsa ecdh"
+   ],
+   "maintainers": [
+       {
+           "name": "indutny",
+           "web": "https://github.com/indutny/elliptic" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/indutny/elliptic.git"
+        }
+   ]
+}
