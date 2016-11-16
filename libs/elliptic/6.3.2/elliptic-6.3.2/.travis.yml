@@ -1,0 +1,35 @@
+sudo: false
+os:
+  - linux
+language: node_js
+node_js:
+  - "0.10"
+  - "0.11"
+  - "0.12"
+  - "4"
+  - "5"
+env:
+  global:
+    - secure: ewqsRnX7z3+g6q+mM6peRPhuTlTlkJIRmVG/Ya9AcDXEb7as49KDTdqfMcOu7+FxF50ehqla+TRRCLRPOcVkWqs72OVUXEsjRASp9jQwpQGl+g/vZhyTMwlM2ENEkyiFQtobI1hYKgVW1ogftkc6vm7ywvoyTrFp/leVJBrTuHk=
+    - secure: UcurJwykdbpUrAsrMox4BfiSGOWDIcI8ytBdxgK2vOC2biZJmkFXG4WfB6X2PwNvK4hx0z2s+VhxNVQRwtyl9mqyeAoAWjTpDg+NOoBgTu6Bacsobg29m65tD4x4Qc6iSmylRnfdb04Iob4rsnNNLZbIbERv3j3PFJMENUD3acQ=
+    - secure: S8vAesx9V9o0/cJRmENJ76JrzSPLo8mtKAfDVHgcVG7Okfl7ANs+0cW1BtjZjBR63uQKJSmQEYC6N9eQlnNhCjeM7KXtFEbtD76OxvAABj4Sr9pIY06KUYLvBaGdYNmyT0WMIAaRN8SzY2uZEUaxMHmiEd1yOw6qQYBMCjbx0xg=
+  matrix:
+    - TEST_SUITE='npm run unit'
+matrix:
+  include:
+    - node_js: "4"
+      env: TEST_SUITE='npm run lint'
+    - node_js: "4"
+      env: TEST_SUITE='grunt coveralls'
+    - node_js: "4"
+      env: TEST_SUITE='grunt saucelabs'
+  allow_failures:
+    - env: TEST_SUITE='grunt saucelabs'
+fast_finish: true
+cache:
+  directories:
+    - node_modules
+before_script:
+  - npm install -g grunt-cli
+script:
+  - $TEST_SUITE
