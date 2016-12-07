@@ -1,11 +1,11 @@
 {
   "name": "ckeditor-full",
-  "version": "4.5.10",
+  "version": "4.6.0",
   "description": "JavaScript WYSIWYG web text editor. Full version",
   "main": "ckeditor.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ckeditor/ckeditor-releases.git#full/4.5.x"
+    "url": "git+https://github.com/ckeditor/ckeditor-releases.git#full/4.6.x"
   },
   "keywords": [
     "ckeditor",
