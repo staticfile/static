@@ -12,10 +12,4 @@
       "web": "http://www.antslearn.com",
       "mail": "liangzhihao@buka.tv"
     }
-  "dependencies": [
-    {
-    "underscore": "~0.1.0",
-    "glob": "0.1.0",
-    "async": "0.1.0"
-  }
 }
