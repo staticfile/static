@@ -12,7 +12,6 @@
       "web": "http://www.antslearn.com",
       "mail": "liangzhihao@buka.tv"
     }
-  },
   "dependencies": [
     {
     "underscore": "~0.1.0",
