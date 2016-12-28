@@ -1,0 +1,21 @@
+{
+  "name": "listloading",
+  "filename": "listloading.js",
+  "version": "1.1.6",
+  "description": "`listloading.js` 是一个移动端的上拉、下拉加载更多的组件。主要依赖于iscroll.js v5.1.2基础上开发的组件，基础库可以使用jquery.js或者zepto.js操作dom节点，目前我是使用了jquery.js作为基础库操作dom，以jquery插件的形式存在。",
+  "homepage": "https://gtdalp.github.io/widget/listloading/demos/listloading.html",
+  "keywords": ["移动端上拉下拉刷新", "下拉加载更多", "iscroll"],
+  "maintainers": [
+    {
+      "name": "xisa",
+      "web": "https://github.com/gtdalp/listloading.git",
+      "mail": "295194117@qq.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/gtdalp/listloading.git"
+    }
+  ]
+}
