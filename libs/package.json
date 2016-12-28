@@ -1,0 +1,22 @@
+{
+    "name": "js-md4",
+    "filename": "md4.js",
+    "version": "0.3.0",
+    "description": "A simple MD4 hash function for JavaScript supports UTF-8 encoding.",
+    "homepage": "http://emn178.github.io/online-tools/md4.html",
+    "keywords": [
+       "md4"
+   ],
+   "maintainers": [
+       {
+           "name": "emn178",
+           "web": "http://emn178.github.io/online-tools/md4.html" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/emn178/js-md4"
+        }
+   ]
+}
