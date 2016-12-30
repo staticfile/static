@@ -15,7 +15,7 @@
   "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/gtdalp/listloading.git"
+      "url": "https://github.com/gtdalp/listloading.git" 
     }
   ]
 }
