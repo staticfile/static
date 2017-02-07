@@ -1,0 +1,24 @@
+{
+ 
+  "name": "THEMEPUNCH",
+  "filename": "plugins.min.js",
+  "version": "1.0",
+
+  "description": "响应式布局",
+  "homepage": "http://www.greensock.com",
+  "keywords": [],
+  "maintainers": [
+    {
+      "name": "Jack Doyle",
+      "web": "http://www.greensock.com",
+      "mail": "jack@greensock.com"
+    }
+  ],
+  "repositories": [
+    {
+  
+      "type": "git",
+      "url": "https://github.com/staticfile/static"
+    }
+  ]
+}
