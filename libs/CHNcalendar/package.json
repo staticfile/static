@@ -1,0 +1,26 @@
+{
+  // 这三项让你的文件能正常被索引到
+  // 项目名要与文件夹名一致
+  "name": "CHNcalendar",
+  "filename": "CHNcalendar.js",
+  "version": "1.0",
+
+  // 其他
+  "description": "农历日历",
+  "homepage": "https://github.com/grayhanabi",
+  "keywords": [],
+  "maintainers": [
+    {
+      "name": "grayhanabi",
+      "web": "https://github.com/grayhanabi",
+      "mail": "grayhanabi@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      // svn 等
+      "type": "git",
+      "url": "https://github.com/staticfile/static"
+    }
+  ]
+}
