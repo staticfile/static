@@ -1,0 +1,22 @@
+{
+  "name": "MDUI",
+  "filename": "mdui.min.css",
+  "version": "0.1.2",
+
+  "description": "MDUI 是一个基于 Material Design 的前端框架",
+  "homepage": "http://mdui.org/",
+  "keywords": ["css","javascript","material","google"],
+  "maintainers": [
+    {
+      "name": "zdhxiong",
+      "web": "https://github.com/zdhxiong",
+      "mail": "zdhxiong@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/zdhxiong/mdui"
+    }
+  ]
+}
