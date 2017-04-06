@@ -1,0 +1,22 @@
+{
+    "name": "jplayer",
+    "filename": "jplayer.js",
+    "version": "2.9.2",
+    "description": "HTML5 音视频播放工具，播放界面可以完全通过css定制",
+    "homepage": "http://jplayer.org/",
+    "keywords": [
+       "jplayer", "javaScript", "Audio Player", "Videw Player"
+   ],
+   "maintainers": [
+       {
+           "name": "Mark J Panaghiston",
+           "web": "https://github.com/happyworm/jplayer/"
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/happyworm/jPlayer.git"
+        }
+   ]
+}
