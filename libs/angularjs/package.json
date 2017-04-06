@@ -1,0 +1,22 @@
+{
+    "name": "angularjs",
+    "filename": "angular.js",
+    "version": "1.2.5",
+    "description": "一个强大的前端框架",
+    "homepage": "http://angularjs.org/",
+    "keywords": [
+       "angular", "js"
+   ],
+   "maintainers": [
+       {
+           "name": "HoloBoys",
+           "web": "https://github.com/Holob" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/angular/angular.js"
+        }
+   ]
+}
