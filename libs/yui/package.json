@@ -1,0 +1,22 @@
+{
+    "name": "YUI",
+    "filename": "build/yui/yui-min.js",
+    "version": "3.14.0",
+    "description": "Yahoo开发的一栈式前端框架",
+    "homepage": "http://yuilibrary.com/",
+    "keywords": [
+       "yui", "javascript"
+   ],
+   "maintainers": [
+       {
+           "name": "YUI Team",
+           "web": "http://yuilibrary.com/" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/yui/yui3.git"
+        }
+   ]
+}
