@@ -1,0 +1,26 @@
+::-ms-reveal,
+::-ms-clear {
+  display: none !important;
+}
+
+.hideShowPassword-toggle {
+  background: transparent;
+  border: 0;
+  border-radius: 0.25em;
+  color: #888;
+  cursor: pointer;
+  font-size: 0.75em;
+  font-weight: bold;
+  margin-right: 0.5em;
+  padding: 0.5em;
+  text-transform: uppercase;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+.hideShowPassword-toggle:hover,
+.hideShowPassword-toggle:focus {
+  background-color: #eee;
+  color: #555;
+  outline: transparent;
+}

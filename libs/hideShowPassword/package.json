@@ -1,0 +1,25 @@
+{
+  // 这三项让你的文件能正常被索引到
+  // 项目名要与文件夹名一致
+  "name": "hideShowPassword",
+  "filename": "hideShowPassword.js",
+  "version": "2.0.3",
+
+  // 其他
+  "description": "隐藏或显示密码",
+  "homepage": "http://cloudfour.github.io/hideShowPassword/",
+  "keywords": ["form", "forms", "input", "inputs", "password", "visibility"],
+  "maintainers": [
+    {
+      "name": "cloudfour",
+      "web": "http://cloudfour.github.io/",
+      "mail": ""
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "http://github.com/cloudfour/hideShowPassword"
+    }
+  ]
+}
