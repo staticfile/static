@@ -15,7 +15,6 @@
   ],
   "repositories": [
     {
-      // svn 等
       "type": "git",
       "url": "https://github.com/webix-hub/tracker"
     }
