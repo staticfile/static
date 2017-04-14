@@ -1,26 +1,23 @@
 {
-  // 这三项让你的文件能正常被索引到
-  // 项目名要与文件夹名一致
-  "name": "项目名",
-  "filename": "主文件名，比如 XYZ.js",
-  "version": "1.0",
 
-  // 其他
+  "name": "webix",
+  "filename": "webix.js",
+  "version": "4.2",
   "description": "项目简介",
-  "homepage": "项目主页，如 http://staticfile.org",
-  "keywords": [],
+  "homepage": "www.webix.com",
+  "keywords": ["webix"],
   "maintainers": [
     {
-      "name": "作者/维护者",
-      "web": "http://staticfile.org",
-      "mail": "trimidea@gmail.com"
+      "name": "XB Software",
+      "web": "http://webix.com",
+      "mail": "info@webix.com"
     }
   ],
   "repositories": [
     {
       // svn 等
       "type": "git",
-      "url": "https://github.com/staticfile/static"
+      "url": "https://github.com/webix-hub/tracker"
     }
   ]
 }
