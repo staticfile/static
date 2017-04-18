@@ -1,0 +1,22 @@
+{
+    "name": "scrawl-canvas",
+    "filename": "scrawlCore.js",
+    "version": "6.0.1",
+    "description": "The JavaScript library which adds an API for handling and manipulating HTML5 <canvas> elements in the DOM",
+    "homepage": "http://scrawl.rikweb.org.uk/",
+    "keywords": [
+       "html5", "canvas"
+   ],
+   "maintainers": [
+       {
+           "name": "Rik Roots",
+           "mail": "rik.roots@gmail.com" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/KaliedaRik/Scrawl-canvas"
+        }
+   ]
+}
