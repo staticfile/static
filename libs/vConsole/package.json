@@ -1,0 +1,25 @@
+{
+  "name": "vConsole",
+  "filename": "vconsole.js",
+  "version": "2.5.1",
+  "description": "A lightweight, extendable front-end developer tool for mobile web page.",
+  "homepage": "https://github.com/WechatFE/vConsole",
+  "keywords": [
+    "console",
+    "debug",
+    "mobile"
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git+https://github.com/WechatFE/vConsole.git"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "WechatFE Team",
+      "web": "http://weixin.qq.com/",
+      "mail": "sticker@tencent.com"
+    }
+  ]
+}
