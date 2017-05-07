@@ -1,0 +1,35 @@
+{
+    "name": "solo-skins",
+    "filename": "solo-skins",
+    "version": "1.7.0",
+
+    "description": "Solo 博客系统的官方皮肤。",
+    "homepage": "https://hacpai.com",
+    "keywords": ["Solo", "Blog", "Java", "博客"],
+
+    "maintainers": [
+        {
+            "name": "Daniel",
+            "web": "https://hacpai.com/member/88250",
+            "mail": "dl88250@gmail.com"
+        }, {
+            "name": "Vanessa",
+            "web": "https://hacpai.com/member/Vanessa",
+            "mail": "lly219@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/b3log/solo"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/b3log/solo-skins"
+        },
+        {
+            "type": "git",
+            "url": "http://git.oschina.net/dl88250/solo"
+        }
+    ]
+}

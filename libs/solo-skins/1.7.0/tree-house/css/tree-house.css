@@ -1,0 +1,447 @@
+/**
+ * Copyright (c) 2010-2016, b3log.org & hacpai.com
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+@charset "utf-8";
+/*
+ * skin tree-house style
+ *
+ * @author <a href="mailto:LLY219@gmail.com">Liyuan Li</a>
+ * @version 1.0.0.8, May 14, 2012
+*/
+html {
+    min-width: 948px;
+}
+body {
+    background: url("../images/bg-tree.jpg") repeat-y scroll 50% 0 #7BCCFF;
+    color: #42423D;
+    min-width: 948px;
+}
+a, a:link, a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+h5 {
+    font-size: 12px;
+}
+.wrapper {
+    background: url("../images/bg-header.jpg") no-repeat scroll 50% 0 transparent;
+}
+.bg-bottom {
+    background: url("../images/bg-footer2.jpg") no-repeat scroll 50% 100% transparent;
+}
+.content {
+    margin: 0 auto;
+    width: 948px;
+}
+.header {
+    height: 476px;
+    width: 100%;
+}
+.header-navi {
+    position: relative;
+    z-index: 10;
+}
+.header-navi ul {
+    list-style: none outside none;
+    margin-top: 20px;
+}
+.header-navi li {
+    float: left;
+}
+.header-title {
+    color: #FFFFFF;
+    margin-left: 146px;
+    padding-top: 222px;
+    position: relative;
+}
+#logoTitle {
+    color: #FFFFFF;
+    font-size: 52px;
+    text-decoration: none;
+}
+.header-title div {
+    color: DimGray;
+    width: 300px;
+}
+.side {
+    margin: 0 0 0 -21px;
+    width: 256px;
+}
+.body {
+    min-height: 643px;
+    padding-bottom: 682px;
+}
+.main {
+    width: 634px;
+}
+.footer {
+    color: Lavender;
+    padding: 12px;
+    text-align: center;
+}
+.footer a {
+    font-weight: bold;
+}
+.article {
+    overflow: hidden;
+    width: 553px;
+}
+.article-header sup {
+    color: red;
+    font-size: 12px;
+}
+.article-header h2 {
+    color: #242323;
+    font-weight: bold;
+    margin-left: 6px;
+    position: relative;
+}
+.article-header h2 a {
+    color: #242323;
+    display: block;
+    padding: 3px 0 4px 10px;
+    text-decoration: none;
+}
+.article-header h2 a:hover {
+    background-color: #242323;
+    color: #EC0A8B;
+}
+.article-info {
+    margin: 10px 0 0 9px;
+    width: 109px;
+}
+.article-main {
+    margin: 10px 0 0 9px;
+    min-height: 150px;
+    width: 426px;
+}
+.article-tags {
+    background-color: #EC0A8B;
+    float: left;
+    font-style: normal;
+    height: 21px;
+    line-height: 21px;
+    margin: 0 10px 10px 0;
+    padding: 3px 10px;
+}
+.article-abstract {
+    color: #42423D;
+    line-height: 145%;
+    overflow: hidden;
+    padding: 6px 10px 12px 0;
+    text-align: justify;
+    word-wrap: break-word;
+}
+.main .line {
+    background: url("../images/bg-branch.png") no-repeat scroll 0 0 transparent;
+    height: 108px;
+    width: 575px;
+}
+.article-date {
+    background-color: #D4F2FB;
+    border: 6px solid #A8D3ED;
+    border-radius: 5px;
+    margin-left: 16px;
+    padding: 6px;
+    width: 65px;
+}
+.article-comment {
+    background: url("../images/bg-comments.png") no-repeat scroll 0 0 transparent;
+    font-size: 12px;
+    height: 22px;
+    margin: 24px 0 0;
+    padding: 29px 0 0;
+    text-align: center;
+}
+.article-comment a {
+    color: #42423D;
+}
+.main h2.title {
+    color: #FF9000;
+    margin: -34px 0 12px;
+    text-align: center;
+}
+.main h2 span {
+    color: DimGray;
+    float: right;
+    font-size: 12px;
+    margin-top: 7px;
+    padding-right: 10px;
+}
+.article-body {
+    line-height: 145%;
+    margin: 0 12px 12px;
+}
+.article-body a, .article-abstract a {
+    color: #242323;
+    text-decoration: underline;
+}
+.article-footer {
+    margin-right: 12px;
+}
+.article-details-footer a {
+    line-height: 16px;
+}
+.article-details-footer {
+    margin: 36px 12px 0 0;
+}
+
+.article-details-footer .right a:hover {
+    text-decoration: none;
+}
+
+.article-relative {
+    line-height: 145%;
+    margin: 12px 0;
+}
+.comments {
+    padding-left: 99px;
+    position: relative;
+}
+.comments-header {
+    background: url("../images/balloons.png") no-repeat scroll 0 0 transparent;
+    height: 88px;
+    left: 100px;
+    position: relative;
+    top: 40px;
+    width: 440px;
+    z-index: 10;
+}
+.comment-top {
+    background: url("../images/bg-comments-top.png") no-repeat scroll 0 0 transparent;
+    height: 22px;
+}
+.comment-body {
+    background: url("../images/bg-comments-body.png") repeat-y scroll 0 0 transparent;
+    color: #42423D;
+    margin-left: -1px;
+    overflow: hidden;
+    padding: 0 27px 2px 27px;
+    width: 401px;
+    word-wrap: break-word;
+}
+.comment-body a {
+    color: #42423D;
+}
+.comment-body td {
+    white-space: normal;
+}
+.comment-bottom {
+    background: url("../images/bg-comments-bottom.png") no-repeat scroll 0 0 transparent;
+    height: 23px;
+}
+.comment-title {
+    padding-bottom: 6px;
+}
+.comment-title a {
+    color: #42423D;
+    font-weight: bold;
+}
+.comment-body-ref {
+    left: 182px;
+    opacity: 0.9;
+    position: absolute;
+    top: 16px;
+    z-index: 16;
+}
+#emotions img, #emotionsReply img {
+    cursor: pointer;
+    display: block;
+    float: left;
+    margin-right: 2px;
+}
+img.comment-picture {
+    height: 60px;
+    padding: 0px 6px 4px 0;
+    width: 60px;
+}
+.comment-reply {
+    margin: 0 auto 24px auto;
+}
+#commentURL:focus, #commentURLReply:focus {
+    box-shadow: -3px 1px 2px rgba(0, 0, 0, 0.3) inset;
+}
+#comment, #commentReply {
+    resize: vertical;
+}
+.em00, .em01, .em02, .em03, .em04, .em05, .em06, .em07, .em08, .em09, .em10, .em11, .em12, .em13, .em14 {
+    background-image: url("../../tree-house/images/emotions/emotions-blue.png");
+    margin-right: 2px;
+}
+.error-msg {
+    color: #EC0A8B;
+    font-weight: bold;
+    white-space: normal;
+}
+#sideNavi .line {
+    background: url("../images/bg-branch-small.png") no-repeat;
+    height: 69px;
+    margin-top: 12px;
+}
+#sideNavi .block {
+    margin-left: 64px;
+}
+#sideNavi h3 {
+    background: url("../images/bg-heading.png") no-repeat scroll 0 0 transparent;
+    color: #EC0A8B;
+    font-size: 15px;
+    height: 30px;
+    padding: 38px 0 0 12px;
+}
+#sideNavi .notice h3 {
+    background-image: url("../images/bg-heading-about-us.png");
+}
+#sideNavi #recentComments img {
+    height: 16px;
+    vertical-align: middle;
+    width: 16px;
+}
+#sideNavi #recentCommentsLabel {
+    background-image: url("../images/bg-heading-portfolio.png");
+}
+#sideNavi .mostCommentArticles h3 {
+    background-image: url("../images/bg-heading-categories.png");
+}
+#sideNavi .mostViewCountArticles h3 {
+    background-image: url("../images/bg-heading-resources.png");
+    margin-bottom: 6px;
+}
+#sideNavi .notice>div {
+    margin: 12px 12px 12px 17px;
+}
+#sideNavi ul {
+    margin-left: 5px;
+    width: 182px;
+    list-style: none;
+}
+#sideNavi li {
+    border-bottom: 1px dotted #FFFFFF;
+    font-size: 12px;
+    margin-left: 0;
+    overflow: hidden;
+    position: relative;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    vertical-align: top;
+}
+#sideNavi li:hover {
+    background: url("../images/bg-menu-active.png") repeat scroll -8px -8px transparent;
+    color: #EC0A8B;
+    font-weight: bold;
+}
+
+#sideNavi li:hover a {
+    color: #EC0A8B;
+    padding-left: 24px;
+}
+
+#sideNavi li>a {
+    color: #42423D;
+    line-height: 29px;
+    margin: 0;
+    overflow: hidden;
+    padding-left: 6px;
+    text-decoration: none;
+    white-space: nowrap;
+    width: 167px;
+}
+
+#sideNavi li>a sup {
+    margin-right: 3px;
+    line-height: 12px;
+    color: #EC0A8B;
+}
+#sideNavi li>div {
+    display: none;
+}
+#sideNavi li p {
+    display: inline;
+}
+#sideNavi .popTags li>a {
+    padding-left: 40px;
+    width: 143px;
+}
+#sideNavi .popTags li img {
+    cursor: pointer;
+    height: 16px;
+    left: 19px;
+    position: absolute;
+    top: 7px;
+    width: 16px;
+}
+#sideNavi .popTags li:hover a {
+    padding-left: 46px;
+    width: 137px;
+}
+
+#sideNavi .popTags li:hover img {
+    left: 25px;
+}
+#statistic {
+    height: 138px;
+    line-height: 24px;
+    margin: 28px 0 0 80px;
+}
+.pagination {
+    margin: 16px;
+    text-align: center;
+}
+.pagination a, .pagination a:visited {
+    padding: 0 3px;
+}
+.pagination a.selected {
+    color: #42423D;
+    font-weight: bold;
+}
+#tagsPanel {
+    width: 553px;
+}
+#tagsPanel .tagPanel {
+    background-color: #EEEEEE;
+    border: 2px solid;
+    border-radius: 6px;
+    cursor: pointer;
+    float: left;
+    margin: 3px;
+}
+#tagsPanel .tagPanel:hover {
+    background-color: transparent;
+    border: 2px dashed;
+}
+#tagsPanel .tagPanel {
+    text-decoration: none;
+}
+.error-title {
+    width: 553px;
+}
+.error-panel {
+    padding: 24px;
+}
+.error-title {
+    background-color: #242323;
+    color: #EC0A8B;
+    display: block;
+    padding: 3px 10px 4px 10px;
+    position: relative;
+}
+.goTopIcon {
+    background-position: -128px -32px;
+}
+.goBottomIcon {
+    background-position: -144px -32px;
+}
