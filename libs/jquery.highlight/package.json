@@ -1,0 +1,22 @@
+{
+ "name": "jquery.highlight",
+ "filename": "jquery.highlight.js",
+ "version": "1.0",
+ "description": "Based on highlight v3 by Johann Burkard",
+ "homepage": "https://github.com/bartaz/sandbox.js",
+ "keywords": [
+   "jQuery", "highlight"
+ ],
+ "maintainers": [
+ {
+ "name": "bartaz",
+ "web": "https://github.com/bartaz"
+ }
+ ],
+"repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/bartaz/sandbox.js"
+    }
+  ]
+}
