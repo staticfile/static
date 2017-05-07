@@ -1,0 +1,22 @@
+{
+  "name": "Blockly",
+  "filename": "blockly_compressed.js",
+  "version": "1.0.0",
+
+  "description": "Google Blockly, the web-based visual programming editor.",
+  "homepage": "https://developers.google.com/blockly/",
+  "keywords": ["Google Blockly", "Scratch", "Visual Programming"],
+  "maintainers": [
+    {
+      "name": "Chunlea Ju",
+      "web": "www.chunlea.org",
+      "mail": "ichunlea@me.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/google/blockly.git"
+    }
+  ]
+}
