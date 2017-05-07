@@ -1,0 +1,22 @@
+{
+    "name": "highlight.js",
+    "filename": "highlight.js",
+    "version": "9.9.0",
+    "description": "代码语法高亮",
+    "homepage": "https://github.com/isagalaev/highlight.js",
+    "keywords": [
+       "highlight", "js"
+   ],
+   "maintainers": [
+       {
+           "name": "Ivan Sagalaev",
+           "web": "https://github.com/isagalaev" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/isagalaev/highlight.js"
+        }
+   ]
+}
