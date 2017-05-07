@@ -1,17 +1,15 @@
 {
-  "name": "staticfile",
+  "name": "antslearn",
   "version": "0.1.0",
-  "homepage": "http://staticfile.org/",
+  "homepage": "http://www.antslearn.com",
   "repository": {
     "type": "git",
-    "url": "git://github.com/staticfile/static.git"
+    "url": "github.com/liangzhihaobuka/static.git"
   },
-  "scripts": {
-    "build": "./bin/build.js"
-  },
-  "dependencies": {
-    "underscore": "~1.4.4",
-    "glob": "3.2.6",
-    "async": "0.2.9"
-  }
+  "maintainers": [
+    {
+      "name": "梁志浩",
+      "web": "http://www.antslearn.com",
+      "mail": "liangzhihao@buka.tv"
+    }
 }
