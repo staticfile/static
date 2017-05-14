@@ -1,0 +1,22 @@
+﻿{
+    "name": "matong",
+    "filename": "matong",
+    "version": "0.1",
+    "description": "自己项目测试用的东西呢",
+    "homepage": "http://www.mfcms.net",
+    "keywords": [
+       "matong", "mtapi"
+   ],
+   "maintainers": [
+       {
+           "name": "JohnWong",
+           "web": "www.cnblogs.com/matong/" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/garnai/mtapi"
+        }
+   ]
+}
