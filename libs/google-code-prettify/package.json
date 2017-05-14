@@ -1,0 +1,22 @@
+{
+    "name": "google-code-prettify",
+    "filename": "prettify.js",
+    "version": "188.0.0",
+    "description": "syntax highlighting of code snippets in a web page",
+    "homepage": "https://code.google.com/p/google-code-prettify/",
+    "keywords": [
+       "prettify", "highlighting", "syntax highlighting of code"
+   ],
+   "maintainers": [
+       {
+           "name": "mikesamuel",
+           "mail": "mikesamuel@gmail.com"
+       }   
+	],
+   "repositories": [
+        {   
+            "type": "svn",
+            "url": "http://google-code-prettify.googlecode.com/svn/trunk/"
+        }
+   ]
+}
