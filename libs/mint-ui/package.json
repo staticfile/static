@@ -1,0 +1,22 @@
+{
+    "name": "mint-ui",
+    "filename": "index.js",
+    "version": "2.2.7",
+    "description": "Mobile UI elements for Vue.js",
+    "homepage": "http://mint-ui.github.io",
+    "keywords": [
+       "mint-ui","elements"
+   ],
+   "maintainers": [
+       {
+           "name": "ElemeFE",
+           "web": "http://mint-ui.github.io"
+       }
+   ],
+   "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/ElemeFE/mint-ui"
+        }
+   ]
+}
