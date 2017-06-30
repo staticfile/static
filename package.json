@@ -1,11 +1,8 @@
 {
-  // 这三项让你的文件能正常被索引到
-  // 项目名要与文件夹名一致
   "name": "ffcms_zhanpian_js",
   "filename": "v256.js",
   "version": "1.0",
 
-  // 其他
   "description": "飞飞cms的二次开发赞片cms适用的js",
   "homepage": "www.kn321.com",
   "keywords": [],
@@ -18,7 +15,6 @@
   ],
   "repositories": [
     {
-      // svn 等
       "type": "git",
       "url": "https://github.com/liuronghui/static/"
     }
