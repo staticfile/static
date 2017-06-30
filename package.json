@@ -1,17 +1,26 @@
 {
-  "name": "staticfile",
-  "version": "0.1.0",
-  "homepage": "http://staticfile.org/",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/staticfile/static.git"
-  },
-  "scripts": {
-    "build": "./bin/build.js"
-  },
-  "dependencies": {
-    "underscore": "~1.4.4",
-    "glob": "3.2.6",
-    "async": "0.2.9"
-  }
+  // 这三项让你的文件能正常被索引到
+  // 项目名要与文件夹名一致
+  "name": "ffcms_zhanpian_js",
+  "filename": "v256.js",
+  "version": "1.0",
+
+  // 其他
+  "description": "飞飞cms的二次开发赞片cms适用的js",
+  "homepage": "www.kn321.com",
+  "keywords": [],
+  "maintainers": [
+    {
+      "name": "liuronghui",
+      "web": "www.kn321.com",
+      "mail": "qidian2047@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      // svn 等
+      "type": "git",
+      "url": "https://github.com/liuronghui/static/"
+    }
+  ]
 }
