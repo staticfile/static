@@ -1,0 +1,23 @@
+{
+  "name": "icofont",
+  "filename": "css/icofont.min.css",
+  "version": "1.0.0",
+  "description": "ico Font",
+  "homepage": "https://github.com/FzPying/icofont/",
+  "keywords": [
+    "css", "font", "icons"
+  ],
+  "maintainers": [
+    {
+      "name": "FzPying",
+      "web": "http://fzpying.com",
+      "mail": "fzpying@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/FzPying/icofont"
+    }
+  ]
+}
