@@ -1,0 +1,21 @@
+{
+  "name": "gitalk",
+  "filename": "gitalk.js",
+  "version": "1.1.2",
+
+  "description": "Gitalk is a modern comment component based on Github Issue and Preact.",
+  "homepage": "https://gitalk.github.io/",
+  "keywords": ["gitalk","comment"],
+  "maintainers": [
+    {
+      "name": "booxood",
+      "web": "http://booxood.github.io"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/gitalk/gitalk"
+    }
+  ]
+}
