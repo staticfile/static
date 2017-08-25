@@ -1,0 +1,22 @@
+{
+    "name": "badjs-report",
+    "filename": "bj-report.min.js",
+    "version": "1.0",
+    "description": "badjs系统用户端上报脚本",
+    "homepage": "https://github.com/BetterJS/badjs-report",
+    "keywords": [
+       "badjs", "report"
+   ],
+   "maintainers": [
+       {
+           "name": "gogoday",
+           "web": "http://ivweb.io/" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/BetterJS/badjs-report"
+        }
+   ]
+}
