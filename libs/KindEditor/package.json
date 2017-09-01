@@ -16,7 +16,8 @@
       "email": "luolonghao@gmail.com"
     }
   ],
-  "repositories": {
+  "license": "MIT",
+  "repository": {
     "type": "git",
     "url": "https://github.com/kindsoft/kindeditor.git"
   }
