@@ -1,0 +1,24 @@
+{
+  "name": "vue",
+  "filename": "vue.min.js",
+  "version": "2.4.4",
+  "license": "MIT",
+  "description": "Simple, Fast & Composable MVVM for building interactive interfaces",
+  "homepage": "http://vuejs.org",
+  "keywords": [
+    "mvvm",
+    "browser",
+    "framework"
+  ],
+  "maintainers": [
+    {
+      "name": "Evan You",
+      "web": "http://vuejs.org",
+      "mail": "yyx990803@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vuejs/vue.git"
+  }
+}
