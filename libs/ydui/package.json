@@ -1,0 +1,20 @@
+{
+  "name": "ydui",
+  "filename": "ydui.css",
+  "version": "0.0.1",
+  "description": "YDUI Touch是一个使用jQuery的面向移动端的简洁前端框架，同时也提供VueJs2x版本",
+  "homepage": "http://www.ydui.org/",
+  "keywords": ["ydui"],
+  "maintainers": [
+    {
+      "name": "ydcss",
+      "web": "http://www.ydcss.com/"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "http://github.com/ydcss/ydui"
+    }
+  ]
+}
