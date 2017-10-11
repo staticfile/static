@@ -1,0 +1,20 @@
+{
+    "name": "bootstrap",
+    "filename": "bootstrap",
+    "version": "3.3.7",
+    "description": "bootstrap是最流行的前端框架",
+    "homepage": "http://www.bootcss.com",
+    "keywords": ["bootstrap", "bootstrapcdn"],
+    "maintainers": [
+       {
+           "name": "bootstrap",
+           "web": "http://www.bootcss.com" 
+       }
+    ],
+    "repositories":[
+      {
+        "name":"bootstrap",
+        "web":"http://www.bootcss.com"
+      }
+    ]
+}
