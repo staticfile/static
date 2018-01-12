@@ -1,0 +1,37 @@
+{
+  "name": "better-scroll",
+  "version": "1.7.2",
+  "description": "inspired by iscroll, and it has a better scroll perfermance",
+  "author": {
+    "name": "huangyi",
+    "email": "ustbhuangyi@gmail.com"
+  },
+  "types": "./types/index.d.ts",
+  "main": "dist/bscroll.js",
+  "module": "dist/bscroll.esm.js",
+  "scripts": {
+    "dev": "node build/dev-server.js",
+    "build": "node build/build.js",
+    "doc": "cd doc && gitbook install && gitbook serve",
+    "build:demo": "node build/build-demo",
+    "build:doc": "sh build/doc.sh",
+    "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
+    "test": "npm run unit && npm run codecov",
+    "codecov": "codecov"
+  },
+  "bugs": {
+    "url": "https://github.com/ustbhuangyi/better-scroll/issues"
+  },
+  "homepage": "https://github.com/ustbhuangyi/better-scroll",
+  "keywords": [
+    "scroll",
+    "iscroll",
+    "javascript",
+    "ios"
+  ],
+  "licenses": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ustbhuangyi/better-scroll.git"
+ }
+}
