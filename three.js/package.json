@@ -1,0 +1,26 @@
+{
+  // 这三项让你的文件能正常被索引到
+  // 项目名要与文件夹名一致
+  "name": "r89",
+  "filename": "three.js",
+  "version": "r89",
+
+  // 其他
+  "description": "JavaScript 3D library",
+  "homepage": "https://threejs.org/",
+  "keywords": ["three.js"],
+  "maintainers": [
+    {
+      "name": "",
+      "web": "https://threejs.org/",
+      "mail": ""
+    }
+  ],
+  "repositories": [
+    {
+      // svn 等
+      "type": "git",
+      "url": "https://github.com/staticfile/static"
+    }
+  ]
+}
