@@ -1,6 +1,6 @@
 {
   "name": "qiniu-js-sdk",
-  "version": "1.0.14-beta",
+  "version": "2.0.2",
   "filename": "qiniu.min.js",
   "description": "七牛云存储 - JavaScript SDK",
   "homepage": "https://github.com/qiniu/js-sdk",
