@@ -1,0 +1,22 @@
+{
+    "name": "layui",
+    "filename": "layui",
+    "version": "1.0.9",
+    "description": "由职业前端倾情打造，面向所有层次的前后端程序猿，零门槛开箱即用的前端UI解决方案",
+    "homepage": "http://www.layui.com/",
+    "keywords": [
+       "typo", "layui"
+   ],
+   "maintainers": [
+       {
+           "name": "贤心",
+           "web": "http://www.layui.com/" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/sentsin/layui/"
+        }
+   ]
+}
