@@ -2,11 +2,11 @@
 
   "name": "Framework7",
   "filename": "Framework7",
-  "version": "1.4.2",
+  "version": "1.6.5",
 
 
   "description": "移动框架",
-  "homepage": "http://framework7.taobao.org/",
+  "homepage": "http://www.framework7.cn/",
   "keywords": ["framework7"],
   "maintainers": [
     {
