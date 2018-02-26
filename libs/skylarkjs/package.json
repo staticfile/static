@@ -1,0 +1,24 @@
+{
+    "name": "skylarkjs",
+    "filename": "skylarkjs.min.js",
+    "version": "0.9.8",
+    "description": "An Elegant JavaScript Library and HTML5 Application Framework.",
+    "homepage": "http://skylarkjs.org",
+    "keywords": [
+        "skylark",
+        "skylarkjs",
+        "javacript",
+        "library",
+        "framework",
+        "slax"
+    ],
+    "maintainers": [{
+        "name": "lihongwang",
+        "web": "https://github.com/lihongwang",
+        "mail": "lhw@hudaokeji.com"
+    }],
+    "repositories": [{
+        "type": "git",
+        "url": "https://github.com/skylarkjs/skylark"
+    }]
+}
