@@ -1,0 +1,18 @@
+{
+    "name": "hexo-theme-material",
+    "version": "1.5.2",
+    "description": "An elegant, Pure & Material Design Theme for Hexo.",
+    "main": "index.js",
+    "author": "viosey",
+    "license": "MIT",
+    "private": false,
+    "maintainers": [{
+        "name": "lirawx",
+        "web": "http://lirawx.me",
+        "mail": "i#lirawx.cn"
+    }],
+    "repositories": [{
+        "type": "git",
+        "url": "https://github.com/viosey/hexo-theme-material"
+    }]
+}
