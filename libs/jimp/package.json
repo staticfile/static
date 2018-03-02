@@ -1,0 +1,19 @@
+{
+  "name": "jimp",
+  "filename": "jimp.min.js",
+  "version": "0.2.28",
+  "description":"An image processing library written entirely in JavaScript (i.e. zero external or native dependencies)",
+  "homepage": "https://github.com/oliver-moran/jimp",
+  "maintainers": [
+      {
+          "name": "Oliver Moran",
+          "web":"http://www.nth-iteration.ie/"
+      }
+  ],
+  "repositories": [
+      {
+          "type": "git",
+          "url": "https://github.com/oliver-moran/jimp"
+      }
+  ]
+}
