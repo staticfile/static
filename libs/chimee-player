@@ -1,0 +1,24 @@
+{
+  "name": "chimee-player",
+  "filename": "chimee-player.min.js",
+  "version": "1.3.1",
+
+  // 其他
+  "description": "项目简介",
+  "homepage": "https://github.com/Chimeejs/chimee-player",
+  "keywords": [],
+  "maintainers": [
+    {
+      "name": "作者/维护者",
+      "web": "http://chimee.org/",
+      "mail": "feedback@chimee.org"
+    }
+  ],
+  "repositories": [
+    {
+      // svn 等
+      "type": "git",
+      "url": "https://github.com/Chimeejs/chimee-player"
+    }
+  ]
+}
