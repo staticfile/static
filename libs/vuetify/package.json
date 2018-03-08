@@ -1,0 +1,22 @@
+{
+  "name": "vuetify",
+  "filename": "vuetify.js",
+  "version": "0.14.7",
+
+  "description": "Vue.js 2 Semantic Component Framework",
+  "homepage": "https://vuetifyjs.com/",
+  "keywords": ["vue", "material-design", "semantic"],
+  "maintainers": [
+    {
+      "name": "John Leider",
+      "web": "https://github.com/johnleider",
+      "mail": "john.j.leider@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/vuetifyjs/vuetify"
+    }
+  ]
+}
