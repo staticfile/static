@@ -1,0 +1,22 @@
+{
+
+  "name": "webix",
+  "filename": "webix.js",
+  "version": "4.2.4",
+  "description": "项目简介",
+  "homepage": "www.webix.com",
+  "keywords": ["webix"],
+  "maintainers": [
+    {
+      "name": "XB Software",
+      "web": "http://webix.com",
+      "mail": "info@webix.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/webix-hub/tracker"
+    }
+  ]
+}
