@@ -1,0 +1,24 @@
+{
+  "name": "strapdown.js",
+  "filename": "strapdown.js",
+  "version": "0.2",
+
+  "description": "Strapdown.js makes it embarrassingly simple to create elegant Markdown documents. No server-side compilation required. Use it to quickly document your projects, create tutorials, home pages, etc",
+  "homepage": "http://strapdownjs.com/",
+  "keywords": [
+    "strapdown",
+    "markdown"
+  ],
+  "maintainers": [
+    {
+      "name": "arturadib",
+      "web": "https://github.com/arturadib/strapdown"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/arturadib/strapdown"
+    }
+  ]
+}
