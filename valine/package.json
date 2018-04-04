@@ -1,0 +1,22 @@
+{
+    "name": "valine",
+    "filename": "Valine.min.js",
+    "version": "1.1.9-beta9",
+    "description": "一款快速、简洁且高效的无后端评论系统。",
+    "homepage": "https://valine.js.org/",
+    "keywords": [
+       "comment", "js"
+   ],
+   "maintainers": [
+       {
+           "name": "Nine",
+           "web": "https://github.com/xCss/Valine/" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/xCss/Valine/"
+        }
+   ]
+}
