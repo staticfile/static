@@ -1,0 +1,20 @@
+{
+  "name": "layui",
+  "filename": "layui.js",
+  "version": "1.0.9",
+  "description": "采用自身模块规范编写的前端UI框架，遵循原生HTML/CSS/JS的书写形式，极低门槛，拿来即用。",
+  "homepage": "http://www.layui.com/",
+  "keywords": [
+   "layui"
+   ,"ui"
+  ],
+  "maintainers": [{
+   "name": "贤心",
+   "web": "http://www.layui.com/",
+   "mail": "xianxin@layui.com"
+  }],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sentsin/layui.git"
+  }
+}
