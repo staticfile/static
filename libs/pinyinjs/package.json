@@ -1,0 +1,23 @@
+{
+    "name": "pinyinjs",
+    "filename": "pinyinUtil.js",
+    "version": "1.0",
+    "description": "一个实现汉字与拼音互转的小巧web工具库",
+    "homepage": "http://demo.haoji.me/pinyinjs/",
+    "keywords": [
+       "pinyin", "pinyinjs", "拼音"
+   ],
+   "maintainers": [
+       {
+           "name": "sxei",
+           "web": "http://sofish.de/",
+           "mail": "me@haoji.me"
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/sxei/pinyinjs"
+        }
+   ]
+}
