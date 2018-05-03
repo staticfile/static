@@ -1,0 +1,22 @@
+{
+    "name": "Coding-Comments",
+    "filename": "gitment.min.js",
+    "version": "0.0.3",
+    "description": "A comment system based on Coding Comments",
+    "homepage": "https://github.com/Coding/Comments",
+    "keywords": [
+       "coding.net", "blog", "comments"
+   ],
+   "maintainers": [
+       {
+           "name": "wusisu",
+           "web": "https://wusisu.com" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/Coding/Comments"
+        }
+   ]
+}
