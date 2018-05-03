@@ -1,0 +1,16 @@
+{
+  "name": "startScore",
+  "filename": "startScore.js",
+  "version": "1.0.0",
+  "description": "support jquery star",
+  "homepage": "https://github.com/brucexm/startScore",
+  "keywords": ["angular", "animate"],
+   "maintainers": [{
+     "name": "juzhon",
+     "web": "https://www.sorbon.com.cn/dist/"
+   }],
+   "repositories": [{   
+      "type": "git",
+      "url": "https://github.com/brucexm/startScore"
+    }]
+}
