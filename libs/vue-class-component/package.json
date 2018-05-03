@@ -1,0 +1,21 @@
+{
+    "name": "vue-class-component",
+    "filename": "vue-class-component.js",
+    "version": "5.0.1",
+    "description": "ES / TypeScript decorator for class-style Vue components.",
+    "homepage": "https://github.com/vuejs/vue-class-component",
+    "keywords": [
+        "vue",
+        "class",
+        "babel",
+        "typescript"
+    ],
+    "maintainers": [{
+        "name": "Evan You",
+        "web": "http://evanyou.me"
+    }],
+    "repositories": [{
+        "type": "git",
+        "url": "https://github.com/vuejs/vue-class-component"
+    }]
+}
