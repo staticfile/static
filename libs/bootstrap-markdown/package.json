@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap-markdown",
+  "filename": "bootstrap-markdown.min.js",
+  "version": "2.10.0",
+  "description": "bootstrap-markdown提供了一个可扩展的markdown编辑器界面。",
+  "keywords": [
+    "bootstrap",
+    "markdown"
+  ],
+  "maintainers": [
+    {
+      "name": "toopay",
+      "web": "https://github.com/toopay/bootstrap-markdown/tree/v2.10.0",
+      "email": "toopay@taufanaditya.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/toopay/bootstrap-markdown/tree/v2.10.0"
+    }
+  ]
+}
