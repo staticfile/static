@@ -1,7 +1,7 @@
 {
     "name": "ztree",
-    "filename": "jquery.ztree.all-3.5.js",
-    "version": "3.5.16",
+    "filename": "jquery.ztree.all.min.js",
+    "version": "3.5.33",
     "description": "zTree 是一个依靠 jQuery 实现的多功能 “树插件”。优异的性能、灵活的配置、多种功能的组合是 zTree 最大优点",
     "homepage": "http://www.ztree.me",
     "keywords": [
