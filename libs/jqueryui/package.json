@@ -1,0 +1,22 @@
+{
+    "name": "jqueryui",
+    "filename": "jqueryui",
+    "version": "1.12.1",
+    "description": "jqueryui",
+    "homepage": "https://jqueryui.com/",
+    "keywords": [
+       "typo", "js"
+   ],
+   "maintainers": [
+       {
+           "name": "jqueryui",
+           "web": "https://jqueryui.com/" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/jquery/download.jqueryui.com"
+        }
+   ]
+}

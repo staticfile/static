@@ -1,0 +1,22 @@
+{
+    "name": "jquery.webui-popover",
+    "filename": "jquery.webui-popover.min.js",
+    "version": "1.2.1",
+    "description": "一个好用的jQuery弹出框（popover）插件",
+    "homepage": "http://sandywalker.github.io/webui-popover/demo/#",
+    "keywords": [
+       "typo", "js"
+   ],
+   "maintainers": [
+       {
+           "name": "Sandy Duan",
+           "web": "https://github.com/sandywalker" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/sandywalker/webui-popover"
+        }
+   ]
+}
