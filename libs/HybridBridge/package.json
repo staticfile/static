@@ -2,7 +2,7 @@
     "name": "HybridBridge",
     "filename": "hybrid.js",
     "version": "1.0.0",
-    "description": "为了方便Web与移动端的交互实现，该库也对js端稍作封装。同时，对Android端也简略地封装了下，具体请参考HybridBridge；IOS端目前仅支持JavaScriptCore框架，直接按其用法使用即可。",
+    "description": "为了方便Web与移动端的交互实现，该库也对js端稍作封装。",
     "homepage": "https://github.com/yhyzgn/HybridBridge",
     "keywords": [
        "hybrid", "bridge"
