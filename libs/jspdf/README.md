@@ -1,3 +1,7 @@
+## 最新修复 2018-07-24
+*修复了chrome浏览器中表单内容太长，引发的宽高自动旋转后导出PDF变形的问题。
+
+
 # jsPDF
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/MrRio/jsPDF.svg)](https://greenkeeper.io/)
