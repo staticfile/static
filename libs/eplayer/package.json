@@ -1,0 +1,25 @@
+{
+  "name": "eplayer",
+  "version": "0.2.10",
+  "description": "A simple html5 video player",
+  "main": "./lib/eplayer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/132yse/eplayer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/132yse/eplayer/issues"
+  },
+  "homepage": "https://github.com/132yse/eplayer#readme",
+  "dependencies": {
+    "hls.js": "^0.11.0"
+  }
+}
