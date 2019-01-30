@@ -1,7 +1,7 @@
 {
     "name": "regular",
     "filename": "regular.js",
-    "version": "0.2.12",
+    "version": "0.5.2",
     "description": "regularjs是网易出品的基于字符串模板的用于创建数据驱动的组件的类库",
     "homepage": "http://regularjs.github.io/",
     "keywords": [
