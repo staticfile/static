@@ -1,0 +1,30 @@
+{
+    "name": "stisla",
+    "filename": "stisla",
+    "version": "1.0.0",
+    "description": "Free Bootstrap Admin Template",
+    "homepage": "https://github.com/stisla/stisla",
+    "keywords": [ 
+    "bootstrap",
+    "template"
+	],
+   "maintainers": [
+    {
+      "name": "Iqbal",
+      "email": "iqbaldesignui@gmail.com"
+    },
+	{
+      "name": "Muhamad Nauval Azhar"
+    },
+	{
+      "name": "Cahyadi Triyansyah",
+      "email": "sundi3yansyah@gmail.com"
+    }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/stisla/stisla.git"
+        }
+   ]
+}
