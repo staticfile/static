@@ -1,0 +1,22 @@
+{
+    "name": "le5le-topology",
+    "filename": "topology.bundle.js",
+    "version": "0.0.1",
+    "description": "一个用canvas+typescrip写的绘图（微服务架构图、拓扑图、流程图、类图等ULM图）",
+    "homepage": "http://topology.le5le.com/",
+    "keywords": [
+       "le5le", "topology", "diagram", "canvas"
+   ],
+   "maintainers": [
+       {
+           "name": "Alsmile",
+           "web": "http://le5le.com/" 
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://github.com/le5le-com/topology"
+        }
+   ]
+}
