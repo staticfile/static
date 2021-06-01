@@ -1,0 +1,22 @@
+{
+  "name": "@alifd/theme-design-pro",
+  "filename": "next.js",
+  "version": "0.6.3",
+
+  "description": "Powered By [Fusion.Design](https://fusion.design/)",
+  "homepage": "https://fusion.design/",
+  "keywords": ["icejs", "alifd/next", "theme-design-pro"],
+  "maintainers": [
+    {
+      "name": "mopsky",
+      "web": "https://fusion.design/",
+      "mail": "mopsky@163.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/alibaba/ice"
+    }
+  ]
+}
