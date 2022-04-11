@@ -1,0 +1,30 @@
+{
+    "name": "jetbrains-mono",
+    "filename": "JetBrainsMono*",
+    "version": "2.242",
+    "description": "A Font by JetBrains",
+    "homepage": "http://www.jetbrains.com/lp/mono/",
+    "keywords": [
+        "fonts"
+    ],
+    "maintainers": [
+        {
+            "name": "Konstantin Bulenkov",
+            "email": "kb@jetbrains.com"
+        },
+        {
+            "name": "Philipp Nurullin",
+            "email": "philipp.nurullin@jetbrains.com"
+        },
+        {
+            "name": "Rosalie Wagner",
+            "email": "mail@rosaliewagner.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/JetBrains/JetBrainsMono.git"
+        }
+    ]
+}
