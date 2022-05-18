@@ -1,0 +1,19 @@
+{
+    "name": "activate-power-mode",
+    "filename": "activate-power-mode.js",
+    "version": "1.0",
+    "description": "打字特效",
+    "homepage": "https://github.com/suyin-long/activate-power-mode",
+    "keywords": [
+        "power mode",
+        "打字特效"
+    ],
+    "maintainers": [
+        {
+            "name": "苏寅",
+            "web": "https://suyin-blog.club/",
+            "mail": "2244255015@qq.com"
+        }
+    ],
+    "repositories": []
+}
