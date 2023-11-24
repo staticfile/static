@@ -1,0 +1,22 @@
+{
+  "name": "ace-diff",
+  "filename": "dist/ace-diff.min.js",
+  "version": "3.0.3",
+  "description": "A diff/merging wrapper for Ace Editor built on google-diff-match-patch",
+  "homepage": "https://ace-diff.github.io/ace-diff/",
+  "keywords": [
+    "ace",
+    "dif",
+    "diffing",
+    "merge",
+    "merging",
+    "ace editor",
+    "syntax highlighting"
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/ace-diff/ace-diff.git"
+    }
+  ]
+}
