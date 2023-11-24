@@ -1,0 +1,18 @@
+{
+  "name": "cron-parser",
+  "filename": "lib/parser.js",
+  "version": "4.9.0",
+  "description": "Node.js library for parsing crontab instructions",
+  "homepage": "https://github.com/harrisiirak/cron-parser#readme",
+  "keywords": [
+    "cron",
+    "crontab",
+    "parser"
+  ],
+  "repositorys": [
+    {
+      "type": "git",
+      "url": "https://github.com/harrisiirak/cron-parser.git"
+    }
+  ]
+}
