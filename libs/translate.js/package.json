@@ -1,0 +1,23 @@
+{
+    "name": "translate.js",
+    "filename": "translate.js",
+    "version": "2.9.2",
+    "description": "两行js实现html全自动翻译。无需改动页面、无语言配置文件、无API Key、对SEO友好！",
+    "homepage": "http://translate.zvo.cn",
+    "keywords": [
+       "translate", "translate.js", "tcdn"
+   ],
+   "maintainers": [
+       {
+           "name": "guanleiming",
+           "web": "https://gitee.com/mail_osc",
+		   "mail": "mail@xnx3.com"
+       }
+   ],
+   "repositories": [
+        {   
+            "type": "git",
+            "url": "https://gitee.com/mail_osc/translate.git"
+        }
+   ]
+}
